@@ -19,7 +19,7 @@ export DEPLOY_BUILD_BRANCH=$(jq -r '.branch' build.json)
 export DEPLOY_BUILD_COMMIT=$(jq -r '.commit' build.json)
 
 #The directory of the repository to build
-export DEPLOY_REPOSITORY_DIR_NAME=Angry-Pixel/The-Betweenlands/
+export DEPLOY_REPOSITORY_DIR_NAME=Angry-Pixel/The-Betweenlands
 export DEPLOY_REPOSITORY_DIR=${TRAVIS_BUILD_DIR}/$DEPLOY_REPOSITORY_DIR_NAME
 
 chmod +x prepare_deploy.sh
@@ -30,5 +30,5 @@ git checkout $DEPLOY_BUILD_COMMIT
 
 chmod +x gradlew
 
-export blKeyStore=${DEPLOY_REPOSITORY_DIR}/keystore.jks
+export blKeyStore=${TRAVIS_BUILD_DIR}/keystore.jks
 echo "$blKeyStore"
