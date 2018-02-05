@@ -1,8 +1,8 @@
 {
-	"build_number": 629,
-	"type": "release",
-	"title": "Test Title",
-	"description": "Test Description",
+	"build_number": 619,
+	"type": "development",
+	"title": "Development Build 619",
+	"description": "New dev build deployment",
 	"branch": "1.12",
-	"commit": "78efe2b987bfa1846078c1ec79583266def4f72f"
+	"commit": "322931e947918a17c36c1253ca8d9ce7f3c11fac"
 }
