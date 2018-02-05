@@ -1,0 +1,62 @@
+language: java
+jdk:
+- oraclejdk8
+if: tag IS blank
+before_install:
+- openssl aes-256-cbc -k "$keyStoreEncryptionKey" -in keystore.jks.enc -out keystore.jks
+  -d
+before_cache:
+- rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+notifications:
+  email: false
+before_script: source setup_environment.sh
+script:
+- "./gradlew build --continue --stacktrace"
+addons:
+  apt:
+    packages:
+    - oracle-java8-installer
+before_deploy:
+- cd $TRAVIS_BUILD_DIR
+- ./prepare_deploy.sh
+env:
+  global:
+  - blKeyStoreFingerprint=38:06:7D:68:78:81:1E:FB:38:B6:A0:45:52:1C:FD:80:B9:B6:0B:38
+  - blKeyStoreAlias=Angry-Pixel
+  - secure: UmMMBfwWtvdoRksC/xLMwz5+7y4rTiJP0YZkoEvrkgSRIAsbnF9kSKXpIkVE5buLv/8CVLvA5hk3tgqm/Db7Vj+z3G+PrWD7R/FEIRgrbAzIbr2khcO/nE5DSJ3WCYI6m2vKJzWkhveyR4zIqIOt9vQvcG7MK7Z5lNIcSHnEI+DQLQJU2bVOQqHiatBQIcFDXOUYY/gYRG2XJexDscnVIeVK4c+K0eq8SqkJ9zBxEvVNm+1rSzdxNf6vU95Avr3XSogkOBNhucMVL8e68UDxYNAUCHSrmGV4JXGwpsqxg7ImZlPtmQPjyMLgzjP3vPoHxyMCFYuL0i9ZcBgKouTtkSjGq8UBueTwhW4U+W0wxo2+VW4mgYTY1wR+Cx9ssaXEdBWKj/KOZMOGkwZfYsmf+8AS+5EoHezdZdPng91RqgK2cQpoZGMhqL6lhFbNfXn92VtNnpCjnEhlh5LXkHGdRyjIerj6AMyBFQTNWLD7rLd2vspQnM+BbMMwB7x3QxCZvc/sfkey0A6rYUkI9o0i8kyYeiLsDfhzzSTQLQ+lQVXFzJzHT/gzJEnnoK1kM/DCruIpNjggxd85yO2iHDp3tgBB4TYxqWQjMjkFenxyKb0VSKddQ34EfXG8n1zdFvEZGZHok0GHsaUV/Xp2GVfwtfrkLoZOgY6XM+xHoW0OboQ=
+  - secure: LO6PyCCrN1bRpAXZg9Ul4y/LJrR+g4CST7IWdNIwNu1a5fQaSKwJWfMfJHw5iYiYTZoCXjmwktQI/K/laWRksx7ipJ7j3Z8FCbLxG4Ga4ZQ3DkZ64+5QKmolLtbxNRWIIqQqx8COexXmE8KwcTHfJhUcCiraxiPz/sz+pM8mfjQdWuoKWIzhbxs/XIhye7d5z/c+iti3sBnm3D+0nvtS9zUouTlf7MWPtjVYNWoXGx1SnIA+xgNBndwmzqgf6RhPy66SE6rGi3pKk5AEzWQ0NDArskmQvlpwgbpk6y7TLGuz5zISlQD2QalD1/vfJ8BEKye3vIE+70+Q2vMQ4KPzSP2pr4RQw7cNvvgnCc1n4jPzgBSTS9Q3GtLzLCWwlDL2oxizkBkm5CMmDbX/IVRMfJ4RYKv03zaeOxS7LcAH0Xsy0giPwfPE3MvCC9x9f1d7NKmtKlk/hpvtOa4iIZyguwfHEuUaJ3prjOfP4Sqf11aE0LXDJD0otq8pOHZvfFhscy9OkWCLcLJ3QEPAIi9x9uOXuV4qmMp8VXUF8VHOwMMyrxhXuJiYiPQg1CVQW1Fo1GCaQeBSyHhAm8oNOALnqcAlli5DhhpqDz89MpZCd3n/blqQtm+XZPhttwP0H1RAQFZCPgW751cUseA/aM0ueSbf4jhkDLf2fAoXKReGvXA=
+  - secure: j0vPCOMhBvKDZlAtyXkHqJ3LD2iPiwzwDJr6Mg5oBs/VYji0Lyrw3Iu4AREkwIvvlabwUYSj9DZBT2AKVFH50q1E4A63Zwx5fUSXNKQ/fRI6qhl7uKzYfart/tS31bcMryqF4j+iafv+3/wIUAaHEH7c3yKQfaf+8Go9pGrl0F2717uJWdtrim/CHf7TZ14scXXEAz7tie2sjxJ6qju4yfrnwoc/YfNmioCUPnegztTRtuIedC6O9Z+kx+F1+yYEUA7g8VE2mW4veiBKraz/aXaG9J53NYb8WxfGA6p9/YQyqJSWqq0mOSa4emYV4AA92WcpVCx9YrHaCSifJiYktZ0t5eWF4xVxjIxx15Gg9jd7xqjMMFH2DsByL/i3xH4RlknDPROEg7vjxScMsOCbh02Oq+f6KTBiW0WN0OZVo1chZEB6ufkZo4S7hZQ1tXP5MskkZISHOE7UJDx68egVvXJsQvfDp63eVQHHgmu117OntzqtwKXLw48jHPU3g7oAWWWeibbG1Ci9b1fRH/Zx9N/V12JS0uLacmZ6DaDVzquFiRlDDjFJSsxK73VgDhFMvhDEBG5E8fW/cHHXZ2/pJevHbFAw6W/fId/YDoSOSQqZ6TiVz4dVaBBKwRGwsPFVHg16toTNvWm4A0afuLuwXViCI+lDZexZZwGA/xX4pQ4=
+deploy:
+- provider: releases
+  prerelease: true
+  api_key:
+    secure: XSk7zBSHFpHXzkxoaDnRoeFDlRd5+76Vvo+rbK/tDFuEmIlBFPd+mxaCoKceySnEREhEc1LvQcnvIXRxIMY/RPYHuNWEQ7TReLQ1mzzvKk7Dc8Ebq7xM8m99hIgMv4g26F6SOz1h6tmwidkw8M5ZULpjAbr/QsDVB03W3uljFjNUW/lTq8NKwTyfjfzV/PN+YrE3CCS8r0FzNtcj5U2IfFMR/Qgq6mHZr3r2rwIXI/HLw1of9NRenN/DSfVZeQSLRqRCjEp59ByBheBrjgUEajDhBueR3npt+NbjCTxODgoNxDCO1V87AV9cNuo3nGUSybPAQQWws45F4ohJCKvzJyO5NnSBbOwe0BzFCnmjrZMmeT3IsnsixKrrGCwqNW5ViMNHQYkA8Rkg/y6DDtAqN1ZwpvdkSZ4DP9JnzlMUlonajzn+7SRHwNX79CDzCrCKhPCAYEuAzc8F3XNJDBQLLHWVp7qt2Jr0ef+leLgWaohXQHg9cW2ukUYxCSHvmJVLrcJiXwhBqy5SUO+ArFNOtUAGEQJ15IRyWZw/JCuQRhmGe2tf1Tiv/2KTx5/rvpjTetXydJ5DPTH/YvQmKt1Hmg3CotV7MD8157KhtwvnK6wwvaC+ay0Z8lDEDW+Xz5VtCjQKh202QXMA4wpBXI5CY8yEE1I4PtyY7E5pWzB6wr0=
+  name: "$DEPLOY_BUILD_TITLE"
+  body: "$DEPLOY_BUILD_BODY"
+  file_glob: true
+  file:
+  - $DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-server.jar
+  - $DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-universal.jar
+  skip_cleanup: true
+  on:
+    repo: TheCyberBrick/travis-remote-build-test
+    condition: $DEPLOY_BUILD_TYPE = "development"
+- provider: releases
+  prerelease: true
+  api_key:
+    secure: XSk7zBSHFpHXzkxoaDnRoeFDlRd5+76Vvo+rbK/tDFuEmIlBFPd+mxaCoKceySnEREhEc1LvQcnvIXRxIMY/RPYHuNWEQ7TReLQ1mzzvKk7Dc8Ebq7xM8m99hIgMv4g26F6SOz1h6tmwidkw8M5ZULpjAbr/QsDVB03W3uljFjNUW/lTq8NKwTyfjfzV/PN+YrE3CCS8r0FzNtcj5U2IfFMR/Qgq6mHZr3r2rwIXI/HLw1of9NRenN/DSfVZeQSLRqRCjEp59ByBheBrjgUEajDhBueR3npt+NbjCTxODgoNxDCO1V87AV9cNuo3nGUSybPAQQWws45F4ohJCKvzJyO5NnSBbOwe0BzFCnmjrZMmeT3IsnsixKrrGCwqNW5ViMNHQYkA8Rkg/y6DDtAqN1ZwpvdkSZ4DP9JnzlMUlonajzn+7SRHwNX79CDzCrCKhPCAYEuAzc8F3XNJDBQLLHWVp7qt2Jr0ef+leLgWaohXQHg9cW2ukUYxCSHvmJVLrcJiXwhBqy5SUO+ArFNOtUAGEQJ15IRyWZw/JCuQRhmGe2tf1Tiv/2KTx5/rvpjTetXydJ5DPTH/YvQmKt1Hmg3CotV7MD8157KhtwvnK6wwvaC+ay0Z8lDEDW+Xz5VtCjQKh202QXMA4wpBXI5CY8yEE1I4PtyY7E5pWzB6wr0=
+  name: "$DEPLOY_BUILD_TITLE"
+  body: "$DEPLOY_BUILD_BODY"
+  file_glob: true
+  file:
+  - $DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-server.jar
+  - $DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-universal.jar
+  skip_cleanup: true
+  on:
+    repo: TheCyberBrick/travis-remote-build-test
+    condition: $DEPLOY_BUILD_TYPE = "release"

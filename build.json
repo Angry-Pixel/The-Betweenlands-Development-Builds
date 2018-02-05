@@ -1,0 +1,8 @@
+{
+	"build_number": 629,
+	"type": "release",
+	"title": "Test Title",
+	"description": "Test Description",
+	"branch": "1.12",
+	"commit": "78efe2b987bfa1846078c1ec79583266def4f72f"
+}
