@@ -1,8 +1,8 @@
 {
-	"build_number": 620,
+	"build_number": 621,
 	"type": "release",
-	"title": "Release Build 620",
+	"title": "Release Build 621",
 	"description": "New dev build deployment",
-	"branch": "release-deployment-test",
+	"branch": "last-release-test-i-swear",
 	"commit": "322931e947918a17c36c1253ca8d9ce7f3c11fac"
 }
