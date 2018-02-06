@@ -1,8 +1,0 @@
-{
-	"build_number": 626,
-	"type": "development",
-	"title": "Development Build 626",
-	"description": "Fixed Spook Moss texture background",
-	"branch": "1.12",
-	"commit": "d66f0a745c3dae48df8ef31a491d5fb133d9cff2"
-}

@@ -1,22 +1,40 @@
 export DEPLOY_ENV=true
 
+config="build"
+declare -A table
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    if [[ "$line" == *":" ]]; then
+        if [ ! -z "${section}" ]; then
+            table["${section}"]=$(cat entry)
+        fi
+        >entry
+        section=${line::-1}
+    else
+        echo "${line}" >> entry
+    fi
+done < "$config"
+if [ ! -z ${section} ]; then
+    table["${section}"]=$(cat entry)
+fi
+rm -f entry
+
 #The build number of the build to deploy
-export DEPLOY_BUILD_NUMBER=$(jq -r '.build_number' build.json)
+export DEPLOY_BUILD_NUMBER=${table['build number']}
 
 #The build type. Can be 'release' or 'development'
-export DEPLOY_BUILD_TYPE=$(jq -r '.type' build.json)
+export DEPLOY_BUILD_TYPE=${table['type']}
 
 #The title of the github release
-export DEPLOY_BUILD_TITLE=$(jq -r '.title' build.json)
+export DEPLOY_BUILD_TITLE=${table['title']}
 
 #The body of the github release
-export DEPLOY_BUILD_BODY=$(jq -r '.description' build.json)
+export DEPLOY_BUILD_BODY=${table['description']}
 
 #The branch of this build
-export DEPLOY_BUILD_BRANCH=$(jq -r '.branch' build.json)
+export DEPLOY_BUILD_BRANCH=${table['branch']}
 
 #The commit of this build
-export DEPLOY_BUILD_COMMIT=$(jq -r '.commit' build.json)
+export DEPLOY_BUILD_COMMIT=${table['commit']}
 
 #The directory of the repository to build
 export DEPLOY_REPOSITORY_DIR_NAME=Angry-Pixel/The-Betweenlands
