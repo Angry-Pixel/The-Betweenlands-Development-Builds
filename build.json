@@ -1,8 +1,8 @@
 {
-	"build_number": 621,
-	"type": "release",
-	"title": "Release Build 621",
-	"description": "New dev build deployment",
-	"branch": "last-release-test-i-swear",
-	"commit": "322931e947918a17c36c1253ca8d9ce7f3c11fac"
+	"build_number": 622,
+	"type": "development",
+	"title": "Development Build 622",
+	"description": "Fixed incorrect Moss/Lichen spreading, closes #486",
+	"branch": "1.12",
+	"commit": "f01a45820a3f2b318a963bedabd89cb9b6e53e58"
 }
