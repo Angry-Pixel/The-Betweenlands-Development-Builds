@@ -1,15 +1,18 @@
+#!/bin/bash
+
 export DEPLOY_ENV=true
 
 config="build"
 declare -A table
 while IFS='' read -r line || [[ -n "$line" ]]; do
-    if [[ "$line" == *":" ]]; then
+    if [[ "$line" == "["* ]] && [[ "$line" == *"]:" ]]; then
         if [ ! -z "${section}" ]; then
             table["${section}"]=$(cat entry)
         fi
         >entry
-        section=${line::-1}
+        section=${line:1:${#line}-3}
     else
+        line=$(sed 's/\\:/\:/g' <<< $line) #Unescape \: in lines
         echo "${line}" >> entry
     fi
 done < "$config"
@@ -43,7 +46,7 @@ export DEPLOY_REPOSITORY_DIR=${TRAVIS_BUILD_DIR}/$DEPLOY_REPOSITORY_DIR_NAME
 chmod +x prepare_deploy.sh
 
 git clone --depth=50 --branch=$DEPLOY_BUILD_BRANCH https://github.com/Angry-Pixel/The-Betweenlands.git Angry-Pixel/The-Betweenlands
-cd "Angry-Pixel/The-Betweenlands/"
+cd "Angry-Pixel/The-Betweenlands/" || return
 git checkout $DEPLOY_BUILD_COMMIT
 
 chmod +x gradlew
