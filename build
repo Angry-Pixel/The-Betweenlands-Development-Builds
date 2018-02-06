@@ -1,17 +1,12 @@
 [build number]:
-632
+634
 [type]:
 development
 [title]:
-Development Build 632
+Development Build 634
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/398a0b5606f9a70e1a58fc66779192b0754a190b
-
-- Added Nibbletwig Sticks
-- Food sickness capability now accepts any item
-- Improved food sickness messages
-- Updated rubber door textures, closes #485
+https://github.com/Angry-Pixel/The-Betweenlands/commit/93eba0cd7bfe4ce2c9f6ad056ab23b417b48d890
 [branch]:
 1.12
 [commit]:
-398a0b5606f9a70e1a58fc66779192b0754a190b
+93eba0cd7bfe4ce2c9f6ad056ab23b417b48d890
