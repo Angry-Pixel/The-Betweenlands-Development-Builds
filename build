@@ -1,12 +1,17 @@
 [build number]:
-631
+632
 [type]:
 development
 [title]:
-Development Build 631
+Development Build 632
 [description]:
-Fixed multi line commit messages in deploy config
+https://github.com/Angry-Pixel/The-Betweenlands/commit/398a0b5606f9a70e1a58fc66779192b0754a190b
+
+- Added Nibbletwig Sticks
+- Food sickness capability now accepts any item
+- Improved food sickness messages
+- Updated rubber door textures, closes #485
 [branch]:
 1.12
 [commit]:
-49ed6d61d982f7470bfdc9dd505b7ed9164489b9
+398a0b5606f9a70e1a58fc66779192b0754a190b
