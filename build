@@ -1,12 +1,12 @@
-build number:
-627
-type:
+[build number]:
+628
+[type]:
 development
-title:
-Development Build 627
-description:
-Changed deploy config file
-branch:
+[title]:
+Development Build 628
+[description]:
+Another small deploy config change
+[branch]:
 1.12
-commit:
-b6a4c3a98c3ce043dff43a6ad8c53414979f5080
+[commit]:
+8bb1d84c263a11ecd7e63f6d46db27ba7542fcaf
