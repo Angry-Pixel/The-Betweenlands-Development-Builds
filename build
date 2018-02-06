@@ -1,12 +1,12 @@
 [build number]:
-628
+629
 [type]:
 development
 [title]:
-Development Build 628
+Development Build 629
 [description]:
-Another small deploy config change
+- Added some variation to Hearthgrove canopy - Fixed Chiromaw wing using incorrect food sickness values
 [branch]:
 1.12
 [commit]:
-8bb1d84c263a11ecd7e63f6d46db27ba7542fcaf
+faa3efa807de428d6cbdd61c7b35d989d37a70bd
