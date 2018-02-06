@@ -1,8 +1,9 @@
 {
-	"build_number": 624,
+	"build_number": 625,
 	"type": "development",
-	"title": "Development Build 624",
-	"description": "Added hidden seasonal event advancements",
+	"title": "Development Build 625",
+	"description": "- Added event to API to allow adding/remove custom entity spawn entries
+- Implemented Weedwood Bush model caching",
 	"branch": "1.12",
-	"commit": "087c7d0de816b322ea977cf13e2b51daaf961920"
+	"commit": "076aca4e6f5ab7711aa05418614e94f9bbc1dab9"
 }
