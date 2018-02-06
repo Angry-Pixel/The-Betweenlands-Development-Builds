@@ -1,14 +1,12 @@
 [build number]:
-630
+631
 [type]:
 development
 [title]:
-Development Build 630
+Development Build 631
 [description]:
-- Testing out
-- \:multi line
-[commit messages]\:
+Fixed multi line commit messages in deploy config
 [branch]:
-deploy-test-again
+1.12
 [commit]:
-32e41dbd2b368e0f726a141185a4aa873410acf9
+49ed6d61d982f7470bfdc9dd505b7ed9164489b9
