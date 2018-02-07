@@ -1,12 +1,12 @@
 [build number]:
-648
+649
 [type]:
-development
+release
 [title]:
-Development Build 648
+Release Build 649
 [description]:
 https://github.com/Angry-Pixel/The-Betweenlands/commit/a20911157f4fee1d1ce3402f53d73a34074f8ee9
 [branch]:
-1.12
+v3.3.0-release
 [commit]:
 a20911157f4fee1d1ce3402f53d73a34074f8ee9
