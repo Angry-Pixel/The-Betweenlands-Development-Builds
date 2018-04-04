@@ -1,12 +1,12 @@
 [build number]:
-768
+770
 [type]:
-development
+release
 [title]:
-Development Build 1.12-DungeonTest-768
+Release Build v3.3.6-release-770
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/f03ee29ac38b4821600157f611ee35951e1e62a7
+https://github.com/Angry-Pixel/The-Betweenlands/commit/577ecb059d02407993591e68ec86155a012cc3f9
 [branch]:
-1.12-DungeonTest
+v3.3.6-release
 [commit]:
-f03ee29ac38b4821600157f611ee35951e1e62a7
+577ecb059d02407993591e68ec86155a012cc3f9
