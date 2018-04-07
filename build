@@ -1,12 +1,12 @@
 [build number]:
-772
+773
 [type]:
 development
 [title]:
-Development Build 1.12-772
+Development Build intel-driver-workaround-773
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/be19cf58a1d000a215729c45ff774982b392d9eb
+https://github.com/Angry-Pixel/The-Betweenlands/commit/21617ec114921b37172b6046cbc839683b7830c8
 [branch]:
-1.12
+intel-driver-workaround
 [commit]:
-be19cf58a1d000a215729c45ff774982b392d9eb
+21617ec114921b37172b6046cbc839683b7830c8
