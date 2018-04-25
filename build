@@ -1,12 +1,12 @@
 [build number]:
-817
+818
 [type]:
-development
+release
 [title]:
-Development Build 1.12-817
+Release Build v3.3.8-release-818
 [description]:
 https://github.com/Angry-Pixel/The-Betweenlands/commit/523e5db1c1e75a5a2d373dc223243a56a6a5db57
 [branch]:
-1.12
+v3.3.8-release
 [commit]:
 523e5db1c1e75a5a2d373dc223243a56a6a5db57
