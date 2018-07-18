@@ -40,8 +40,8 @@ deploy:
   body: "$DEPLOY_BUILD_BODY"
   file_glob: true
   file:
-  - "$DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-server.jar"
-  - "$DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-universal.jar"
+  - "$DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-SNAPSHOT-server.jar"
+  - "$DEPLOY_REPOSITORY_DIR_NAME/build/libs/TheBetweenlands-*-${DEPLOY_BUILD_NUMBER}-SNAPSHOT-universal.jar"
   skip_cleanup: true
   on:
     repo: Angry-Pixel/The-Betweenlands-Development-Builds
