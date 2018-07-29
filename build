@@ -1,12 +1,12 @@
 [build number]:
-886
+888
 [type]:
 development
 [title]:
-Development Build 1.12-886
+Development Build 1.12-dev-888
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/7f39dd279223c54a69e43a137b0efc44d2e7d3e0
+https://github.com/Angry-Pixel/The-Betweenlands/commit/04a59e50b96c2f65d6e8c3918aed3134a8e2a11b
 [branch]:
-1.12
+1.12-dev
 [commit]:
-7f39dd279223c54a69e43a137b0efc44d2e7d3e0
+04a59e50b96c2f65d6e8c3918aed3134a8e2a11b
