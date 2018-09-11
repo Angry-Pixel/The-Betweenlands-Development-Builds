@@ -1,12 +1,12 @@
 [build number]:
-917
+918
 [type]:
-release
+development
 [title]:
-Release Build v3.3.12-release-917
+Development Build 1.12-spirit-trees-918
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/bc5687c5c55c2b47358f612ac54c88a35c7a3deb
+https://github.com/Angry-Pixel/The-Betweenlands/commit/6586d87e016e5fc763934e2dcaba0cebcdcfb7bf
 [branch]:
-v3.3.12-release
+1.12-spirit-trees
 [commit]:
-bc5687c5c55c2b47358f612ac54c88a35c7a3deb
+6586d87e016e5fc763934e2dcaba0cebcdcfb7bf
