@@ -1,12 +1,12 @@
 [build number]:
-1208
+1209
 [type]:
 development
 [title]:
-Development Build 1.12.2-StuctureTests-1208
+Development Build 1.12-dev-1209
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/14bfc1b21354d900ce3d7405063b09e38c39100e
+https://github.com/Angry-Pixel/The-Betweenlands/commit/d20c33fbede97bbe00f98dad6d27ae729d88f4b4
 [branch]:
-1.12.2-StuctureTests
+1.12-dev
 [commit]:
-14bfc1b21354d900ce3d7405063b09e38c39100e
+d20c33fbede97bbe00f98dad6d27ae729d88f4b4
