@@ -1,12 +1,12 @@
 [build number]:
-1234
+1235
 [type]:
 development
 [title]:
-Development Build 1.12-fixes-1234
+Development Build 1.12-structure-loot-1235
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/ade3ba4424e97bbe30e79c5d0289260b58542375
+https://github.com/Angry-Pixel/The-Betweenlands/commit/d3bf2898e18d5ed9cec4c09b0186634e363e7167
 [branch]:
-1.12-fixes
+1.12-structure-loot
 [commit]:
-ade3ba4424e97bbe30e79c5d0289260b58542375
+d3bf2898e18d5ed9cec4c09b0186634e363e7167
