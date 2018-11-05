@@ -1,12 +1,12 @@
 [build number]:
-1269
+1272
 [type]:
-development
+release
 [title]:
-Development Build 1.12-fixes-1269
+Release Build v3.4.1-release-1272
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/03a2bdc11baddb9226a6a09487c36b231961735d
+https://github.com/Angry-Pixel/The-Betweenlands/commit/50444e6d6014f942bd4367cbfcaed840e3c86441
 [branch]:
-1.12-fixes
+v3.4.1-release
 [commit]:
-03a2bdc11baddb9226a6a09487c36b231961735d
+50444e6d6014f942bd4367cbfcaed840e3c86441
