@@ -1,12 +1,12 @@
 [build number]:
-1315
+1316
 [type]:
 development
 [title]:
-Development Build 1.12-dev-1315
+Development Build 1.12-runes-wip-1316
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/c34b7d86bf3fa05d5709a9b02f7237cc48cb095b
+https://github.com/Angry-Pixel/The-Betweenlands/commit/50b67218c9cbb48d2365821a6d742f921544ab5c
 [branch]:
-1.12-dev
+1.12-runes-wip
 [commit]:
-c34b7d86bf3fa05d5709a9b02f7237cc48cb095b
+50b67218c9cbb48d2365821a6d742f921544ab5c
