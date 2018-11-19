@@ -1,12 +1,12 @@
 [build number]:
-1310
+1311
 [type]:
 development
 [title]:
-Development Build 1.12-dev-1310
+Development Build revert-764-1.12-dev-1311
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/41ae0237a9cda57fdbfda6f6adeb4431fa32eae8
+https://github.com/Angry-Pixel/The-Betweenlands/commit/9a0467b254168ddc9e062d4d6b85f861c8f6ead3
 [branch]:
-1.12-dev
+revert-764-1.12-dev
 [commit]:
-41ae0237a9cda57fdbfda6f6adeb4431fa32eae8
+9a0467b254168ddc9e062d4d6b85f861c8f6ead3
