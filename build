@@ -1,12 +1,12 @@
 [build number]:
-1406
+1407
 [type]:
-release
+development
 [title]:
-Release Build v3.4.3-release-1406
+Development Build 1.12.2-StuctureTests-1407
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/726afee4f2962fe7683dfc6798b04e8658ba1a08
+https://github.com/Angry-Pixel/The-Betweenlands/commit/243f32e73659d5e6f695c0aa7b21938807891feb
 [branch]:
-v3.4.3-release
+1.12.2-StuctureTests
 [commit]:
-726afee4f2962fe7683dfc6798b04e8658ba1a08
+243f32e73659d5e6f695c0aa7b21938807891feb
