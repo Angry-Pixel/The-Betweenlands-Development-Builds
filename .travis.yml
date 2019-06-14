@@ -1,6 +1,6 @@
 language: java
 jdk:
-- oraclejdk8
+- openjdk8
 if: tag IS blank AND type != pull_request
 before_install:
 - openssl aes-256-cbc -k "$keyStoreEncryptionKey" -in keystore.jks.enc -out keystore.jks
@@ -17,10 +17,6 @@ notifications:
 before_script: source setup_environment.sh
 script:
 - "./gradlew build --continue --stacktrace"
-addons:
-  apt:
-    packages:
-    - oracle-java8-installer
 before_deploy:
 - cd $TRAVIS_BUILD_DIR
 - "./prepare_deploy.sh"
