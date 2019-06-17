@@ -1,12 +1,12 @@
 [build number]:
-1725
+1726
 [type]:
-development
+release
 [title]:
-Development Build 1.12-1725
+Release Build v3.4.9-release-1726
 [description]:
 https://github.com/Angry-Pixel/The-Betweenlands/commit/a7827b060ad5b8e804966c9e84dd4b23bf1b97e5
 [branch]:
-1.12
+v3.4.9-release
 [commit]:
 a7827b060ad5b8e804966c9e84dd4b23bf1b97e5
