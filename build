@@ -1,12 +1,12 @@
 [build number]:
-2503
+2504
 [type]:
 development
 [title]:
-Development Build 1.12-dev-2503
+Development Build 1.12-fixes-2504
 [description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/785d2622f14eb29867b8dc352797596f0e5a162f
+https://github.com/Angry-Pixel/The-Betweenlands/commit/c61d4d8e761e0807a8a6c9c931e15965301ce8c6
 [branch]:
-1.12-dev
+1.12-fixes
 [commit]:
-785d2622f14eb29867b8dc352797596f0e5a162f
+c61d4d8e761e0807a8a6c9c931e15965301ce8c6
