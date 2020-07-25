@@ -1,12 +1,12 @@
 [build number]:
-3092
+3093
 [type]:
-development
+release
 [title]:
-Development Build 1.12-fixes-3092
+Release Build v3.6.2-release-3093
 [description]:
 https://github.com/Angry-Pixel/The-Betweenlands/commit/cc885bdef2ce80c8e23bdf6239514afd7dbe7aaa
 [branch]:
-1.12-fixes
+v3.6.2-release
 [commit]:
 cc885bdef2ce80c8e23bdf6239514afd7dbe7aaa
