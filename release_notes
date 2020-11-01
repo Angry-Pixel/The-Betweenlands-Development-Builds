@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/778a8653049380d1921f1202cc7f04cc6d8c7ecb
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/7c3cac584bed2e9a98f31145f7fa1260ecb710a5
 
-TheCyberBrick, 4 minutes ago:
-Updated mod version
+TheCyberBrick, 3 minutes ago:
+Fixed wisp visibility state not synced to clients and not saving
