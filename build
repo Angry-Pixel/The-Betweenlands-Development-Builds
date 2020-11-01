@@ -1,10 +1,10 @@
 [build number]:
-3365
+3366
 [type]:
-release
+development
 [title]:
-Release Build v3.7.1-release-3365
+Development Build 1.12-fixes-3366
 [branch]:
-v3.7.1-release
+1.12-fixes
 [commit]:
-2cb4fdb8778ccdc6c6f74ce4de12d96ec58ef6ee
+9a3e9a12dd554f90fac20b472459b3b641eb039a
