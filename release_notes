@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/7c3cac584bed2e9a98f31145f7fa1260ecb710a5
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/6e7df3555af9af3f1e8c82e9f0fa5c59a4f27a3f
 
 TheCyberBrick, 3 minutes ago:
-Fixed wisp visibility state not synced to clients and not saving
+Merge branch '1.12-fixes' into 1.12
