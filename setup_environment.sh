@@ -30,9 +30,6 @@ export DEPLOY_BUILD_TYPE=${table['type']}
 #The title of the github release
 export DEPLOY_BUILD_TITLE=${table['title']}
 
-#The body of the github release
-export DEPLOY_BUILD_BODY=${table['description']}
-
 #The branch of this build
 export DEPLOY_BUILD_BRANCH=${table['branch']}
 
