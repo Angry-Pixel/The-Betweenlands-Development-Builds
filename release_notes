@@ -1,12 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/97ddae26aff541b98a8c2d34623119c77d3835e4
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/8675367484567077849730ef08892202759f29b9
 
-TheCyberBrick, 4 minutes ago (Sun Nov 8 13:44:20 2020 +0100):
-Merge branch '1.12-fixes' into 1.12-dev
-
-# Conflicts:
-#	src/main/java/thebetweenlands/client/proxy/ClientProxy.java
-#	src/main/java/thebetweenlands/common/registries/CapabilityRegistry.java
-#	src/main/java/thebetweenlands/common/registries/SoundRegistry.java
-#	src/main/java/thebetweenlands/common/registries/TileEntityRegistry.java
-#	src/main/resources/assets/thebetweenlands/lang/en_US.lang
-#	src/main/resources/assets/thebetweenlands/sounds.json
+TheCyberBrick, 3 minutes ago (Sun Nov 8 18:57:40 2020 +0100):
+Invoker conduct rune can now use non-player inventories
