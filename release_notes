@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/acce72308bad868eb71e736623e5b393b5ef481e
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/3f7f4be4b706c2d01001e2f986b3ee329348ac44
 
-TheCyberBrick, 4 minutes ago (Sun Nov 8 20:02:47 2020 +0100):
-Merge branch '1.12-fixes' into 1.12-dev
+TheCyberBrick, 4 minutes ago (Sun Nov 8 21:56:40 2020 +0100):
+Added new invoker configuration to for entity targets
