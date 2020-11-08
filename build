@@ -1,12 +1,10 @@
 [build number]:
-3381
+3382
 [type]:
 development
 [title]:
-Development Build 1.12-experiments-3381
-[description]:
-https://github.com/Angry-Pixel/The-Betweenlands/commit/c207a3ee6811f1a831d4a796de2f0df7a11fe29d
+Development Build 1.12-dev-3382
 [branch]:
-1.12-experiments
+1.12-dev
 [commit]:
-c207a3ee6811f1a831d4a796de2f0df7a11fe29d
+97ddae26aff541b98a8c2d34623119c77d3835e4
