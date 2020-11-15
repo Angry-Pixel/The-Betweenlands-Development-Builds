@@ -1,4 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/0548553492a6d36a9f67926b207bcf5ba171ecdf
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/ac2219215d97c43c8d11d0e2169bf95a0c843e63
 
-TheCyberBrick, 4 minutes ago (Sat Nov 14 14:28:50 2020 +0100):
-Rune effect modifier renderers can now have state
+TheCyberBrick, 3 minutes ago (Sun Nov 15 15:52:49 2020 +0100):
+- Added runic beetle animations and some particles
+- Fixed runic beetle texture z fighting
