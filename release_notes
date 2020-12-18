@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/79cbc1a33e4ff9ae95c5452552359b1f40dcaa2d
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/486bb74f84562585c16c0bacf1f25f1e5c8b2422
 
-GoryMoon, 4 minutes ago (Fri Dec 18 17:49:38 2020 +0100):
-Fix dependencies because curseforge updated api and cursemaven needed to change
+GoryMoon, 4 minutes ago (Fri Dec 18 17:50:21 2020 +0100):
+Merge branch '1.12-fixes' into 1.12-dev
