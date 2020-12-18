@@ -1,5 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/ac2219215d97c43c8d11d0e2169bf95a0c843e63
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/79cbc1a33e4ff9ae95c5452552359b1f40dcaa2d
 
-TheCyberBrick, 3 minutes ago (Sun Nov 15 15:52:49 2020 +0100):
-- Added runic beetle animations and some particles
-- Fixed runic beetle texture z fighting
+GoryMoon, 4 minutes ago (Fri Dec 18 17:49:38 2020 +0100):
+Fix dependencies because curseforge updated api and cursemaven needed to change
