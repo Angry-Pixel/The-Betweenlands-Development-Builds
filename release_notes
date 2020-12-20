@@ -1,6 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/d53fe3dfa3ca677fc6f9bc9d80f737986e8e5fd3
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/5db595ada35acf9f990a4837bc1e10438b150e0f
 
-TheCyberBrick, 4 minutes ago (Sun Dec 20 15:49:46 2020 +0100):
-- Implemented wind chime model
-- Implemented wind chime event predictions
-- Fixed simulacra not always dropping, fixes #1138
+TheCyberBrick, 3 minutes ago (Sun Dec 20 16:02:24 2020 +0100):
+Added wind chime item model and lang
