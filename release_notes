@@ -1,4 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/abed957c7ece7d5edcf76b1410b3fde93d7887e1
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/4f8bad059cfe2fc217f3a11572ff688a71f8a3d1
 
-TheCyberBrick, 3 minutes ago (Sun Dec 20 19:49:02 2020 +0100):
-Limited wind chime particle spawn range
+TheCyberBrick, 4 minutes ago (Mon Dec 21 16:59:30 2020 +0100):
+- Improved prediction of thunderstorm event
+- Fixed remaining event duration estimate
