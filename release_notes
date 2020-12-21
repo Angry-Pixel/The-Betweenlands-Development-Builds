@@ -1,5 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/4f8bad059cfe2fc217f3a11572ff688a71f8a3d1
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/02dbbe44f8cf37c8e6df7c7b4517d3c9b9be575b
 
-TheCyberBrick, 4 minutes ago (Mon Dec 21 16:59:30 2020 +0100):
-- Improved prediction of thunderstorm event
-- Fixed remaining event duration estimate
+TheCyberBrick, 3 minutes ago (Mon Dec 21 17:58:15 2020 +0100):
+Implemented wind chime attunement
