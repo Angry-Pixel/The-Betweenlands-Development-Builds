@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/02dbbe44f8cf37c8e6df7c7b4517d3c9b9be575b
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/4eb496b7c9d219161f18ed2485951527e5b78cc0
 
-TheCyberBrick, 3 minutes ago (Mon Dec 21 17:58:15 2020 +0100):
-Implemented wind chime attunement
+TheCyberBrick, 4 minutes ago (Mon Dec 21 19:05:01 2020 +0100):
+Fixed max prediction time being inverted
