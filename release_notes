@@ -1,5 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/2be7f908119c41003d47fa797242d3d7085dc7b8
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/51eeb2c28a7ebced1ddd11fb752b1e0bf78ab602
 
-TheCyberBrick, 5 minutes ago (Mon Dec 21 22:17:57 2020 +0100):
-- Added life crystal fragment
-- Added Okl's new textures and loot tables
+TheCyberBrick, 3 minutes ago (Tue Dec 22 22:34:18 2020 +0100):
+- Implemented lanterns
+- Fixed Barrishee loot table
