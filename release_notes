@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/e96579254ec58cf69da460fdb7d8b79361426b76
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/f91dd1e644f8736a52984794e4fd0e1b2387365e
 
-TheCyberBrick, 3 minutes ago (Wed Dec 23 20:47:45 2020 +0100):
-Replaced cragrock tower falling blocks with smooth cragrock, closes #1097
+TheCyberBrick, 3 minutes ago (Wed Dec 23 20:57:38 2020 +0100):
+Riding tamed chiromaws can now only be interacted with while sneaking, closes #1091
