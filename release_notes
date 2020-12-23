@@ -1,4 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/746c6e0b7554c6542cbbaf9a6936d642a7978aee
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/701d1d9ff14277484c7e0c24085ec809fd721b82
 
-Oli, 3 minutes ago (Wed Dec 23 18:37:47 2020 +0000):
-Fixed a lil texture thing thats been bothering me forever
+TheCyberBrick, 3 minutes ago (Wed Dec 23 20:26:31 2020 +0100):
+- Fixed algae not placeable on top of water
+- Fixed some missing pick block results, closes #1100
