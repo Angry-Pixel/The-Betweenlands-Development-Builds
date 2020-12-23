@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/f91dd1e644f8736a52984794e4fd0e1b2387365e
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/b8d3015ac03d8e1acee5e701f6e7cfaaa10218b8
 
-TheCyberBrick, 3 minutes ago (Wed Dec 23 20:57:38 2020 +0100):
-Riding tamed chiromaws can now only be interacted with while sneaking, closes #1091
+TheCyberBrick, 3 minutes ago (Wed Dec 23 21:06:10 2020 +0100):
+Merge branch '1.12-fixes' into 1.12-wind-chime
