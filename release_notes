@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/6cbe07cb02fc81a74c97f7f8504932a90aab4339
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/693f2d0d69b43efacc3cf80b806517423ce6b60d
 
-TheCyberBrick, 5 minutes ago (Wed Dec 23 17:31:36 2020 +0100):
-Merge branch '1.12-fixes' of https://github.com/Angry-Pixel/The-Betweenlands into 1.12-fixes
+TheCyberBrick, 4 minutes ago (Wed Dec 23 17:36:43 2020 +0100):
+Added angler fish hurt sounds, closes #1145
