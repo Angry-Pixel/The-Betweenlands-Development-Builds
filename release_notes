@@ -1,5 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/701d1d9ff14277484c7e0c24085ec809fd721b82
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/e96579254ec58cf69da460fdb7d8b79361426b76
 
-TheCyberBrick, 3 minutes ago (Wed Dec 23 20:26:31 2020 +0100):
-- Fixed algae not placeable on top of water
-- Fixed some missing pick block results, closes #1100
+TheCyberBrick, 3 minutes ago (Wed Dec 23 20:47:45 2020 +0100):
+Replaced cragrock tower falling blocks with smooth cragrock, closes #1097
