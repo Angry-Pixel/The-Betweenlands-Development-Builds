@@ -1,5 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/02f62b36da960aad2deb2dd05aa767ee6c977744
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/971f0a82a683202016692865617d3056cbc35e89
 
-TheCyberBrick, 4 minutes ago (Wed Dec 23 22:40:16 2020 +0100):
-- Added new advancements
-- Removed angler death sound from sounds json
+TheCyberBrick, 3 minutes ago (Wed Dec 23 22:45:01 2020 +0100):
+Fixed new sludge jet turret sounds not playing
