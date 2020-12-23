@@ -1,4 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/b8d3015ac03d8e1acee5e701f6e7cfaaa10218b8
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/02f62b36da960aad2deb2dd05aa767ee6c977744
 
-TheCyberBrick, 4 minutes ago (Wed Dec 23 21:06:10 2020 +0100):
-Merge branch '1.12-fixes' into 1.12-wind-chime
+TheCyberBrick, 3 minutes ago (Wed Dec 23 22:40:16 2020 +0100):
+- Added new advancements
+- Removed angler death sound from sounds json
