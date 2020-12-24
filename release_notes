@@ -1,4 +1,164 @@
 Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/0c7f17ec8ae868c8311bcc84cd92afd7ee42eaf1
 
-TheCyberBrick, 3 minutes ago (Thu Dec 24 17:17:58 2020 +0100):
-Merge branch '1.12-fixes' into 1.12
+<details><summary>Changes</summary>
+TheCyberBrick, 5 minutes ago (Thu Dec 24 17:17:31 2020 +0100):
+Attempt at fixing dev build descriptions #11
+
+TheCyberBrick, 59 minutes ago (Thu Dec 24 16:22:53 2020 +0100):
+Updated mod version
+
+TheCyberBrick, 2 hours ago (Thu Dec 24 15:14:10 2020 +0100):
+Changed tame chiromaw barb targetting
+
+TheCyberBrick, 3 hours ago (Thu Dec 24 14:30:30 2020 +0100):
+Changed voodoo damage source to an entity damage source
+
+TheCyberBrick, 3 hours ago (Thu Dec 24 14:27:04 2020 +0100):
+- Life crystal fragment now only has 64 life
+- Fixed mounted tame chiromaws taking damage from sweeping
+
+vadis365, 3 hours ago (Thu Dec 24 13:24:19 2020 +0000):
+Windchime Hardness & Bauble Shearing
+
+vadis365, 15 hours ago (Thu Dec 24 01:14:05 2020 +0000):
+null check
+
+TheCyberBrick, 19 hours ago (Wed Dec 23 22:45:01 2020 +0100):
+Fixed new sludge jet turret sounds not playing
+
+TheCyberBrick, 19 hours ago (Wed Dec 23 22:40:16 2020 +0100):
+- Added new advancements
+- Removed angler death sound from sounds json
+
+Oli, 20 hours ago (Wed Dec 23 20:17:43 2020 +0000):
+Added sludge jet turret sounds maybe
+
+TheCyberBrick, 20 hours ago (Wed Dec 23 20:57:38 2020 +0100):
+Riding tamed chiromaws can now only be interacted with while sneaking, closes #1091
+
+TheCyberBrick, 21 hours ago (Wed Dec 23 20:47:45 2020 +0100):
+Replaced cragrock tower falling blocks with smooth cragrock, closes #1097
+
+TheCyberBrick, 21 hours ago (Wed Dec 23 20:26:31 2020 +0100):
+- Fixed algae not placeable on top of water
+- Fixed some missing pick block results, closes #1100
+
+Oli, 22 hours ago (Wed Dec 23 18:37:47 2020 +0000):
+Fixed a lil texture thing thats been bothering me forever
+
+TheCyberBrick, 22 hours ago (Wed Dec 23 19:26:23 2020 +0100):
+Fixed stalker paralysis attack causing fall damage, closes #1135
+
+TheCyberBrick, 22 hours ago (Wed Dec 23 19:17:30 2020 +0100):
+Fixed blessed effect showing up in herblore book
+
+vadis365, 22 hours ago (Wed Dec 23 18:10:41 2020 +0000):
+Fixes incorrect furnace lighting
+
+TheCyberBrick, 22 hours ago (Wed Dec 23 19:07:12 2020 +0100):
+Potential fix for #1141
+
+TheCyberBrick, 22 hours ago (Wed Dec 23 19:00:37 2020 +0100):
+Ash sprites can now no longer noclip for several seconds after being hurt
+
+TheCyberBrick, 23 hours ago (Wed Dec 23 18:42:34 2020 +0100):
+Fixed the fix of a thing
+
+Oli, 23 hours ago (Wed Dec 23 17:40:22 2020 +0000):
+I fixed a thing i did
+
+Oli, 23 hours ago (Wed Dec 23 17:39:15 2020 +0000):
+I did a thing
+
+vadis365, 23 hours ago (Wed Dec 23 17:36:38 2020 +0000):
+whoopsie - ignore
+
+TheCyberBrick, 23 hours ago (Wed Dec 23 18:34:13 2020 +0100):
+Improved item aspect list renderer, closes #1142, #1143
+
+vadis365, 23 hours ago (Wed Dec 23 17:19:43 2020 +0000):
+pick block for orange/green dentist
+
+TheCyberBrick, 24 hours ago (Wed Dec 23 17:39:58 2020 +0100):
+Added new fish death sound
+
+vadis365, 24 hours ago (Wed Dec 23 16:39:02 2020 +0000):
+Pick block for offering table
+
+TheCyberBrick, 24 hours ago (Wed Dec 23 17:36:43 2020 +0100):
+Added angler fish hurt sounds, closes #1145
+
+TheCyberBrick, 24 hours ago (Wed Dec 23 17:31:20 2020 +0100):
+Fixed incredibly hungry bone wayfinder, closes #1144
+
+vadis365, 24 hours ago (Wed Dec 23 16:28:12 2020 +0000):
+Infestation tweaks
+
+peaceful sets it deas and can only attack players it sees
+
+TheCyberBrick, 25 hours ago (Wed Dec 23 16:47:54 2020 +0100):
+Implemented baubles
+
+TheCyberBrick, 2 days ago (Tue Dec 22 22:56:47 2020 +0100):
+Implemented extinguished sulfur torch
+
+TheCyberBrick, 2 days ago (Tue Dec 22 22:34:18 2020 +0100):
+- Implemented lanterns
+- Fixed Barrishee loot table
+
+TheCyberBrick, 3 days ago (Mon Dec 21 22:17:57 2020 +0100):
+- Added life crystal fragment
+- Added Okl's new textures and loot tables
+
+TheCyberBrick, 3 days ago (Mon Dec 21 21:32:53 2020 +0100):
+New wind chime event vision textures
+
+Petasi, 3 days ago (Mon Dec 21 13:45:05 2020 -0500):
+Updated various block textures
+
+TheCyberBrick, 3 days ago (Mon Dec 21 19:05:01 2020 +0100):
+Fixed max prediction time being inverted
+
+TheCyberBrick, 3 days ago (Mon Dec 21 17:58:15 2020 +0100):
+Implemented wind chime attunement
+
+TheCyberBrick, 3 days ago (Mon Dec 21 16:59:30 2020 +0100):
+- Improved prediction of thunderstorm event
+- Fixed remaining event duration estimate
+
+TheCyberBrick, 4 days ago (Sun Dec 20 19:49:02 2020 +0100):
+Limited wind chime particle spawn range
+
+TheCyberBrick, 4 days ago (Sun Dec 20 19:35:18 2020 +0100):
+Predictable events can now have multiple vision textures
+
+TheCyberBrick, 4 days ago (Sun Dec 20 18:11:08 2020 +0100):
+Fixed broken discord link >:(
+
+TheCyberBrick, 4 days ago (Sun Dec 20 17:35:07 2020 +0100):
+Increased max prediction time
+
+TheCyberBrick, 4 days ago (Sun Dec 20 17:29:06 2020 +0100):
+Implemented wind chime animation
+
+TheCyberBrick, 4 days ago (Sun Dec 20 17:00:25 2020 +0100):
+- Added wind chime sounds
+- Added wind chime recipe
+
+TheCyberBrick, 4 days ago (Sun Dec 20 16:02:24 2020 +0100):
+Added wind chime item model and lang
+
+TheCyberBrick, 4 days ago (Sun Dec 20 15:49:46 2020 +0100):
+- Implemented wind chime model
+- Implemented wind chime event predictions
+- Fixed simulacra not always dropping, fixes #1138
+
+TheCyberBrick, 5 days ago (Sun Dec 20 02:08:05 2020 +0100):
+Wind chime WIP
+
+GoryMoon, 6 days ago (Fri Dec 18 17:49:38 2020 +0100):
+Fix dependencies because curseforge updated api and cursemaven needed to change
+
+TheCyberBrick, 7 weeks ago (Sun Nov 8 20:02:34 2020 +0100):
+Readded coloured lights to wisps
+</details>
