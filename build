@@ -1,10 +1,10 @@
 [build number]:
-3474
+3475
 [type]:
-release
+development
 [title]:
-Release Build 3.7.2-release-3474
+Development Build 1.12-dev-3475
 [branch]:
-3.7.2-release
+1.12-dev
 [commit]:
-0c7f17ec8ae868c8311bcc84cd92afd7ee42eaf1
+a374f58542a1a405d830cdb5e4c872560c765eec
