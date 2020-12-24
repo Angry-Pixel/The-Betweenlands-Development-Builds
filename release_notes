@@ -1,5 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/defdcdc08b17487e9bc21c2ba9568f04e2cff2a5
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/d9ae7d9c81e78817fcc58d90b40294238763caad
 
-TheCyberBrick, 3 minutes ago (Thu Dec 24 14:27:04 2020 +0100):
-- Life crystal fragment now only has 64 life
-- Fixed mounted tame chiromaws taking damage from sweeping
+TheCyberBrick, 3 minutes ago (Thu Dec 24 14:30:30 2020 +0100):
+Changed voodoo damage source to an entity damage source
