@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/971f0a82a683202016692865617d3056cbc35e89
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/f9b5b94bff250d4e6f5bce7a5ae4c1a4ea3fc971
 
-TheCyberBrick, 3 minutes ago (Wed Dec 23 22:45:01 2020 +0100):
-Fixed new sludge jet turret sounds not playing
+vadis365, 3 minutes ago (Thu Dec 24 01:14:05 2020 +0000):
+null check
