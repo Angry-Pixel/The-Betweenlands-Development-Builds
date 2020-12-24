@@ -1,4 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/070b9052d3d214d2e9ddeacdab3025dfca6e6fed
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/defdcdc08b17487e9bc21c2ba9568f04e2cff2a5
 
-vadis365, 3 minutes ago (Thu Dec 24 13:24:19 2020 +0000):
-Windchime Hardness & Bauble Shearing
+TheCyberBrick, 3 minutes ago (Thu Dec 24 14:27:04 2020 +0100):
+- Life crystal fragment now only has 64 life
+- Fixed mounted tame chiromaws taking damage from sweeping
