@@ -1,10 +1,10 @@
 [build number]:
-3471
+3472
 [type]:
-release
+development
 [title]:
-Release Build v3.7.2-release-3471
+Development Build 1.12-fixes-3472
 [branch]:
-v3.7.2-release
+1.12-fixes
 [commit]:
-1fbb58ccf36ee6c7261c025fd162d1604ae6d589
+ae5c8ae6ed8f2614c6361c55bfd9007dac06e489
