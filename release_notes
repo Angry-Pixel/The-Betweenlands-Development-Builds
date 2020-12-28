@@ -1,11 +1,6 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/a374f58542a1a405d830cdb5e4c872560c765eec
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/e874aa0d1d2894bf8b61d4278174961a95e0a524
 
-TheCyberBrick, 3 minutes ago (Thu Dec 24 18:10:24 2020 +0100):
-Merge branch '1.12-fixes' into 1.12-dev
-
-# Conflicts:
-#	src/main/java/thebetweenlands/client/proxy/ClientProxy.java
-#	src/main/java/thebetweenlands/common/registries/SoundRegistry.java
-#	src/main/resources/assets/thebetweenlands/lang/en_US.lang
-#	src/main/resources/assets/thebetweenlands/sounds.json
-#	src/main/resources/assets/thebetweenlands/textures/blocks/swamp_reed_top.png
+TheCyberBrick, 4 minutes ago (Mon Dec 28 20:01:33 2020 +0100):
+- Refactored rune input/output declarations
+- Added new types for dynamic position/block targets
+- WIP walking rune beetles
