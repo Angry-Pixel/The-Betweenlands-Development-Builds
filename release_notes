@@ -1,6 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/e874aa0d1d2894bf8b61d4278174961a95e0a524
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/4037ce17d7eebad103189681bf9d882c66bdbd68
 
-TheCyberBrick, 4 minutes ago (Mon Dec 28 20:01:33 2020 +0100):
-- Refactored rune input/output declarations
-- Added new types for dynamic position/block targets
-- WIP walking rune beetles
+TheCyberBrick, 3 minutes ago (Wed Dec 30 16:24:41 2020 +0100):
+Some rune refactoring and package reorganization
