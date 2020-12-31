@@ -1,6 +1,5 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/c03b7ae96ad62a43af770584bab197d2d059adb1
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/e0912af657da7b9708590fff73425301b577902c
 
-vadis365, 3 minutes ago (Thu Dec 31 21:11:06 2020 +0000):
-ignore
-
-just so the repo has a change for testing merge things
+TheCyberBrick, 4 minutes ago (Thu Dec 31 22:21:43 2020 +0100):
+- Fixed pinpoint rune configurations
+- Fixed water initiate rune initiation
