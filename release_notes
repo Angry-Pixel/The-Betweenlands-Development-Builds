@@ -1,4 +1,6 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/2a0d076c315c2127fdc8defeda22a2c5a286b5c3
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/1da4669d59efaa8f8eb1fcd7dd522f5dbd353ee1
 
-vadis365, 4 minutes ago (Wed Jan 13 18:27:17 2021 +0000):
-worm wiggles for jar
+vadis365, 3 minutes ago (Fri Jan 15 16:22:03 2021 +0000):
+RockSnot limited attacks
+
+Should stop silly agro on players from placed rocksnots that you hit.
