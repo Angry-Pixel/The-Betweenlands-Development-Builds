@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/d32a78752174a8dd637395f29aa499c201cb7a31
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/c17142f7ff92cf4b6e06d3829ea0b7de02b3f7eb
 
-TheCyberBrick, 4 minutes ago (Sat Jan 16 13:18:03 2021 +0100):
-Implemented aspectrus fruit squeezing
+TheCyberBrick, 4 minutes ago (Sat Jan 16 13:35:08 2021 +0100):
+Limited mortar output slot to 1 item for aspectrus squeezing recipe
