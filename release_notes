@@ -1,6 +1,6 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/c414782a7938c14fd4ecff1591996543a6352bc5
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/b368c5c7fabadcb0f9c88e6d92a67c8ec11eab32
 
-vadis365, 3 minutes ago (Sun Jan 17 00:52:07 2021 +0000):
-removed misleading comments
+vadis365, 3 minutes ago (Tue Jan 19 00:28:05 2021 +0000):
+Filter jsons and tweaks
 
-some stuff C&P from other things and other stuff already done
+sorted out crab pot rendering and made a start on the filter, minor changes to swamp water to allow for filter block to be placed without popping off.
