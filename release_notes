@@ -1,4 +1,6 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/86450a28ed18d356a9382f7f3557831e2f207cd1
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/3b87c7d1f0f7bf0a772ba5cc2fc08d23cd35f9b8
 
-vadis365, 3 minutes ago (Fri Jan 22 17:19:01 2021 +0000):
-silt crabs a bit faster underwater
+vadis365, 3 minutes ago (Sat Jan 23 00:39:55 2021 +0000):
+hardcoded all the things \o/
+
+added some rendering animations to the crabs when filtering and a load of confusing checks for everything to somehow work.
