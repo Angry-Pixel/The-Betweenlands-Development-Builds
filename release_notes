@@ -1,6 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/3b87c7d1f0f7bf0a772ba5cc2fc08d23cd35f9b8
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/c729a761fce69a63f06b784a7c6f02b1d4fd5e23
 
-vadis365, 3 minutes ago (Sat Jan 23 00:39:55 2021 +0000):
-hardcoded all the things \o/
-
-added some rendering animations to the crabs when filtering and a load of confusing checks for everything to somehow work.
+vadis365, 3 minutes ago (Sat Jan 23 19:42:44 2021 +0000):
+allows for a little automation stuff
