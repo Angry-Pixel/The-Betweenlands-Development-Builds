@@ -1,4 +1,4 @@
-Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/fd2b7608606edb2ed5696c6674a5575928836480
+Commit: https://github.com/Angry-Pixel/The-Betweenlands/commit/91003442e562c0f5956ab12b4217f26200ac21ad
 
-vadis365, 3 minutes ago (Sun Jan 31 20:23:18 2021 +0000):
-simpler netting visual
+vadis365, 4 minutes ago (Mon Feb 1 14:48:42 2021 +0000):
+stops z-fighting on urchin
