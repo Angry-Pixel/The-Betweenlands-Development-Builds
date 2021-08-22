@@ -1,16 +1,16 @@
 [number]:
-56
+57
 [type]:
-release
+development
 [release]:
-true
+false
 [title]:
-Release Build 1.12-devbuilds-56
+Development Build 1.12-devbuilds-57
 [tag]:
-release-1.12-devbuilds-56-22.08.2021
+dev-1.12-devbuilds-57-22.08.2021
 [url]:
 https\://github.com/TheCyberBrick/The-Betweenlands
 [branch]:
 1.12-devbuilds
 [commit]:
-a7858e779bc522e4e7507785136f6415cd60db59
+5f01f5ae1ab977a84fd3e9259fdbc5c98a7d5926
