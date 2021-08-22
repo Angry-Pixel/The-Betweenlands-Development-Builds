@@ -22,7 +22,7 @@ if [ "$BS_IS_DEPLOYMENT" == 'false' ]; then
     previous_release_tag=$(git describe $(git rev-list --tags --max-count=1)^ --tags --abbrev=0 --match *-release)
     echo "Creating list of changes since ${previous_release_tag}..."
     echo "<details><summary>Changes</summary>" >> build_notes
-    git log ${previous_release_tag}..HEAD --since="$(git log -1 --format=%ai ${previous_release_tag})" --pretty=format:'%an, %ar (%ad):%n%B' --no-merges >> build_notes
+    git log ${previous_release_tag}..HEAD --since="$(git log -1 --format=%ai ${previous_release_tag})" --pretty=format:'%an, %ad:%n%B' --no-merges >> build_notes
     echo "</details>" >> build_notes
     cat build_notes
   else
@@ -33,7 +33,7 @@ if [ "$BS_IS_DEPLOYMENT" == 'false' ]; then
 
     echo "Creating build notes"
     #Use latest commit message as release note
-    git log -1 --pretty=format:'%an, %ar (%ad):%n%B' >> build_notes
+    git log -1 --pretty=format:'%an, %ad:%n%B' >> build_notes
   fi
 fi
 
