@@ -2,7 +2,7 @@
 
 # Sets up the deployment environment variables
 
-echo "Running setup"
+echo "::endgroup::"
 
 if [ -f "build_config" ]; then
   echo "Loading build config"
