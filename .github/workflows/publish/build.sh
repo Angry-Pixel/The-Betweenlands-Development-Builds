@@ -4,10 +4,10 @@ echo "Running build"
 
 if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
   
-  git clone --depth=10 --branch="$BUILD_BRANCH" "${BUILD_URL}.git" repository
+  git clone --depth=10 --branch="$BS_BUILD_BRANCH" "${BS_BUILD_URL}.git" repository
   cd repository || return 1
   
-  git checkout "$BUILD_COMMIT"
+  git checkout "$BS_BUILD_COMMIT"
   
   chmod +x "../.github/workflows/${GITHUB_WORKFLOW}/config/build.sh"
   source "../.github/workflows/${GITHUB_WORKFLOW}/config/build.sh"
