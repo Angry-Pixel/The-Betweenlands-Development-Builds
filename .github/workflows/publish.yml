@@ -20,6 +20,7 @@ jobs:
         source "./.github/workflows/${GITHUB_WORKFLOW}/setup.sh"
       env:
         BS_SSH_KEY_SECRET: ${{ secrets.SSH_KEY_SECRET }}
+        BS_ENC_KEY_SECRET: ${{ secrets.ENC_KEY_SECRET }}
         BS_PULL_REQUEST: 'false'
         BS_IS_DEPLOYMENT: 'true'
         
@@ -45,6 +46,7 @@ jobs:
         source "./.github/workflows/${GITHUB_WORKFLOW}/build.sh"
       env:
         BS_SSH_KEY_SECRET: ${{ secrets.SSH_KEY_SECRET }}
+        BS_ENC_KEY_SECRET: ${{ secrets.ENC_KEY_SECRET }}
         BS_PULL_REQUEST: 'false'
         BS_IS_DEPLOYMENT: 'true'
         
