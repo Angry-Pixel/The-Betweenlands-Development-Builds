@@ -55,6 +55,9 @@ if [ -f "build_config" ]; then
   cat build_notes >> $GITHUB_ENV
   echo 'EOF' >> $GITHUB_ENV
   
+  export BS_BUILD_WORKSPACE=${GITHUB_WORKSPACE}/repository
+  echo "BS_BUILD_WORKSPACE=${BS_BUILD_WORKSPACE}" >> $GITHUB_ENV
+  
 else
 
   if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
@@ -73,6 +76,9 @@ else
   
   export BS_BUILD_COMMIT=${GITHUB_SHA}
   echo "BS_BUILD_COMMIT=${BS_BUILD_COMMIT}" >> $GITHUB_ENV
+  
+  export BS_BUILD_WORKSPACE=${GITHUB_WORKSPACE}
+  echo "BS_BUILD_WORKSPACE=${BS_BUILD_WORKSPACE}" >> $GITHUB_ENV
   
 fi
 

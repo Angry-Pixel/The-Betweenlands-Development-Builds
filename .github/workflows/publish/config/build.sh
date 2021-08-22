@@ -8,7 +8,7 @@ if [ "$BS_PULL_REQUEST" == 'false' ]; then
 fi
 
 # Set up keystore env variables
-export blKeyStore=./repository/keystore.jks
+export blKeyStore="${BS_BUILD_WORKSPACE}/keystore.jks"
 export blKeyStoreAlias=Angry-Pixel
 export blKeyStorePass=$(cat keystore_key)
 export blKeyStoreKeyPass=${blKeyStorePass}

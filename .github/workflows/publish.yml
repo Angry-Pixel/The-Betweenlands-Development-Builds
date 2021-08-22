@@ -38,6 +38,7 @@ jobs:
         echo "::set-output name=build_branch::${BS_BUILD_BRANCH}"
         echo "::set-output name=build_commit::${BS_BUILD_COMMIT}"
         echo "::set-output name=build_notes::${BS_BUILD_NOTES}"
+        echo "::set-output name=build_workspace::${BS_BUILD_WORKSPACE}"
         echo "::set-output name=deploy_repository_uri::${BS_DEPLOY_REPOSITORY_URI}"
         echo "::set-output name=deploy_repository_branch::${BS_DEPLOY_REPOSITORY_BRANCH}"
         echo "::set-output name=deploy_name::${BS_DEPLOY_NAME}"
