@@ -5,6 +5,7 @@
 echo "Running setup"
 
 if [ -f "build_config" ]; then
+
   echo "Loading build config"
 
   declare -A table
@@ -25,42 +26,54 @@ if [ -f "build_config" ]; then
   fi
   rm entry
 
-  echo "BS_BUILD_NUMBER=${table['number']}" >> $GITHUB_ENV
   export BS_BUILD_NUMBER=${table['number']}
+  echo "BS_BUILD_NUMBER=${BS_BUILD_NUMBER}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_TYPE=${table['type']}" >> $GITHUB_ENV
   export BS_BUILD_TYPE=${table['type']}
+  echo "BS_BUILD_TYPE=${BS_BUILD_TYPE}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_RELEASE=${table['release']}" >> $GITHUB_ENV
   export BS_BUILD_RELEASE=${table['release']}
+  echo "BS_BUILD_RELEASE=${BS_BUILD_RELEASE}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_TITLE=${table['title']}" >> $GITHUB_ENV
   export BS_BUILD_TITLE=${table['title']}
+  echo "BS_BUILD_TITLE=${BS_BUILD_TITLE}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_TAG=${table['tag']}" >> $GITHUB_ENV
   export BS_BUILD_TAG=${table['tag']}
+  echo "BS_BUILD_TAG=${BS_BUILD_TAG}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_URL=${table['url']}" >> $GITHUB_ENV
   export BS_BUILD_URL=${table['url']}
+  echo "BS_BUILD_URL=${BS_BUILD_URL}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_BRANCH=${table['branch']}" >> $GITHUB_ENV
   export BS_BUILD_BRANCH=${table['branch']}
+  echo "BS_BUILD_BRANCH=${BS_BUILD_BRANCH}" >> $GITHUB_ENV
 
-  echo "BS_BUILD_COMMIT=${table['commit']}" >> $GITHUB_ENV
   export BS_BUILD_COMMIT=${table['commit']}
+  echo "BS_BUILD_COMMIT=${BS_BUILD_COMMIT}" >> $GITHUB_ENV
 
+  export BS_BUILD_NOTES=$(cat build_notes)
   echo 'BS_BUILD_NOTES<<EOF' >> $GITHUB_ENV
   cat build_notes >> $GITHUB_ENV
   echo 'EOF' >> $GITHUB_ENV
-  export BS_BUILD_NOTES=$(cat build_notes)
+  
 else
+
   if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
     echo "Could not find build config"
     return 1
   fi
 
-  echo "BS_BUILD_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
+  export BS_BUILD_NUMBER=${GITHUB_RUN_NUMBER}
+  echo "BS_BUILD_NUMBER=${BS_BUILD_NUMBER}" >> $GITHUB_ENV
+  
   export BS_BUILD_BRANCH=${GITHUB_REF##*/}
+  echo "BS_BUILD_BRANCH=${BS_BUILD_BRANCH}" >> $GITHUB_ENV
+  
+  export BS_BUILD_URL=${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}
+  echo "BS_BUILD_URL=${BS_BUILD_URL}" >> $GITHUB_ENV
+  
+  export BS_BUILD_COMMIT=${GITHUB_SHA}
+  echo "BS_BUILD_COMMIT=${BS_BUILD_COMMIT}" >> $GITHUB_ENV
+  
 fi
 
 echo "::group::Executing config"
