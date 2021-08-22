@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "::group::Running build"
+echo "Running build"
 
 if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
   
@@ -24,11 +24,11 @@ if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
   
 else
 
-  echo "Executing build"
+  echo "::group::Executing build"
 
   chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/config/build.sh"
   source "./.github/workflows/${GITHUB_WORKFLOW}/config/build.sh"
   
+  echo "::endgroup::"
+  
 fi
-
-echo "::endgroup::"

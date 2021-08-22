@@ -31,6 +31,7 @@ jobs:
         echo '::set-output name=build_release::${BS_BUILD_RELEASE}'
         echo '::set-output name=build_prerelease::${BS_BUILD_PRERELEASE}'
         echo '::set-output name=build_title::${BS_BUILD_TITLE}'
+        echo '::set-output name=build_tag::${BS_BUILD_TAG}'
         echo '::set-output name=build_url::${BS_BUILD_URL}'
         echo '::set-output name=build_branch::${BS_BUILD_BRANCH}'
         echo '::set-output name=build_commit::${BS_BUILD_COMMIT}'
@@ -56,6 +57,7 @@ jobs:
         name: ${{ steps.env.outputs.build_title }}
         body_path: "build_notes"
         prerelease: ${{ steps.env.outputs.build_prerelease }}
+        tag_name: ${{ steps.env.outputs.build_tag }}
         files: |
           "./repository/build/libs/TheBetweenlands-*-server.jar"
           "./repository/build/libs/TheBetweenlands-*-universal.jar"

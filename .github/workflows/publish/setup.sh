@@ -2,7 +2,7 @@
 
 # Sets up the deployment environment variables
 
-echo "::group::Running setup"
+echo "Running setup"
 
 if [ -f "build_config" ]; then
   echo "Loading build config"
@@ -31,8 +31,14 @@ if [ -f "build_config" ]; then
   echo "BS_BUILD_TYPE=${table['type']}" >> $GITHUB_ENV
   export BS_BUILD_TYPE=${table['type']}
 
+  echo "BS_BUILD_RELEASE=${table['release']}" >> $GITHUB_ENV
+  export BS_BUILD_RELEASE=${table['release']}
+
   echo "BS_BUILD_TITLE=${table['title']}" >> $GITHUB_ENV
   export BS_BUILD_TITLE=${table['title']}
+
+  echo "BS_BUILD_TAG=${table['tag']}" >> $GITHUB_ENV
+  export BS_BUILD_TAG=${table['tag']}
 
   echo "BS_BUILD_URL=${table['url']}" >> $GITHUB_ENV
   export BS_BUILD_URL=${table['url']}
@@ -69,5 +75,3 @@ if [ "$BS_BUILD_RELEASE" == 'true' ]; then
 else
   echo "BS_BUILD_PRERELEASE=true" >> $GITHUB_ENV
 fi
-
-echo "::endgroup::"

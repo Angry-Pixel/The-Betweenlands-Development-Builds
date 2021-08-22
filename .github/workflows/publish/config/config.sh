@@ -7,9 +7,11 @@
 echo "BS_DEPLOY_REPOSITORY_URI=git@github.com:Angry-Pixel/The-Betweenlands-Development-Builds.git" >> $GITHUB_ENV
 echo "BS_DEPLOY_REPOSITORY_BRANCH=master" >> $GITHUB_ENV
 echo "BS_DEPLOY_NAME=Build Wizard" >> $GITHUB_ENV
+echo "BS_ABORT_ON_DEPLOY_ERROR=true" >> $GITHUB_ENV
 echo "BS_BUILD_TYPE=release" >> $GITHUB_ENV
 echo "BS_BUILD_RELEASE=true" >> $GITHUB_ENV
 echo "BS_BUILD_TITLE=Release Build ${GITHUB_REF##*/}-${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+echo "BS_BUILD_TAG=release-${BS_BUILD_BRANCH}-${BS_BUILD_NUMBER}-$(date +'%d.%m.%Y')" >> $GITHUB_ENV
 echo "BS_BUILD_NOTES_FILE=release_notes" >> $GITHUB_ENV
 
 # Optional
