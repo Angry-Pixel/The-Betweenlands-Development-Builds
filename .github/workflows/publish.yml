@@ -63,5 +63,5 @@ jobs:
         prerelease: ${{ steps.env.outputs.build_prerelease }}
         tag_name: ${{ steps.env.outputs.build_tag }}
         files: |
-          "./repository/build/libs/TheBetweenlands-*-server.jar"
-          "./repository/build/libs/TheBetweenlands-*-universal.jar"
+          ./repository/build/libs/TheBetweenlands-*-server.jar
+          ./repository/build/libs/TheBetweenlands-*-universal.jar
