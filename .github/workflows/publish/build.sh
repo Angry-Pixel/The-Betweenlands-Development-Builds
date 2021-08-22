@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "::endgroup::"
+echo "Running build"
 
 if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
   

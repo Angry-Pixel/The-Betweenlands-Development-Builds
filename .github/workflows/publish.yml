@@ -16,7 +16,7 @@ jobs:
         
     - name: Setting up environment
       run: |
-        echo "::group::Running setup"
+        echo "Preparing setup"
         chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/setup.sh"
         source "./.github/workflows/${GITHUB_WORKFLOW}/setup.sh"
       env:
@@ -27,6 +27,7 @@ jobs:
         
     - name: Setting outputs
       run: |
+        echo "Setting outputs"
         echo "::set-output name=build_number::${BS_BUILD_NUMBER}"
         echo "::set-output name=build_type::${BS_BUILD_TYPE}"
         echo "::set-output name=build_release::${BS_BUILD_RELEASE}"
@@ -40,11 +41,12 @@ jobs:
         echo "::set-output name=deploy_repository_uri::${BS_DEPLOY_REPOSITORY_URI}"
         echo "::set-output name=deploy_repository_branch::${BS_DEPLOY_REPOSITORY_BRANCH}"
         echo "::set-output name=deploy_name::${BS_DEPLOY_NAME}"
+        echo "::set-output name=is_deployment::true"
       id: "env"
         
     - name: Building
       run: |
-        echo "::group::Running build"
+        echo "Preparing build"
         chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/build.sh"
         source "./.github/workflows/${GITHUB_WORKFLOW}/build.sh"
       env:

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Sets up the deployment environment variables
+# Sets up the environment variables
 
-echo "::endgroup::"
+echo "Running setup"
 
 if [ -f "build_config" ]; then
   echo "Loading build config"
