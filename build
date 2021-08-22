@@ -1,10 +1,10 @@
 [build number]:
-3560
+34
 [type]:
-development
+release
 [title]:
-Development Build 1.12-fish-3560
+Release Build -34
 [branch]:
-1.12-fish
+1.12-devbuilds
 [commit]:
-1e77c540e32cfbf6a181b3d0b95c3fb9f387d56e
+a2f8797fd858ddf6db2bf8ea8700f9a49e1e3797
