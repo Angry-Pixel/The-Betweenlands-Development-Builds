@@ -50,6 +50,9 @@ else
     echo "Could not find build config"
     return 1
   fi
+
+  echo "BS_BUILD_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
+  export BS_BUILD_BRANCH=${GITHUB_REF##*/}
 fi
 
 chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/config/config.sh"

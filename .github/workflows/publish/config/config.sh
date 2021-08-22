@@ -11,7 +11,6 @@ echo "BS_BUILD_TYPE=release" >> $GITHUB_ENV
 echo "BS_BUILD_RELEASE=true" >> $GITHUB_ENV
 echo "BS_BUILD_TITLE=Release Build ${GITHUB_REF##*/}-${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
 echo "BS_BUILD_NOTES_FILE=release_notes" >> $GITHUB_ENV
-echo "BS_BUILD_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
 # Optional
 
@@ -20,8 +19,6 @@ if [ "$BS_PULL_REQUEST" == 'false' ]; then
   echo "DEPLOY_BUILD_TYPE=release" >> $GITHUB_ENV
   echo "DEPLOY_BUILD_NUMBER=$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
 fi
-
-echo "$BS_IS_DEPLOYMENT"
 
 if [ "$BS_IS_DEPLOYMENT" == 'false' ]; then
   echo "Creating release notes"
