@@ -2,9 +2,11 @@
 
 # Sets up the deployment environment variables
 
-echo "Running setup"
+echo "::group::Running setup"
 
 if [ -f "build_config" ]; then
+  echo "Loading build config"
+
   declare -A table
   while IFS='' read -r line || [[ -n "$line" ]]; do
     if [[ "$line" == "["* ]] && [[ "$line" == *"]:" ]]; then
@@ -55,11 +57,17 @@ else
   export BS_BUILD_BRANCH=${GITHUB_REF##*/}
 fi
 
+echo "::group::Executing config"
+
 chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/config/config.sh"
 source "./.github/workflows/${GITHUB_WORKFLOW}/config/config.sh"
+
+echo "::endgroup::"
 
 if [ "$BS_BUILD_RELEASE" == 'true' ]; then
   echo "BS_BUILD_PRERELEASE=false" >> $GITHUB_ENV
 else
   echo "BS_BUILD_PRERELEASE=true" >> $GITHUB_ENV
 fi
+
+echo "::endgroup::"
