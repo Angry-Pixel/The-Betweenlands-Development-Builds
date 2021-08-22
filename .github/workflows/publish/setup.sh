@@ -41,7 +41,9 @@ if [ -f "build_config" ]; then
   echo "BS_BUILD_COMMIT=${table['commit']}" >> $GITHUB_ENV
   export BS_BUILD_COMMIT=${table['commit']}
 
-  echo "BS_BUILD_NOTES=$(cat build_notes)" >> $GITHUB_ENV
+  echo 'BS_BUILD_NOTES<<EOF' >> $GITHUB_ENV
+  cat build_notes >> $GITHUB_ENV
+  echo 'EOF' >> $GITHUB_ENV
   export BS_BUILD_NOTES=$(cat build_notes)
 else
   if [ "$BS_IS_DEPLOYMENT" = "true" ]; then
