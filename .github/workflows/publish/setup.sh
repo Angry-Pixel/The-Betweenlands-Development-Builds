@@ -46,7 +46,7 @@ if [ -f "build_config" ]; then
   echo 'EOF' >> $GITHUB_ENV
   export BS_BUILD_NOTES=$(cat build_notes)
 else
-  if [ "$BS_IS_DEPLOYMENT" = "true" ]; then
+  if [ "$BS_IS_DEPLOYMENT" == 'true' ]; then
     echo "Could not find build config"
     return 1
   fi
@@ -55,7 +55,7 @@ fi
 chmod +x "./.github/workflows/${GITHUB_WORKFLOW}/config/config.sh"
 source "./.github/workflows/${GITHUB_WORKFLOW}/config/config.sh"
 
-if [ "$BS_BUILD_RELEASE" = "true" ]; then
+if [ "$BS_BUILD_RELEASE" == 'true' ]; then
   echo "BS_BUILD_PRERELEASE=false" >> $GITHUB_ENV
 else
   echo "BS_BUILD_PRERELEASE=true" >> $GITHUB_ENV

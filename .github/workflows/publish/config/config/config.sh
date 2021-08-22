@@ -21,7 +21,7 @@ if [ "$BS_PULL_REQUEST" == 'false' ]; then
   echo "DEPLOY_BUILD_NUMBER=$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
 fi
 
-if [ "$BS_IS_DEPLOYMENT" = "false" ]; then
+if [ "$BS_IS_DEPLOYMENT" == 'false' ]; then
   git fetch --all --tags
   previous_release_tag=$(git describe $(git rev-list --tags --max-count=1)^ --tags --abbrev=0 --match *-release)
   echo "Creating list of changes since ${previous_release_tag}..."
