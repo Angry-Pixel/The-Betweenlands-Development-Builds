@@ -54,6 +54,6 @@ jobs:
         name: ${{ steps.env.outputs.build_title }}
         body_path: "build_notes"
         prerelease: ${{ steps.env.outputs.build_prerelease }}
-        files:
-          - "./repository/build/libs/TheBetweenlands-*-server.jar"
-          - "./repository/build/libs/TheBetweenlands-*-universal.jar"
+        files: |
+          "./repository/build/libs/TheBetweenlands-*-server.jar"
+          "./repository/build/libs/TheBetweenlands-*-universal.jar"
