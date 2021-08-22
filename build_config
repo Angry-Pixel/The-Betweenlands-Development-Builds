@@ -1,16 +1,16 @@
 [number]:
-20
+22
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-dev-20
+Development Build 1.12-fixes-22
 [tag]:
-dev-1.12-dev-20-22.08.2021
+dev-1.12-fixes-22-22.08.2021
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-1.12-dev
+1.12-fixes
 [commit]:
-419062041e00e8aa3781195f6ebea62f69c7fc7f
+1f4ad77c9255009d38e1d5e8cfc4f65d21a28f94
