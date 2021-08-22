@@ -1,16 +1,16 @@
 [number]:
-27
+28
 [type]:
-release
+development
 [release]:
-true
+false
 [title]:
-Release Build vTest-release-27
+Development Build 1.12-fixes-28
 [tag]:
-release-vTest-release-27-22.08.2021
+dev-1.12-fixes-28-22.08.2021
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-vTest-release
+1.12-fixes
 [commit]:
-bc8fd008037fb25ffe3617be7e45ca7d40a597ba
+615a9cdfa16962189b64388920f41230950352be
