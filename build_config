@@ -1,16 +1,16 @@
 [number]:
-39
+40
 [type]:
-release
+development
 [release]:
-true
+false
 [title]:
-Release Build vTest-release-39
+Development Build 1.12-fish-40
 [tag]:
-release-vTest-release-39-23.08.2021
+dev-1.12-fish-40-23.08.2021
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-vTest-release
+1.12-fish
 [commit]:
-f603cf8c39fe110adc3e226bdef3db117dc024d0
+108126239ab8ecde9e498bf163110a67c424eda6
