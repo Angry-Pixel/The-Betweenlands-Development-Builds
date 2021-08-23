@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d3db98393214a3ea7a7d58cc06cd99c9c5d2158c">https://github.com/Angry-Pixel/The-Betweenlands/commit/d3db98393214a3ea7a7d58cc06cd99c9c5d2158c</a>
-vadis365, Mon Aug 23 14:56:35 2021 +0100:
-<pre>Cracked Cragrock tiles recipe fix
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/2b48105f0736054a4ca8ba1a29ab4957c232df7f">https://github.com/Angry-Pixel/The-Betweenlands/commit/2b48105f0736054a4ca8ba1a29ab4957c232df7f</a>
+vadis365, Mon Aug 23 15:04:49 2021 +0100:
+<pre>RockSnot tendril
+
+prevent Lurker and Boss attachments happening accidentally on colliding..
 </pre>
