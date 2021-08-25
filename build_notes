@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/f5d1f3bb2126ee0f01564d394f9b25e26525c152">https://github.com/Angry-Pixel/The-Betweenlands/commit/f5d1f3bb2126ee0f01564d394f9b25e26525c152</a>
-TheCyberBrick, Wed Aug 25 14:10:52 2021 +0200:
-<pre>Connected textures can now be culled by unlisted properties
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/abf6fd8ea14bd6473e9a9becabe28f388877fe9f">https://github.com/Angry-Pixel/The-Betweenlands/commit/abf6fd8ea14bd6473e9a9becabe28f388877fe9f</a>
+vadis365, Wed Aug 25 18:38:52 2021 +0100:
+<pre>Vortex
+
+Prevented vortex from moving mobs in to collidable blocks above.
 </pre>
