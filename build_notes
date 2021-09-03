@@ -1,6 +1,9 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/0bbc89b790bc914c289137c46a119a08660088ed">https://github.com/Angry-Pixel/The-Betweenlands/commit/0bbc89b790bc914c289137c46a119a08660088ed</a>
-vadis365, Fri Sep 3 18:06:36 2021 +0100:
-<pre>Lowered Matriarch xp
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/2dc6acc2cc5d8e1fc0f0e8ca3eb26251ea7d70fa">https://github.com/Angry-Pixel/The-Betweenlands/commit/2dc6acc2cc5d8e1fc0f0e8ca3eb26251ea7d70fa</a>
+vadis365, Fri Sep 3 18:09:50 2021 +0100:
+<pre>Rock Snot changes
 
-Was too much - now is in line with other chief mobs.
+Animated now returns half the xp of the mob eaten.
+Fixed pos side placement causing suffocation.
+Can only be placed in water.
+Can only target mobs whilst underwater.
 </pre>
