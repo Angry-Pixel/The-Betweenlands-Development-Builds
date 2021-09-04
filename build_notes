@@ -1,5 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/15f082fed939230ff5ce8e8e725595f32acaf790">https://github.com/Angry-Pixel/The-Betweenlands/commit/15f082fed939230ff5ce8e8e725595f32acaf790</a>
-vadis365, Sat Sep 4 10:26:10 2021 +0100:
-<pre>Merge pull request #1269 from SeriousCreeper/renamablemaps
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/c9d22b3418ae29d2e6ae52403d0d8f4938b71a47">https://github.com/Angry-Pixel/The-Betweenlands/commit/c9d22b3418ae29d2e6ae52403d0d8f4938b71a47</a>
+vadis365, Sat Sep 4 12:54:59 2021 +0100:
+<pre>Olm noodle
 
-Renamable maps</pre>
+Fixed z-fighting on gills.
+Added a little more wiggle to the movement and some head pitch.
+</pre>
