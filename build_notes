@@ -1,7 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/c9d22b3418ae29d2e6ae52403d0d8f4938b71a47">https://github.com/Angry-Pixel/The-Betweenlands/commit/c9d22b3418ae29d2e6ae52403d0d8f4938b71a47</a>
-vadis365, Sat Sep 4 12:54:59 2021 +0100:
-<pre>Olm noodle
-
-Fixed z-fighting on gills.
-Added a little more wiggle to the movement and some head pitch.
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/f951ef32402f497020518c2fa9f66f7777fa27c3">https://github.com/Angry-Pixel/The-Betweenlands/commit/f951ef32402f497020518c2fa9f66f7777fa27c3</a>
+vadis365, Sat Sep 4 13:16:00 2021 +0100:
+<pre>removed unused particle from olm
 </pre>

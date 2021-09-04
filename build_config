@@ -1,16 +1,16 @@
 [number]:
-58
+59
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-fish-58
+Development Build 1.12-fish-59
 [tag]:
-dev-1.12-fish-58-04.09.2021
+dev-1.12-fish-59-04.09.2021
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
 1.12-fish
 [commit]:
-c9d22b3418ae29d2e6ae52403d0d8f4938b71a47
+f951ef32402f497020518c2fa9f66f7777fa27c3
