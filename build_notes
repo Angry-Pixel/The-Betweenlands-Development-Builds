@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e7b12f1b805899518b5b594262e2ba5b1a89e65a">https://github.com/Angry-Pixel/The-Betweenlands/commit/e7b12f1b805899518b5b594262e2ba5b1a89e65a</a>
-vadis365, Wed Sep 8 19:44:22 2021 +0100:
-<pre>experimental stuff
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/155dab6daf00dfa3c298c91f048a11d0b71eedb2">https://github.com/Angry-Pixel/The-Betweenlands/commit/155dab6daf00dfa3c298c91f048a11d0b71eedb2</a>
+vadis365, Sat Sep 11 00:02:32 2021 +0100:
+<pre>AAEffects helper class
+
+Moved some stuff out of the armour class to be worked on easier and accessible through other means.
 </pre>
