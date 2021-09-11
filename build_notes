@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/72eb7646a0c68e3b48eca5b368963ab7152b4201">https://github.com/Angry-Pixel/The-Betweenlands/commit/72eb7646a0c68e3b48eca5b368963ab7152b4201</a>
-vadis365, Sat Sep 11 14:06:00 2021 +0100:
-<pre>Test activation text
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e7791d6b60431e2881c95159c60535f8f53930d3">https://github.com/Angry-Pixel/The-Betweenlands/commit/e7791d6b60431e2881c95159c60535f8f53930d3</a>
+vadis365, Sat Sep 11 17:04:35 2021 +0100:
+<pre>Lurker AI tweak
+
+Added cool-down to targeting anadia after one is 'eaten' to prevent all the fish being wiped out quickly.
 </pre>
