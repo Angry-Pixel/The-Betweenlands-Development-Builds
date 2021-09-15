@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/825c5c21ee944570c2839ece88413673e810be46">https://github.com/Angry-Pixel/The-Betweenlands/commit/825c5c21ee944570c2839ece88413673e810be46</a>
-vadis365, Wed Sep 15 13:58:11 2021 +0100:
-<pre>Loot changes to anadia
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/fba1b83628c04818fe460f1b04a164249ca1e039">https://github.com/Angry-Pixel/The-Betweenlands/commit/fba1b83628c04818fe460f1b04a164249ca1e039</a>
+vadis365, Wed Sep 15 14:41:07 2021 +0100:
+<pre>Fixes Pouch Render
 
-Deep waters will have more treasure fish
+Now uses the overrides to display the correct model type.
 </pre>
