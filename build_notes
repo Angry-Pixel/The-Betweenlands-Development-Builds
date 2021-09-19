@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/add9e14eca5e22576f16fc02b1396852e99814e0">https://github.com/Angry-Pixel/The-Betweenlands/commit/add9e14eca5e22576f16fc02b1396852e99814e0</a>
-vadis365, Sun Sep 19 17:47:30 2021 +0100:
-<pre>moved bridge to single entity
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/27c8b6939db44b04326858e9b134f5fd3d1291a2">https://github.com/Angry-Pixel/The-Betweenlands/commit/27c8b6939db44b04326858e9b134f5fd3d1291a2</a>
+vadis365, Sun Sep 19 20:37:35 2021 +0100:
+<pre>mist bridge gen animation
 
-still need to add back some sort of animation but it performs better.
+probably not optimal but works
 </pre>
