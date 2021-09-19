@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8be4098a6e5ad6c520e14ecbfc160164ece5dee5">https://github.com/Angry-Pixel/The-Betweenlands/commit/8be4098a6e5ad6c520e14ecbfc160164ece5dee5</a>
-vadis365, Sat Sep 18 22:39:08 2021 +0100:
-<pre>disabled up down detection
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/add9e14eca5e22576f16fc02b1396852e99814e0">https://github.com/Angry-Pixel/The-Betweenlands/commit/add9e14eca5e22576f16fc02b1396852e99814e0</a>
+vadis365, Sun Sep 19 17:47:30 2021 +0100:
+<pre>moved bridge to single entity
+
+still need to add back some sort of animation but it performs better.
 </pre>
