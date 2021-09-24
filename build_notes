@@ -1,6 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/842f243a293a5a063c7889cf9c3b74a0fb097ca2">https://github.com/Angry-Pixel/The-Betweenlands/commit/842f243a293a5a063c7889cf9c3b74a0fb097ca2</a>
-vadis365, Fri Sep 24 18:42:28 2021 +0100:
-<pre>Removed glider from trigger item
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/932e9fbdcf9d660036273a9545ee8dac1d12fdb8">https://github.com/Angry-Pixel/The-Betweenlands/commit/932e9fbdcf9d660036273a9545ee8dac1d12fdb8</a>
+vadis365, Fri Sep 24 19:33:00 2021 +0100:
+<pre>AA control settings
 
-No need for it as it is a movement thing and will be toggled using the other item instead.
+Toggles and triggers and stuff .
+Working implementation - feel free to tidy :P
 </pre>
