@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/46cf409926b7b287ce8bdcb5256782c54d27c2d0">https://github.com/Angry-Pixel/The-Betweenlands/commit/46cf409926b7b287ce8bdcb5256782c54d27c2d0</a>
-vadis365, Fri Sep 24 17:39:45 2021 +0100:
-<pre>Added toggle item
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/842f243a293a5a063c7889cf9c3b74a0fb097ca2">https://github.com/Angry-Pixel/The-Betweenlands/commit/842f243a293a5a063c7889cf9c3b74a0fb097ca2</a>
+vadis365, Fri Sep 24 18:42:28 2021 +0100:
+<pre>Removed glider from trigger item
 
-almost a duplicate item for of the trigger atm - may end up just extending the other one - but easier to test in 2 items atm.
+No need for it as it is a movement thing and will be toggled using the other item instead.
 </pre>
