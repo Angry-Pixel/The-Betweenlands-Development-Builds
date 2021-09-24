@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/f34cf7e00b89f1180c9f2db5dbcdb7f4ac457fdc">https://github.com/Angry-Pixel/The-Betweenlands/commit/f34cf7e00b89f1180c9f2db5dbcdb7f4ac457fdc</a>
-SeriousCreeper, Wed Sep 22 13:57:59 2021 -0700:
-<pre>added root pod to root crab recipe
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/46cf409926b7b287ce8bdcb5256782c54d27c2d0">https://github.com/Angry-Pixel/The-Betweenlands/commit/46cf409926b7b287ce8bdcb5256782c54d27c2d0</a>
+vadis365, Fri Sep 24 17:39:45 2021 +0100:
+<pre>Added toggle item
+
+almost a duplicate item for of the trigger atm - may end up just extending the other one - but easier to test in 2 items atm.
 </pre>
