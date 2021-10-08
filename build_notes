@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/14f147501e30d88b810d1ba287ad70b342d677a3">https://github.com/Angry-Pixel/The-Betweenlands/commit/14f147501e30d88b810d1ba287ad70b342d677a3</a>
-vadis365, Fri Oct 8 16:12:07 2021 +0100:
-<pre>tweaks
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/dc283b30e58f5e7563b62befb4d8e7344776454f">https://github.com/Angry-Pixel/The-Betweenlands/commit/dc283b30e58f5e7563b62befb4d8e7344776454f</a>
+vadis365, Fri Oct 8 18:30:52 2021 +0100:
+<pre>Maybe this helps
 
-added should refresh method to mortar and removed unused particles in an entity.
+Something is fucky so adding this method to catch stuff if it is missing something.
 </pre>
