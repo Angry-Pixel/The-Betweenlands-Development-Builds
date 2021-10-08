@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/dc283b30e58f5e7563b62befb4d8e7344776454f">https://github.com/Angry-Pixel/The-Betweenlands/commit/dc283b30e58f5e7563b62befb4d8e7344776454f</a>
-vadis365, Fri Oct 8 18:30:52 2021 +0100:
-<pre>Maybe this helps
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/37d31b15ac12fa88a826a54220f57a6ff3f185cf">https://github.com/Angry-Pixel/The-Betweenlands/commit/37d31b15ac12fa88a826a54220f57a6ff3f185cf</a>
+vadis365, Fri Oct 8 18:38:01 2021 +0100:
+<pre>Simulacrum fixy?
 
-Something is fucky so adding this method to catch stuff if it is missing something.
+Added should refresh method.
 </pre>
