@@ -1,5 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/5fa8522e164a198e27cd5a25d25a603ac5c1e849">https://github.com/Angry-Pixel/The-Betweenlands/commit/5fa8522e164a198e27cd5a25d25a603ac5c1e849</a>
-TripleHeadedSheep, Fri Oct 8 01:03:56 2021 +0200:
-<pre>Some texture revamps
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/14f147501e30d88b810d1ba287ad70b342d677a3">https://github.com/Angry-Pixel/The-Betweenlands/commit/14f147501e30d88b810d1ba287ad70b342d677a3</a>
+vadis365, Fri Oct 8 16:12:07 2021 +0100:
+<pre>tweaks
 
-Pretty sure I forgot about these since they were done with another batch for a later update</pre>
+added should refresh method to mortar and removed unused particles in an entity.
+</pre>
