@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d475be05db6f659bd8be214aa3873e6fb4956a50">https://github.com/Angry-Pixel/The-Betweenlands/commit/d475be05db6f659bd8be214aa3873e6fb4956a50</a>
-SeriousCreeper, Wed Oct 13 16:30:05 2021 -0700:
-<pre>changed dead grass render layer to support fuzzy grass stuffs
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/c4e5eee449a6c7f294fdf00eadaeeea62f232e01">https://github.com/Angry-Pixel/The-Betweenlands/commit/c4e5eee449a6c7f294fdf00eadaeeea62f232e01</a>
+Petasi, Wed Oct 13 19:49:10 2021 -0400:
+<pre>- swamp grass + dead grass growth variants
+
+- water weeds mirrored variant
 </pre>
