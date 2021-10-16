@@ -1,4 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/1fe3002ab67977860fb3b8059de61c0ca3ca1ec8">https://github.com/Angry-Pixel/The-Betweenlands/commit/1fe3002ab67977860fb3b8059de61c0ca3ca1ec8</a>
-TheCyberBrick, Sat Oct 16 20:50:33 2021 +0200:
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/fc20b0d7544f337bd739f238a2cf2986fb7f0bd8">https://github.com/Angry-Pixel/The-Betweenlands/commit/fc20b0d7544f337bd739f238a2cf2986fb7f0bd8</a>
+SeriousCreeper, Sat Oct 16 14:09:33 2021 -0700:
 <pre>Merge branch '1.12-fish' of github.com:Angry-Pixel/The-Betweenlands into 1.12-fish
+
+# Conflicts:
+#	src/main/resources/assets/thebetweenlands/lang/en_US.lang
 </pre>
