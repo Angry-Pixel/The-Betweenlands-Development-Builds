@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/f267d0bca378f997fb125ef547edff33422e2c8e">https://github.com/Angry-Pixel/The-Betweenlands/commit/f267d0bca378f997fb125ef547edff33422e2c8e</a>
-TheCyberBrick, Sat Oct 23 19:08:35 2021 +0200:
-<pre>Merge branch '1.12-fish' of github.com:Angry-Pixel/The-Betweenlands into 1.12-fish
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/19069f0e2e69273ed8a44bee32a10f2f3a3bca2d">https://github.com/Angry-Pixel/The-Betweenlands/commit/19069f0e2e69273ed8a44bee32a10f2f3a3bca2d</a>
+TheCyberBrick, Sat Oct 23 19:43:30 2021 +0200:
+<pre>Fixed shock particles not showing on non player entities
 </pre>
