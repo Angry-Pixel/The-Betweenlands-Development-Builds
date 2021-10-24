@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/460b3b90a99293d28ae522a7620722788c22d742">https://github.com/Angry-Pixel/The-Betweenlands/commit/460b3b90a99293d28ae522a7620722788c22d742</a>
-vadis365, Sun Oct 24 16:59:14 2021 +0100:
-<pre>Merge branch '1.12-fish' of https://github.com/Angry-Pixel/The-Betweenlands into 1.12-fish
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/6bc6ee8d705fdf5c17721378ce17089aa925982c">https://github.com/Angry-Pixel/The-Betweenlands/commit/6bc6ee8d705fdf5c17721378ce17089aa925982c</a>
+TheCyberBrick, Sun Oct 24 19:41:12 2021 +0200:
+<pre>Fixed shock message being sent on client side
 </pre>
