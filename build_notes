@@ -1,5 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/205a1541fdc6aa1bd7267ed0e15bffa86dd0f14e">https://github.com/Angry-Pixel/The-Betweenlands/commit/205a1541fdc6aa1bd7267ed0e15bffa86dd0f14e</a>
-SeriousCreeper, Wed Oct 27 13:49:29 2021 -0700:
-<pre>cave fish only spawn baby cave fish when player is nearby,
-adjusted spawn rates for jellyfish, rocksnot, and urchins
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/ddef5545efb4b53abb311d45d2f5f13cc1083f44">https://github.com/Angry-Pixel/The-Betweenlands/commit/ddef5545efb4b53abb311d45d2f5f13cc1083f44</a>
+TheCyberBrick, Thu Oct 28 01:07:26 2021 +0200:
+<pre>Fixed cave fish not saving children spawned state
 </pre>
