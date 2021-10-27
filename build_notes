@@ -1,5 +1,2302 @@
 Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/03ee7c261cd742561e198916df8def89a13faf84">https://github.com/Angry-Pixel/The-Betweenlands/commit/03ee7c261cd742561e198916df8def89a13faf84</a>
-TheCyberBrick, Thu Oct 28 01:37:04 2021 +0200:
-<pre>Merge pull request #1284 from Angry-Pixel/1.12-fixes
+<details><summary>Changes</summary><ul>
+<li>
+TheCyberBrick, Thu Oct 28 01:31:08 2021 +0200:
+<pre>Added Avale's updated RU localization
+</pre></li>
+<li>
+TheCyberBrick, Thu Oct 28 01:29:24 2021 +0200:
+<pre>Updated version
+</pre></li>
+<li>
+tentot, Mon Dec 7 14:58:27 2020 +0900:
+<pre>Update ja_JP.lang
 
-Fishy</pre>
+(cherry picked from commit dc3db1c7e5012bc645d8a78d0d0a734b00e95a29)
+</pre></li>
+<li>
+tentot, Mon Dec 7 12:06:33 2020 +0900:
+<pre>Fixed a small mistake
+
+Fixed a small mistake
+
+(cherry picked from commit 11a08212ffbc084dde460d24ef58026dab010fd4)
+</pre></li>
+<li>
+tentot, Mon Dec 7 11:47:16 2020 +0900:
+<pre>Update ja_JP.lang
+
+(cherry picked from commit 5fbd6c91ae935a78857922334308ee564e9a0e21)
+</pre></li>
+<li>
+TheCyberBrick, Thu Oct 28 01:07:26 2021 +0200:
+<pre>Fixed cave fish not saving children spawned state
+</pre></li>
+<li>
+SeriousCreeper, Wed Oct 27 13:49:29 2021 -0700:
+<pre>cave fish only spawn baby cave fish when player is nearby,
+adjusted spawn rates for jellyfish, rocksnot, and urchins
+</pre></li>
+<li>
+SeriousCreeper, Wed Oct 27 00:53:55 2021 -0700:
+<pre>added active amphibious upgrades taking damage from using it
+</pre></li>
+<li>
+SeriousCreeper, Tue Oct 26 18:32:19 2021 -0700:
+<pre>added max upgrade count to amphibious attributes
+</pre></li>
+<li>
+SeriousCreeper, Mon Oct 25 21:48:51 2021 -0700:
+<pre>switched movement speed upgrade to attribute, but not sure how to limit to 4 upgrades...
+</pre></li>
+<li>
+SeriousCreeper, Mon Oct 25 21:48:33 2021 -0700:
+<pre>client sided anadia glow rendering (i think... needs actual testing on server lol)
+</pre></li>
+<li>
+TheSilverplier, Mon Oct 25 21:58:55 2021 +0200:
+<pre>Oopsy</pre></li>
+<li>
+TheSilverplier, Mon Oct 25 21:55:19 2021 +0200:
+<pre>Last Minute Corrections
+
+Corrected a couple of names.</pre></li>
+<li>
+TheCyberBrick, Mon Oct 25 18:55:21 2021 +0200:
+<pre>Fixed MP crash
+</pre></li>
+<li>
+vadis365, Mon Oct 25 16:21:24 2021 +0100:
+<pre>Corrosive Entity fixy
+
+Added temporary lifespan to corrosive type entity
+</pre></li>
+<li>
+TheCyberBrick, Mon Oct 25 17:01:31 2021 +0200:
+<pre>Added shock icon
+</pre></li>
+<li>
+TheCyberBrick, Mon Oct 25 16:24:25 2021 +0200:
+<pre>Fixed net not being usable while fishing
+</pre></li>
+<li>
+TheCyberBrick, Mon Oct 25 15:44:27 2021 +0200:
+<pre>Fixed pouches and tackle boxes being nestable
+</pre></li>
+<li>
+TheCyberBrick, Mon Oct 25 15:31:22 2021 +0200:
+<pre>Some fishing rod fixes
+</pre></li>
+<li>
+TheCyberBrick, Sun Oct 24 19:41:12 2021 +0200:
+<pre>Fixed shock message being sent on client side
+</pre></li>
+<li>
+vadis365, Sun Oct 24 16:59:09 2021 +0100:
+<pre>Spawn tweaks
+</pre></li>
+<li>
+Petasi, Sat Oct 23 17:24:54 2021 -0400:
+<pre>Update en_US.lang
+</pre></li>
+<li>
+Petasi, Sat Oct 23 15:57:23 2021 -0400:
+<pre>Caving rope item sprite has been bothering me for so long, I just have to do it already, I can't bear this pain any longer
+</pre></li>
+<li>
+Petasi, Sat Oct 23 15:41:21 2021 -0400:
+<pre>:(
+</pre></li>
+<li>
+vadis365, Sat Oct 23 19:17:44 2021 +0100:
+<pre>Lyestone fizz sound
+</pre></li>
+<li>
+vadis365, Sat Oct 23 19:07:43 2021 +0100:
+<pre>Mob spawning
+</pre></li>
+<li>
+TheCyberBrick, Sat Oct 23 19:46:24 2021 +0200:
+<pre>Made Draeton immune to puller damage
+</pre></li>
+<li>
+TheCyberBrick, Sat Oct 23 19:43:30 2021 +0200:
+<pre>Fixed shock particles not showing on non player entities
+</pre></li>
+<li>
+TheCyberBrick, Sat Oct 23 19:08:30 2021 +0200:
+<pre>Implemented shock effect
+</pre></li>
+<li>
+vadis365, Sat Oct 23 17:52:57 2021 +0100:
+<pre>where tf are they?
+</pre></li>
+<li>
+TheCyberBrick, Sat Oct 23 17:58:47 2021 +0200:
+<pre>Fixed buckets breaking underwater blocks
+</pre></li>
+<li>
+Petasi, Sat Oct 23 10:47:46 2021 -0400:
+<pre>- Staffs +amulet sockets can be ground into scraps
+
+- Slightly increased rarity of amulet sockets from scrolls
+</pre></li>
+<li>
+vadis365, Sat Oct 23 13:52:27 2021 +0100:
+<pre>Temp Barnacle Stuff
+
+Temp code until it is fixed properly
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 22 22:09:41 2021 -0700:
+<pre>ugly fish bait recipe jei implementation, but sort of works!
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 22 20:41:50 2021 -0700:
+<pre>added glowing goop armor upgrade
+</pre></li>
+<li>
+vadis365, Sat Oct 23 02:39:24 2021 +0100:
+<pre>coldowns
+</pre></li>
+<li>
+vadis365, Fri Oct 22 23:27:38 2021 +0100:
+<pre>Lurker hunting cool-down increase
+
+Increased hunting cool-down to 2 minutes.
+</pre></li>
+<li>
+vadis365, Fri Oct 22 23:25:28 2021 +0100:
+<pre>Lurker targets
+</pre></li>
+<li>
+vadis365, Fri Oct 22 22:54:16 2021 +0100:
+<pre>Anadia AI range change & crash fixy
+
+also fixed okl's edit - import was needed
+</pre></li>
+<li>
+Petasi, Fri Oct 22 17:11:45 2021 -0400:
+<pre>- Rest of sprites
+
+- Tweaked advancement and item lang
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 22 13:22:56 2021 -0700:
+<pre>right clicking hanger with fruit creates seeded hanger
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Oct 22 21:39:38 2021 +0200:
+<pre>Vortex trigger texture</pre></li>
+<li>
+TheSilverplier, Fri Oct 22 19:02:06 2021 +0200:
+<pre>Up to date additions
+
+- Translated latest additions such as Staves; Amphibious Armour Upgrades and so on...</pre></li>
+<li>
+TripleHeadedSheep, Fri Oct 22 00:55:13 2021 +0200:
+<pre>Unfreeze (kelpfix</pre></li>
+<li>
+Andromander, Thu Oct 21 22:14:58 2021 +1000:
+<pre>How about some pearls here
+</pre></li>
+<li>
+Petasi, Wed Oct 20 10:46:08 2021 -0400:
+<pre>Advancement + 2/4 sprites
+</pre></li>
+<li>
+vadis365, Wed Oct 20 15:21:30 2021 +0100:
+<pre>removed on water check for coracles
+</pre></li>
+<li>
+vadis365, Wed Oct 20 15:20:32 2021 +0100:
+<pre>Special recipe and JEI for olmlette mix
+</pre></li>
+<li>
+TheCyberBrick, Tue Oct 19 21:28:44 2021 +0200:
+<pre>Fixed swamp grass, dead grass and mud models not being culled
+</pre></li>
+<li>
+vadis365, Tue Oct 19 19:42:53 2021 +0100:
+<pre>Olm stuffs
+</pre></li>
+<li>
+TheCyberBrick, Tue Oct 19 20:16:50 2021 +0200:
+<pre>Added a method to amphibious armor item so that upgrades can access the number of all upgrades the player is wearing
+</pre></li>
+<li>
+Petasi, Tue Oct 19 11:40:22 2021 -0400:
+<pre>Grass stuff
+</pre></li>
+<li>
+SeriousCreeper, Sun Oct 17 13:00:15 2021 -0700:
+<pre>reverted leap working on land
+</pre></li>
+<li>
+vadis365, Sun Oct 17 20:31:07 2021 +0100:
+<pre>DO IT!
+</pre></li>
+<li>
+vadis365, Sun Oct 17 19:40:58 2021 +0100:
+<pre>Spawning changes
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 14:06:31 2021 -0700:
+<pre>added amphibious toggle/trigger names and tooltips
+</pre></li>
+<li>
+TheCyberBrick, Sat Oct 16 20:50:04 2021 +0200:
+<pre>Added deep waters ambience
+</pre></li>
+<li>
+Petasi, Sat Oct 16 14:46:38 2021 -0400:
+<pre>monke see piggy fix
+</pre></li>
+<li>
+vadis365, Sat Oct 16 16:47:47 2021 +0100:
+<pre>weeds now move at slightly different speeds
+</pre></li>
+<li>
+vadis365, Sat Oct 16 15:58:57 2021 +0100:
+<pre>Lang translations for toggle and trigger item selection
+</pre></li>
+<li>
+vadis365, Sat Oct 16 14:54:27 2021 +0100:
+<pre>new spinney vortex item thing
+
+needs some love to make it tidy - please finish!
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 02:28:05 2021 -0700:
+<pre>fixed random simulacrum overriding its effect
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 02:27:36 2021 -0700:
+<pre>improved amphibious armor "used in" tooltip
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 00:28:31 2021 -0700:
+<pre>added tooltips for amphibious armor upgrades
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 00:27:56 2021 -0700:
+<pre>replaced slimy bones with anadia bones for the armor upgrade
+</pre></li>
+<li>
+SeriousCreeper, Sat Oct 16 00:19:44 2021 -0700:
+<pre>added "Used In" tooltips for amphibious armor upgrade items
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 15 23:51:16 2021 -0700:
+<pre>removed my old mortar fix as TCB fixed it properly
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 15 23:48:18 2021 -0700:
+<pre>fixed repeller simulacrum effect freaking out on relog
+</pre></li>
+<li>
+TheCyberBrick, Thu Oct 14 16:49:47 2021 +0200:
+<pre>Fixed mortar not sending data on load
+</pre></li>
+<li>
+Petasi, Thu Oct 14 07:58:22 2021 -0400:
+<pre>derp
+</pre></li>
+<li>
+Petasi, Wed Oct 13 19:49:10 2021 -0400:
+<pre>- swamp grass + dead grass growth variants
+
+- water weeds mirrored variant
+</pre></li>
+<li>
+SeriousCreeper, Wed Oct 13 16:30:05 2021 -0700:
+<pre>changed dead grass render layer to support fuzzy grass stuffs
+</pre></li>
+<li>
+vadis365, Wed Oct 13 18:14:11 2021 +0100:
+<pre>faster for longer amount of frames
+</pre></li>
+<li>
+vadis365, Tue Oct 12 17:31:50 2021 +0100:
+<pre>Lyestone gen and boots mechanics
+</pre></li>
+<li>
+Seleclipse, Mon Oct 11 23:02:54 2021 +0800:
+<pre>Update zh_CN.lang</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 21:59:12 2021 +0200:
+<pre>Made the goop goopier</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 21:13:40 2021 +0200:
+<pre>Add files via upload</pre></li>
+<li>
+SeriousCreeper, Sun Oct 10 12:10:45 2021 -0700:
+<pre>replace some falling blocks with air when tower crumbles
+</pre></li>
+<li>
+SeriousCreeper, Sun Oct 10 11:37:37 2021 -0700:
+<pre>trying out falling entity for cragrock tower
+</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 17:40:43 2021 +0200:
+<pre>Kelp changes</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 17:38:22 2021 +0200:
+<pre>Let's hope this works</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 14:07:00 2021 +0200:
+<pre>Slight adjustment in transparency values</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 10 13:59:23 2021 +0200:
+<pre>Funky dance gone :(</pre></li>
+<li>
+Maicol Battistini, Sun Oct 10 13:33:23 2021 +0200:
+<pre>Create it_IT.lang</pre></li>
+<li>
+vadis365, Sat Oct 9 15:07:24 2021 +0100:
+<pre>Added weak smooth cragrock
+
+Removed some stuff and added a new lock - even if it doesn't fix the recent issues, at least there is a new block that'll look nicer :P
+</pre></li>
+<li>
+vadis365, Sat Oct 9 14:37:31 2021 +0100:
+<pre>added staffs to loot scrolls
+</pre></li>
+<li>
+vadis365, Sat Oct 9 14:00:23 2021 +0100:
+<pre>Shadow Walker changes
+
+Will not change air blocks or the air block the player stands 'in'.
+</pre></li>
+<li>
+Petasi, Sat Oct 9 08:26:36 2021 -0400:
+<pre>Update log_weedwood.json
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 8 18:25:15 2021 -0700:
+<pre>woops, amphibious recipe didnt get pushed properly, fixed
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 8 18:24:48 2021 -0700:
+<pre>added update flag for mortar to fix pestle not showing on load/when unloading chunks
+</pre></li>
+<li>
+SeriousCreeper, Fri Oct 8 18:24:27 2021 -0700:
+<pre>added amphibious toggle recipe
+</pre></li>
+<li>
+vadis365, Fri Oct 8 18:38:01 2021 +0100:
+<pre>Simulacrum fixy?
+
+Added should refresh method.
+</pre></li>
+<li>
+vadis365, Fri Oct 8 18:30:52 2021 +0100:
+<pre>Maybe this helps
+
+Something is fucky so adding this method to catch stuff if it is missing something.
+</pre></li>
+<li>
+vadis365, Fri Oct 8 16:12:07 2021 +0100:
+<pre>tweaks
+
+added should refresh method to mortar and removed unused particles in an entity.
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Oct 8 01:03:56 2021 +0200:
+<pre>Some texture revamps
+
+Pretty sure I forgot about these since they were done with another batch for a later update</pre></li>
+<li>
+vadis365, Thu Oct 7 18:17:51 2021 +0100:
+<pre>whoops
+</pre></li>
+<li>
+vadis365, Thu Oct 7 17:58:02 2021 +0100:
+<pre>cool downs
+</pre></li>
+<li>
+vadis365, Thu Oct 7 16:43:19 2021 +0100:
+<pre>some staff stuff
+
+added player relative hardness to block checks etc
+</pre></li>
+<li>
+Petasi, Wed Oct 6 18:08:13 2021 -0400:
+<pre>Staff display settings
+</pre></li>
+<li>
+vadis365, Sun Oct 3 15:58:59 2021 +0100:
+<pre>quick fixy for json bits
+</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 3 16:26:21 2021 +0200:
+<pre>Added new textures, like nothing bad happened a moment ago</pre></li>
+<li>
+TripleHeadedSheep, Sun Oct 3 16:19:01 2021 +0200:
+<pre>Update and rename mist_staff.json to staff_of_mist_walker.json</pre></li>
+<li>
+Sven Paroth, Sat Oct 2 17:28:54 2021 -0700:
+<pre>added remaining amphibious upgrades,
+changed frog leap to also work on land,
+fixed recharge issue with frog leap,
+added a small fall damage reduction when leaping,
+added leap upgrade to toggle item so it can be disabled,
+added recipes for amphibious armor
+</pre></li>
+<li>
+vadis365, Sat Oct 2 20:02:26 2021 +0100:
+<pre>silly shadow dancers
+
+needs a proper animated sprite
+</pre></li>
+<li>
+vadis365, Sat Oct 2 15:21:28 2021 +0100:
+<pre>shadow block effects
+</pre></li>
+<li>
+vadis365, Sat Oct 2 13:51:40 2021 +0100:
+<pre>Shadow stuff
+
+Fixed jsons and other things so there is a working POC.
+</pre></li>
+<li>
+vadis365, Fri Oct 1 18:43:31 2021 +0100:
+<pre>WIP please leave
+
+Still working on it - but have to leave - may crash
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 29 21:44:54 2021 -0700:
+<pre>fixed custom crab pot filter recipes sharing the same id
+</pre></li>
+<li>
+vadis365, Tue Sep 28 14:12:32 2021 +0100:
+<pre>upgrade map for aa items
+</pre></li>
+<li>
+vadis365, Mon Sep 27 14:50:57 2021 +0100:
+<pre>another placeholder test
+</pre></li>
+<li>
+vadis365, Sat Sep 25 21:02:23 2021 +0100:
+<pre>lang tweak
+</pre></li>
+<li>
+vadis365, Sat Sep 25 20:49:49 2021 +0100:
+<pre>AA Items' textures
+
+Added item property overrides and more placeholder textures.
+</pre></li>
+<li>
+vadis365, Sat Sep 25 17:15:53 2021 +0100:
+<pre>no point being a shaped recipe :P
+</pre></li>
+<li>
+vadis365, Sat Sep 25 16:38:27 2021 +0100:
+<pre>Recipes and temp lang entries
+</pre></li>
+<li>
+vadis365, Sat Sep 25 16:21:54 2021 +0100:
+<pre>some place holder textures
+
+need to be able to tell them apart :P
+</pre></li>
+<li>
+vadis365, Sat Sep 25 15:34:07 2021 +0100:
+<pre>Some lang for aa items
+</pre></li>
+<li>
+vadis365, Fri Sep 24 20:15:30 2021 +0100:
+<pre>comments begone
+</pre></li>
+<li>
+vadis365, Fri Sep 24 19:33:00 2021 +0100:
+<pre>AA control settings
+
+Toggles and triggers and stuff .
+Working implementation - feel free to tidy :P
+</pre></li>
+<li>
+vadis365, Fri Sep 24 18:42:28 2021 +0100:
+<pre>Removed glider from trigger item
+
+No need for it as it is a movement thing and will be toggled using the other item instead.
+</pre></li>
+<li>
+vadis365, Fri Sep 24 17:39:45 2021 +0100:
+<pre>Added toggle item
+
+almost a duplicate item for of the trigger atm - may end up just extending the other one - but easier to test in 2 items atm.
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 13:57:59 2021 -0700:
+<pre>added root pod to root crab recipe
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 13:37:24 2021 -0700:
+<pre>added smoking recipe for dried swamp reed
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 13:27:29 2021 -0700:
+<pre>made dead grass drop from swamp grass when broken with sickle
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 02:49:39 2021 -0700:
+<pre>changed deep water disc author from mr. owltkins to rotch gwylt
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 02:48:15 2021 -0700:
+<pre>added crushed pebble recipe
+</pre></li>
+<li>
+SeriousCreeper, Wed Sep 22 01:48:18 2021 -0700:
+<pre>added visibility, thorns, decay_decrease, and mining speed amphibious upgrades
+</pre></li>
+<li>
+vadis365, Tue Sep 21 19:25:24 2021 +0100:
+<pre>added shock stuff
+</pre></li>
+<li>
+Petasi, Tue Sep 21 09:48:00 2021 -0400:
+<pre>Update anadia_treasure.json
+</pre></li>
+<li>
+vadis365, Mon Sep 20 17:17:31 2021 +0100:
+<pre>allows bridge blocks to be escaped
+</pre></li>
+<li>
+vadis365, Mon Sep 20 16:13:05 2021 +0100:
+<pre>removed background on item
+</pre></li>
+<li>
+vadis365, Mon Sep 20 15:39:51 2021 +0100:
+<pre>Added alcove urn advancement
+
+feel free to change the name to something better if you want.
+</pre></li>
+<li>
+vadis365, Sun Sep 19 20:37:35 2021 +0100:
+<pre>mist bridge gen animation
+
+probably not optimal but works
+</pre></li>
+<li>
+vadis365, Sun Sep 19 17:47:30 2021 +0100:
+<pre>moved bridge to single entity
+
+still need to add back some sort of animation but it performs better.
+</pre></li>
+<li>
+vadis365, Sat Sep 18 22:39:08 2021 +0100:
+<pre>disabled up down detection
+</pre></li>
+<li>
+vadis365, Sat Sep 18 20:30:11 2021 +0100:
+<pre>more mist messing
+</pre></li>
+<li>
+vadis365, Sat Sep 18 18:01:31 2021 +0100:
+<pre>more fishy skins
+</pre></li>
+<li>
+vadis365, Fri Sep 17 21:40:45 2021 +0100:
+<pre>mist staff stuff
+</pre></li>
+<li>
+vadis365, Thu Sep 16 19:43:18 2021 +0100:
+<pre>test aa interface
+</pre></li>
+<li>
+vadis365, Thu Sep 16 17:35:52 2021 +0100:
+<pre>Name change for aa interface
+</pre></li>
+<li>
+vadis365, Wed Sep 15 19:02:55 2021 +0100:
+<pre>some more test code
+</pre></li>
+<li>
+vadis365, Wed Sep 15 14:41:07 2021 +0100:
+<pre>Fixes Pouch Render
+
+Now uses the overrides to display the correct model type.
+</pre></li>
+<li>
+vadis365, Wed Sep 15 13:58:11 2021 +0100:
+<pre>Loot changes to anadia
+
+Deep waters will have more treasure fish
+</pre></li>
+<li>
+SeriousCreeper, Tue Sep 14 15:49:34 2021 -0700:
+<pre>allows more plant items to be sheared with crab claws
+</pre></li>
+<li>
+vadis365, Tue Sep 14 19:10:02 2021 +0100:
+<pre>testing some stuff
+
+POC test for something
+</pre></li>
+<li>
+Petasi, Tue Sep 14 13:09:48 2021 -0400:
+<pre>Pouchstuffs
+</pre></li>
+<li>
+vadis365, Tue Sep 14 17:28:03 2021 +0100:
+<pre>no null only empty
+</pre></li>
+<li>
+vadis365, Tue Sep 14 15:10:54 2021 +0100:
+<pre>Disabled Lyestone stuff for now
+
+POC works but not sure if it'll be used
+</pre></li>
+<li>
+Petasi, Tue Sep 14 09:05:55 2021 -0400:
+<pre>Jellyfish sprites (meh) and cave fish spawn egg color
+</pre></li>
+<li>
+vadis365, Sun Sep 12 20:24:21 2021 +0100:
+<pre>Added block hardness
+</pre></li>
+<li>
+vadis365, Sun Sep 12 19:24:30 2021 +0100:
+<pre>Lyestone things
+
+Boots mechanic in, but needs some resource work and gen stuff adding and generally making better.
+</pre></li>
+<li>
+TheCyberBrick, Sun Sep 12 17:57:26 2021 +0200:
+<pre>Fish vortex tweaks
+</pre></li>
+<li>
+Sven PeteBot, Sat Sep 11 19:38:52 2021 -0700:
+<pre>made lanterns connect to ropes when place underneath it
+</pre></li>
+<li>
+vadis365, Sun Sep 12 00:32:02 2021 +0100:
+<pre>Alcove urn advancement added
+
+may or may not work
+</pre></li>
+<li>
+vadis365, Sat Sep 11 17:04:35 2021 +0100:
+<pre>Lurker AI tweak
+
+Added cool-down to targeting anadia after one is 'eaten' to prevent all the fish being wiped out quickly.
+</pre></li>
+<li>
+vadis365, Sat Sep 11 14:06:00 2021 +0100:
+<pre>Test activation text
+</pre></li>
+<li>
+vadis365, Sat Sep 11 13:53:02 2021 +0100:
+<pre>AA Manual activation test
+</pre></li>
+<li>
+vadis365, Sat Sep 11 00:02:32 2021 +0100:
+<pre>AAEffects helper class
+
+Moved some stuff out of the armour class to be worked on easier and accessible through other means.
+</pre></li>
+<li>
+vadis365, Wed Sep 8 19:44:22 2021 +0100:
+<pre>experimental stuff
+</pre></li>
+<li>
+vadis365, Wed Sep 8 18:06:37 2021 +0100:
+<pre>test
+</pre></li>
+<li>
+vadis365, Wed Sep 8 18:03:29 2021 +0100:
+<pre>whoospie
+</pre></li>
+<li>
+vadis365, Sun Sep 5 22:27:54 2021 +0100:
+<pre>prevent throwing AI before full spawn
+</pre></li>
+<li>
+vadis365, Sun Sep 5 22:17:26 2021 +0100:
+<pre>Fixed floating Hags
+</pre></li>
+<li>
+vadis365, Sun Sep 5 19:05:34 2021 +0100:
+<pre>better AI on unused mob
+</pre></li>
+<li>
+vadis365, Sat Sep 4 19:38:33 2021 +0100:
+<pre>bubbles
+</pre></li>
+<li>
+vadis365, Sat Sep 4 17:55:37 2021 +0100:
+<pre>Fixed advancements
+
+Corrected Hardcore Munchies name typo and fixed fumigant advancement.
+</pre></li>
+<li>
+Petasi, Sat Sep 4 10:55:52 2021 -0400:
+<pre>Update uh_oh_stinky.json
+</pre></li>
+<li>
+vadis365, Sat Sep 4 13:16:00 2021 +0100:
+<pre>removed unused particle from olm
+</pre></li>
+<li>
+vadis365, Sat Sep 4 12:54:59 2021 +0100:
+<pre>Olm noodle
+
+Fixed z-fighting on gills.
+Added a little more wiggle to the movement and some head pitch.
+</pre></li>
+<li>
+Sven PeteBot, Sat Sep 4 02:10:43 2021 -0700:
+<pre>added renamable interface to amate map
+</pre></li>
+<li>
+vadis365, Fri Sep 3 18:17:28 2021 +0100:
+<pre>Fumigant Criteria
+</pre></li>
+<li>
+vadis365, Fri Sep 3 18:09:50 2021 +0100:
+<pre>Rock Snot changes
+
+Animated now returns half the xp of the mob eaten.
+Fixed pos side placement causing suffocation.
+Can only be placed in water.
+Can only target mobs whilst underwater.
+</pre></li>
+<li>
+vadis365, Fri Sep 3 18:06:36 2021 +0100:
+<pre>Lowered Matriarch xp
+
+Was too much - now is in line with other chief mobs.
+</pre></li>
+<li>
+TheSilverplier, Fri Aug 27 16:02:50 2021 +0200:
+<pre>Rock Snot Name and Other Changes
+
+- Rock Snot name changed from "Morve des Rochers" to "Mucus des Rochers";
+- Advancements cleanup.</pre></li>
+<li>
+Petasi, Fri Aug 27 07:59:26 2021 -0400:
+<pre>Food tweaks
+</pre></li>
+<li>
+vadis365, Wed Aug 25 18:38:52 2021 +0100:
+<pre>Vortex
+
+Prevented vortex from moving mobs in to collidable blocks above.
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 25 14:10:52 2021 +0200:
+<pre>Connected textures can now be culled by unlisted properties
+</pre></li>
+<li>
+Ethan Chen, Tue Aug 24 19:38:19 2021 -0700:
+<pre>barrishee advancement
+
+figured it was about time :shrug:
+</pre></li>
+<li>
+vadis365, Tue Aug 24 23:58:00 2021 +0100:
+<pre>Filtered Silt Glass Pain In The Arse
+
+Fixed face culling & added lang.
+</pre></li>
+<li>
+vadis365, Tue Aug 24 23:25:31 2021 +0100:
+<pre>start of filtered silt glass panes
+</pre></li>
+<li>
+vadis365, Tue Aug 24 19:33:09 2021 +0100:
+<pre>meh
+</pre></li>
+<li>
+Petasi, Mon Aug 23 14:13:18 2021 -0400:
+<pre>Update angler.json
+</pre></li>
+<li>
+Petasi, Mon Aug 23 10:23:49 2021 -0400:
+<pre>Renamed
+</pre></li>
+<li>
+vadis365, Mon Aug 23 15:04:49 2021 +0100:
+<pre>RockSnot tendril
+
+prevent Lurker and Boss attachments happening accidentally on colliding..
+</pre></li>
+<li>
+vadis365, Mon Aug 23 14:56:35 2021 +0100:
+<pre>Cracked Cragrock tiles recipe fix
+</pre></li>
+<li>
+vadis365, Mon Aug 23 14:39:58 2021 +0100:
+<pre>Small reduction in jellyfish spawns
+</pre></li>
+<li>
+vadis365, Mon Aug 23 14:27:48 2021 +0100:
+<pre>Temp bubbler crab spawn
+
+Swamplands silt beaches - may change.
+</pre></li>
+<li>
+Petasi, Mon Aug 23 09:16:52 2021 -0400:
+<pre>Advancement tweaks
+</pre></li>
+<li>
+vadis365, Mon Aug 23 13:23:13 2021 +0100:
+<pre>Serious fixes
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 23 12:29:40 2021 +0200:
+<pre>Fixed simulacrum blessing event priority
+</pre></li>
+<li>
+WightofShadows, Sun Aug 22 18:33:14 2021 -0700:
+<pre>Update en_US.lang
+
+the generic(tm) crab variety</pre></li>
+<li>
+Petasi, Sun Aug 22 19:43:54 2021 -0400:
+<pre>Update vinyl_enthusiast.json
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 23 00:08:01 2021 +0200:
+<pre>Build notes fix
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 23:57:05 2021 +0200:
+<pre>Also improved dev build log
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 23:48:16 2021 +0200:
+<pre>Added command to fetch commits for log
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 23:20:23 2021 +0200:
+<pre>Fixed release build log
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 23:02:32 2021 +0200:
+<pre>Force fetch tags
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 22:26:48 2021 +0200:
+<pre>Forgot to remove this as well
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 22:23:37 2021 +0200:
+<pre>Updated build badge
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 22:18:29 2021 +0200:
+<pre>Fixed broken commit url
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 22:12:57 2021 +0200:
+<pre>Added commit url to build info
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 21:52:08 2021 +0200:
+<pre>New development builds
+</pre></li>
+<li>
+vadis365, Sun Aug 22 17:18:40 2021 +0100:
+<pre>Increased decay speed based on smelliness
+</pre></li>
+<li>
+vadis365, Sun Aug 22 16:52:38 2021 +0100:
+<pre>Wights attack smelly targets
+
+Disabled sneak avoid if attack target smells.
+</pre></li>
+<li>
+vadis365, Sun Aug 22 15:40:14 2021 +0100:
+<pre>correct order
+</pre></li>
+<li>
+vadis365, Sun Aug 22 15:08:47 2021 +0100:
+<pre>place holders
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 22 12:39:24 2021 +0200:
+<pre>Fixed shearing puffshrooms causing error, fixes #1207
+</pre></li>
+<li>
+vadis365, Sat Aug 21 19:28:38 2021 +0100:
+<pre>remove test stuff
+</pre></li>
+<li>
+vadis365, Sat Aug 21 19:06:18 2021 +0100:
+<pre>Added Jellyfish item variants
+
+just needs sprites.
+</pre></li>
+<li>
+vadis365, Sat Aug 21 17:01:16 2021 +0100:
+<pre>only prevent mending and unbreaking
+</pre></li>
+<li>
+vadis365, Sat Aug 21 16:43:54 2021 +0100:
+<pre>No mending for 1 shot loot
+</pre></li>
+<li>
+TheSilverplier, Sat Aug 21 16:33:16 2021 +0200:
+<pre>Fixes
+
+- Fixed typos;
+- Fixed a translation error with the "Splodeshroom" bearing the same name as the "Puffshroom"; now called "Champipouffe" and "Champisouffle" respectively.
+- Changed the "Glowing Goop" entity's translation from "Morve [...]" to "Gelée [...]" to be consistent with the item.</pre></li>
+<li>
+vadis365, Fri Aug 20 21:44:41 2021 +0100:
+<pre>Angler movement changes
+
+Less silly sinking
+</pre></li>
+<li>
+vadis365, Fri Aug 20 18:45:18 2021 +0100:
+<pre>made rocksnot sink in water
+</pre></li>
+<li>
+vadis365, Thu Aug 19 19:27:53 2021 +0100:
+<pre>hax
+</pre></li>
+<li>
+TheCyberBrick, Thu Aug 19 19:43:00 2021 +0200:
+<pre>Make filtering block animation smooth again
+</pre></li>
+<li>
+TheCyberBrick, Thu Aug 19 18:58:29 2021 +0200:
+<pre>Implemented crab token bucket
+</pre></li>
+<li>
+vadis365, Thu Aug 19 13:15:27 2021 +0100:
+<pre>glide modifier
+</pre></li>
+<li>
+vadis365, Thu Aug 19 12:40:31 2021 +0100:
+<pre>quick thingie
+</pre></li>
+<li>
+TheCyberBrick, Thu Aug 19 11:54:22 2021 +0200:
+<pre>Mob item now prevents spawning hostiles in peaceful
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 18 15:28:50 2021 +0200:
+<pre>- Fixed crab pot filter particle
+- Breaking underwater blocks now replaces the blocks with regular swamp water
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 18 15:18:28 2021 +0200:
+<pre>Fixed filter using wrong crab model
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 18 15:14:07 2021 +0200:
+<pre>- Crab pot and filter cleanup
+- Crab eating animation is now animated
+- Crab pot tweak
+</pre></li>
+<li>
+TheSilverplier, Wed Aug 18 14:20:01 2021 +0200:
+<pre>Changes and fixes
+
+- Changed some incorrect translations ("Homoncule -> "Béhémoth / "Serviteur" -> "Homoncule" etc...)
+- Fixed some typo and the duplicate "fishing tackle box"</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 20:32:44 2021 +0200:
+<pre>Some more Infestation tweaks
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 14:08:32 2021 +0200:
+<pre>Replaced trimming table rotten food with remains
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 14:00:34 2021 +0200:
+<pre>Increased mud bricks recipe output to 4
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 13:56:59 2021 +0200:
+<pre>- Fixed undead anadia
+- Fixed some onInitialSpawn calls where there shouldn't be
+- Fixed jukebox not ejecting deep water disc
+- Urchins now damage player when attacked with bare handsb
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 12:33:16 2021 +0200:
+<pre>Fixed some excess TE block and chunk update
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 01:13:50 2021 +0200:
+<pre>Fixed crab pot filter hopper item filtering
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 01:04:35 2021 +0200:
+<pre>Slightly increased size of crab pot and filter to prevent z-fighting with water model
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 00:58:03 2021 +0200:
+<pre>Fixed smoking rack gui item model
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 17 00:52:21 2021 +0200:
+<pre>- Refactored bubbler crab
+- Old silt crabs should now also get items
+- Improved peat to smouldering peat conversion and smoking rack placement
+- Fixed some block side solid methods
+</pre></li>
+<li>
+Petasi, Mon Aug 16 18:31:41 2021 -0400:
+<pre>Fixed new sword textures using vanilla stick palette
+</pre></li>
+<li>
+vadis365, Mon Aug 16 22:14:01 2021 +0100:
+<pre>Crab loot tables
+
+Trimming table now uses loot tables for the crabs' item results - Items are pulled from loot tables and are added on the mob's initial spawn.
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 16 16:28:11 2021 +0200:
+<pre>- Fixed trimming table desync
+- Fixed trimming table remains exploit
+- Fixed trimming table advancement trigger
+- Fixed crab pot filter GUI shift click transfer
+- Moved container specific code out of SlotOutput
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 16 15:16:15 2021 +0200:
+<pre>Made silt glass jar contents tooltip localized and grouped
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 16 14:59:46 2021 +0200:
+<pre>Shovel and compost can now be used on plants
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 16 14:45:22 2021 +0200:
+<pre>Fixed anadia item model not rendering
+</pre></li>
+<li>
+TheCyberBrick, Mon Aug 16 14:39:44 2021 +0200:
+<pre>Replaced anadia numbers with enums
+</pre></li>
+<li>
+vadis365, Sun Aug 15 23:51:00 2021 +0100:
+<pre>messing with test mob
+</pre></li>
+<li>
+TheSilverplier, Sun Aug 15 18:40:04 2021 +0200:
+<pre>WIP Translation for the Next Update
+
+- Added translation for new features (some translation might/will change in the future)
+- Removed Rune Stuff</pre></li>
+<li>
+vadis365, Sun Aug 15 17:09:03 2021 +0100:
+<pre>Lang fix so the French Spy is happy.
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 15 17:57:48 2021 +0200:
+<pre>Infestation now no longer kills but mob has a bit of melee damage
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 15 17:31:49 2021 +0200:
+<pre>Tweaked coracle sinking particles
+</pre></li>
+<li>
+TheCyberBrick, Sun Aug 15 17:16:11 2021 +0200:
+<pre>Implemented anadia loot function
+</pre></li>
+<li>
+vadis365, Sun Aug 15 00:55:24 2021 +0100:
+<pre>end of an era for Angler meat
+
+bye bye o7
+</pre></li>
+<li>
+vadis365, Sun Aug 15 00:40:01 2021 +0100:
+<pre>more angler meat removal
+</pre></li>
+<li>
+vadis365, Sun Aug 15 00:34:38 2021 +0100:
+<pre>more angler meat removal
+</pre></li>
+<li>
+vadis365, Sun Aug 15 00:32:40 2021 +0100:
+<pre>angler meat disabled
+</pre></li>
+<li>
+vadis365, Sat Aug 14 23:47:50 2021 +0100:
+<pre>Shear madness
+</pre></li>
+<li>
+vadis365, Sat Aug 14 22:44:16 2021 +0100:
+<pre>Added crabs to trimmer
+</pre></li>
+<li>
+Petasi, Sat Aug 14 15:28:29 2021 -0400:
+<pre>Update en_US.lang
+</pre></li>
+<li>
+vadis365, Sat Aug 14 19:18:17 2021 +0100:
+<pre>3 fish
+</pre></li>
+<li>
+vadis365, Sat Aug 14 15:32:57 2021 +0100:
+<pre>Underwater structure loot tables
+</pre></li>
+<li>
+vadis365, Sat Aug 14 15:21:26 2021 +0100:
+<pre>Loot Table
+</pre></li>
+<li>
+vadis365, Sat Aug 14 15:14:06 2021 +0100:
+<pre>whoops
+</pre></li>
+<li>
+TripleHeadedSheep, Sat Aug 14 15:57:27 2021 +0200:
+<pre>Trimming Table matched to new axe texture</pre></li>
+<li>
+vadis365, Sat Aug 14 14:38:08 2021 +0100:
+<pre>still nope
+</pre></li>
+<li>
+vadis365, Sat Aug 14 14:32:12 2021 +0100:
+<pre>hmmmm.. not sure
+</pre></li>
+<li>
+Petasi, Sat Aug 14 08:54:12 2021 -0400:
+<pre>Silly shoop
+</pre></li>
+<li>
+TripleHeadedSheep, Sat Aug 14 13:12:10 2021 +0200:
+<pre>Tool texture revamps</pre></li>
+<li>
+Petasi, Fri Aug 13 15:18:53 2021 -0400:
+<pre>Loot tables for underwater ruins & coracle
+</pre></li>
+<li>
+Petasi, Fri Aug 13 14:52:38 2021 -0400:
+<pre>Crab block particles
+</pre></li>
+<li>
+vadis365, Fri Aug 13 19:06:29 2021 +0100:
+<pre>sigh
+</pre></li>
+<li>
+vadis365, Fri Aug 13 19:04:02 2021 +0100:
+<pre>Particles - made simpler
+</pre></li>
+<li>
+vadis365, Fri Aug 13 17:56:41 2021 +0100:
+<pre>Particles
+
+Changed to work on fluid in.
+Fixed a bug in Lurker.
+</pre></li>
+<li>
+vadis365, Fri Aug 13 17:33:30 2021 +0100:
+<pre>Particle colours
+</pre></li>
+<li>
+vadis365, Fri Aug 13 16:57:40 2021 +0100:
+<pre>Disabled WIP burrow feature
+
+commented out as it is all WIP and won't be finished for a while.
+</pre></li>
+<li>
+vadis365, Fri Aug 13 16:34:57 2021 +0100:
+<pre>Emberling tweaks pt 3
+</pre></li>
+<li>
+vadis365, Fri Aug 13 16:31:49 2021 +0100:
+<pre>Emberling tweaks pt 2
+</pre></li>
+<li>
+vadis365, Fri Aug 13 16:17:42 2021 +0100:
+<pre>Emberling
+
+Bumped up health and attack a little for now and removed tame spawn egg as it is not needed.
+</pre></li>
+<li>
+vadis365, Tue Aug 10 17:17:33 2021 +0100:
+<pre>wood soundtype for crab blocks
+</pre></li>
+<li>
+vadis365, Tue Aug 10 17:03:41 2021 +0100:
+<pre>block drops
+</pre></li>
+<li>
+TripleHeadedSheep, Mon Aug 9 23:05:04 2021 +0200:
+<pre>Forgot this one</pre></li>
+<li>
+vadis365, Mon Aug 9 18:58:31 2021 +0100:
+<pre>pebble boxes
+</pre></li>
+<li>
+vadis365, Mon Aug 9 16:48:20 2021 +0100:
+<pre>pebbles don't float in air
+</pre></li>
+<li>
+vadis365, Mon Aug 9 15:38:42 2021 +0100:
+<pre>Deepwater tweaks
+
+Lowered pebble cluster frequency in water.
+Stopped Urchins activating on Anadias.
+Lessened silt strand mud block variant a smigde more.
+</pre></li>
+<li>
+Petasi, Mon Aug 9 09:21:50 2021 -0400:
+<pre>- Aquatic mobs only drop loot on player kill
+
+- Removed angler meat from angler loot table
+</pre></li>
+<li>
+vadis365, Mon Aug 9 12:00:16 2021 +0100:
+<pre>less strands
+</pre></li>
+<li>
+vadis365, Sun Aug 8 18:48:10 2021 +0100:
+<pre>increased damage per upgrade
+
+testing stuff
+</pre></li>
+<li>
+vadis365, Sun Aug 8 18:07:06 2021 +0100:
+<pre>test timings
+</pre></li>
+<li>
+vadis365, Sun Aug 8 16:16:45 2021 +0100:
+<pre>adds a little knockback
+</pre></li>
+<li>
+vadis365, Sun Aug 8 15:42:30 2021 +0100:
+<pre>electric
+</pre></li>
+<li>
+vadis365, Sat Aug 7 22:24:48 2021 +0100:
+<pre>friendly fire negation
+</pre></li>
+<li>
+vadis365, Sat Aug 7 21:54:24 2021 +0100:
+<pre>owner can take credit
+</pre></li>
+<li>
+vadis365, Sat Aug 7 21:10:41 2021 +0100:
+<pre>basic cooldown timer
+</pre></li>
+<li>
+vadis365, Sat Aug 7 20:49:31 2021 +0100:
+<pre>urchin spike stuff
+</pre></li>
+<li>
+vadis365, Fri Aug 6 23:24:46 2021 +0100:
+<pre>vortex messing
+
+bit glitchy atm
+</pre></li>
+<li>
+TheCyberBrick, Fri Aug 6 22:06:50 2021 +0200:
+<pre>Implemented different damage events for armor upgrades
+</pre></li>
+<li>
+vadis365, Fri Aug 6 19:49:09 2021 +0100:
+<pre>place holders for upgrades
+</pre></li>
+<li>
+Petasi, Fri Aug 6 14:24:33 2021 -0400:
+<pre>Hostile Rock Snots rarely drop pearl
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Aug 6 18:51:29 2021 +0200:
+<pre>Textures for special stuff
+
+:shushing:</pre></li>
+<li>
+TripleHeadedSheep, Fri Aug 6 16:30:36 2021 +0200:
+<pre>Goopy textures</pre></li>
+<li>
+vadis365, Fri Aug 6 14:18:28 2021 +0100:
+<pre>deleted unused
+</pre></li>
+<li>
+vadis365, Fri Aug 6 14:16:33 2021 +0100:
+<pre>fixy
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Aug 6 14:58:22 2021 +0200:
+<pre>Greebling texture fix
+
+Fixed open bit of lower body which is visible in the animation</pre></li>
+<li>
+vadis365, Fri Aug 6 13:55:12 2021 +0100:
+<pre>goop glow tweaks
+
+added shader light to thrown entity and render brightness to entity.
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Aug 6 14:40:14 2021 +0200:
+<pre>Item texture updates</pre></li>
+<li>
+Andromander, Fri Aug 6 22:31:18 2021 +1000:
+<pre>Remove debug lines
+</pre></li>
+<li>
+Andromander, Fri Aug 6 22:30:46 2021 +1000:
+<pre>Generate the Underwater Ruins
+</pre></li>
+<li>
+Petasi, Thu Aug 5 15:01:58 2021 -0400:
+<pre>Possible fix for mud strands being too dark
+</pre></li>
+<li>
+vadis365, Thu Aug 5 17:06:32 2021 +0100:
+<pre>Silt Strands
+
+added all 3 variant models
+</pre></li>
+<li>
+vadis365, Thu Aug 5 14:15:20 2021 +0100:
+<pre>added silt strand textures
+</pre></li>
+<li>
+Andromander, Thu Aug 5 09:22:57 2021 +1000:
+<pre>Finalise generation
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 4 21:41:08 2021 +0200:
+<pre>Added some amphibious armor helper methods
+</pre></li>
+<li>
+Petasi, Wed Aug 4 15:01:46 2021 -0400:
+<pre>Update anadia_treasure.json
+</pre></li>
+<li>
+vadis365, Wed Aug 4 18:00:29 2021 +0100:
+<pre>test code
+</pre></li>
+<li>
+TheCyberBrick, Wed Aug 4 14:23:47 2021 +0200:
+<pre>Implemented new bone wayfinder mechanics
+</pre></li>
+<li>
+Petasi, Tue Aug 3 16:21:29 2021 -0400:
+<pre>Update uh_oh_stinky.json
+</pre></li>
+<li>
+vadis365, Tue Aug 3 17:48:58 2021 +0100:
+<pre>underwater mud block stuff
+</pre></li>
+<li>
+TheCyberBrick, Tue Aug 3 16:45:05 2021 +0200:
+<pre>Implemented new amphibious armor GUI
+</pre></li>
+<li>
+TripleHeadedSheep, Tue Aug 3 16:20:07 2021 +0200:
+<pre>Big Smoke</pre></li>
+<li>
+vadis365, Mon Aug 2 18:41:06 2021 +0100:
+<pre>just some placeholder stuff
+
+pushing for safety
+</pre></li>
+<li>
+vadis365, Sun Aug 1 18:45:09 2021 +0100:
+<pre>some vortex bits
+
+POC WIP etc etc
+</pre></li>
+<li>
+vadis365, Sat Jul 31 20:57:29 2021 +0100:
+<pre>fixed recipe
+</pre></li>
+<li>
+vadis365, Sat Jul 31 20:41:45 2021 +0100:
+<pre>meh
+</pre></li>
+<li>
+vadis365, Sat Jul 31 18:53:50 2021 +0100:
+<pre>Life Crystal Changes
+
+Removed cheesy vanilla enchants breaking the mod.
+</pre></li>
+<li>
+vadis365, Sat Jul 31 18:23:39 2021 +0100:
+<pre>Fishing Spear tweaks
+
+fixed instant removal when throwing in creative & tip position when rendered in ground.
+</pre></li>
+<li>
+vadis365, Sat Jul 31 18:12:11 2021 +0100:
+<pre>ignore null or empty string ID
+</pre></li>
+<li>
+vadis365, Sat Jul 31 18:04:27 2021 +0100:
+<pre>smouldering peat volarkite updraft
+</pre></li>
+<li>
+vadis365, Sat Jul 31 18:00:00 2021 +0100:
+<pre>fixed silt glass hardness
+</pre></li>
+<li>
+Petasi, Fri Jul 30 14:51:19 2021 -0400:
+<pre>Spawn egg colors for most new mobs
+
+Replaced pearl advancement with pearled pear advancement
+Pearls from pearl block recipe
+</pre></li>
+<li>
+Petasi, Wed Jul 28 14:51:01 2021 -0400:
+<pre>New advancements to proper lang
+</pre></li>
+<li>
+Petasi, Mon Jul 26 14:53:48 2021 -0400:
+<pre>Updated pearl related items
+
+Updated all crab stick and frog leg textures
+</pre></li>
+<li>
+vadis365, Mon Jul 26 17:33:16 2021 +0100:
+<pre>Infuser uses Smoldering Peat
+</pre></li>
+<li>
+vadis365, Sat Jul 24 20:37:05 2021 +0100:
+<pre>more burrow stuff
+</pre></li>
+<li>
+vadis365, Sat Jul 24 14:30:37 2021 +0100:
+<pre>5 minutes to get it back
+</pre></li>
+<li>
+vadis365, Sat Jul 24 14:12:53 2021 +0100:
+<pre>different spear damages
+</pre></li>
+<li>
+vadis365, Sat Jul 24 13:56:15 2021 +0100:
+<pre>spaer sounds
+</pre></li>
+<li>
+vadis365, Fri Jul 23 18:07:13 2021 +0100:
+<pre>ssshhh
+</pre></li>
+<li>
+vadis365, Fri Jul 23 18:06:07 2021 +0100:
+<pre>test stuff
+</pre></li>
+<li>
+vadis365, Fri Jul 23 18:01:38 2021 +0100:
+<pre>POC starting to work
+</pre></li>
+<li>
+vadis365, Fri Jul 23 15:35:25 2021 +0100:
+<pre>silly chimp
+</pre></li>
+<li>
+vadis365, Fri Jul 23 15:20:12 2021 +0100:
+<pre>animator recipe fix
+</pre></li>
+<li>
+vadis365, Fri Jul 23 15:14:08 2021 +0100:
+<pre>spear json fixes
+</pre></li>
+<li>
+vadis365, Fri Jul 23 14:24:06 2021 +0100:
+<pre>refactored spear names
+</pre></li>
+<li>
+vadis365, Thu Jul 22 23:55:10 2021 +0100:
+<pre>stuff WIP - ignore for now
+</pre></li>
+<li>
+vadis365, Thu Jul 22 16:50:39 2021 +0100:
+<pre>just a POC helper class
+
+Thinking of reworking this feature to do it completely different - WIP
+</pre></li>
+<li>
+vadis365, Wed Jul 21 21:01:38 2021 +0100:
+<pre>better spear rendering
+</pre></li>
+<li>
+vadis365, Tue Jul 20 21:02:39 2021 +0100:
+<pre>spear POC
+</pre></li>
+<li>
+Andromander, Tue Jul 20 23:26:56 2021 +1000:
+<pre>Get some more pots in there
+</pre></li>
+<li>
+vadis365, Mon Jul 19 14:21:26 2021 +0100:
+<pre>More advancement triggers
+</pre></li>
+<li>
+Petasi, Sun Jul 18 15:42:42 2021 -0400:
+<pre>Tackle box & worm advancements
+</pre></li>
+<li>
+Petasi, Sun Jul 18 15:37:53 2021 -0400:
+<pre>Asset fix: dug swamp grass using the old dirt texture
+
+Added weedwood log variants
+</pre></li>
+<li>
+vadis365, Sun Jul 18 17:04:24 2021 +0100:
+<pre>recipe tweaks
+</pre></li>
+<li>
+vadis365, Sun Jul 18 15:53:53 2021 +0100:
+<pre>glowing goop alt recipe
+</pre></li>
+<li>
+vadis365, Sun Jul 18 15:46:06 2021 +0100:
+<pre>jelly fish drop
+</pre></li>
+<li>
+vadis365, Sun Jul 18 15:23:28 2021 +0100:
+<pre>removed imports
+</pre></li>
+<li>
+vadis365, Sun Jul 18 15:22:40 2021 +0100:
+<pre>Fixed filtered silt glass
+
+removed incorrect block render layer and added lang name.
+</pre></li>
+<li>
+Andromander, Sun Jul 18 11:56:51 2021 +1000:
+<pre>Better plant decoration
+</pre></li>
+<li>
+vadis365, Sun Jul 18 01:49:59 2021 +0100:
+<pre>some stuff for advancements
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 17 22:18:17 2021 +0200:
+<pre>Fixed trimming table renderer
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 17 22:13:11 2021 +0200:
+<pre>Removed tooltips from anadia item without data
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 17 22:07:07 2021 +0200:
+<pre>Some ItemMob stuff
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 17 20:43:25 2021 +0200:
+<pre>Fixed cave fish item crash
+</pre></li>
+<li>
+vadis365, Sat Jul 17 19:20:40 2021 +0100:
+<pre>olm and cave fish netted
+</pre></li>
+<li>
+vadis365, Sat Jul 17 17:20:08 2021 +0100:
+<pre>RockSnot render de-sync fix
+
+Should prevent null parent entity allowing the rendeerr to fire before entity is removed.
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 17 11:06:13 2021 +0200:
+<pre>Added config to disable biomes for world gen testing
+</pre></li>
+<li>
+vadis365, Fri Jul 16 20:37:00 2021 +0100:
+<pre>fixed itemstack render crash
+</pre></li>
+<li>
+vadis365, Fri Jul 16 18:56:46 2021 +0100:
+<pre>silly
+</pre></li>
+<li>
+vadis365, Fri Jul 16 18:55:29 2021 +0100:
+<pre>mud loot pot textures
+</pre></li>
+<li>
+vadis365, Fri Jul 16 18:50:16 2021 +0100:
+<pre>mud loot pots WIP
+</pre></li>
+<li>
+vadis365, Wed Jul 14 18:52:55 2021 +0100:
+<pre>less teleporty block
+</pre></li>
+<li>
+vadis365, Wed Jul 14 17:54:03 2021 +0100:
+<pre>adjustable offsets for seat
+</pre></li>
+<li>
+vadis365, Wed Jul 14 16:19:50 2021 +0100:
+<pre>reed mat WIP
+</pre></li>
+<li>
+vadis365, Wed Jul 14 15:32:49 2021 +0100:
+<pre>reed mat texture WIP
+</pre></li>
+<li>
+vadis365, Tue Jul 13 18:44:39 2021 +0100:
+<pre>spear crafting stuff
+</pre></li>
+<li>
+Petasi, Tue Jul 13 11:45:09 2021 -0400:
+<pre>spear recipes + shambler loot balance
+</pre></li>
+<li>
+Petasi, Tue Jul 13 11:23:55 2021 -0400:
+<pre>sea mantics
+</pre></li>
+<li>
+Petasi, Tue Jul 13 11:12:26 2021 -0400:
+<pre>new advancements
+
+sorry cyber lol
+</pre></li>
+<li>
+vadis365, Mon Jul 12 19:29:15 2021 +0100:
+<pre>spear flip on return
+</pre></li>
+<li>
+vadis365, Mon Jul 12 18:53:50 2021 +0100:
+<pre>returning spear
+</pre></li>
+<li>
+vadis365, Mon Jul 12 15:07:53 2021 +0100:
+<pre>fishing spear types WIP
+</pre></li>
+<li>
+TheCyberBrick, Mon Jul 12 00:04:41 2021 +0200:
+<pre>Implemented amphibious armour ascent boost upgrade
+</pre></li>
+<li>
+vadis365, Fri Jul 9 20:13:50 2021 +0100:
+<pre>smoked stuff
+
+Because the resource dept is too lazy.
+</pre></li>
+<li>
+vadis365, Thu Jul 8 18:34:59 2021 +0100:
+<pre>whoopsie
+</pre></li>
+<li>
+vadis365, Thu Jul 8 18:30:16 2021 +0100:
+<pre>some food rejigs and smoked meats
+</pre></li>
+<li>
+TheCyberBrick, Tue Jul 6 16:31:51 2021 +0200:
+<pre>Implemented underwater gloop
+</pre></li>
+<li>
+vadis365, Mon Jul 5 18:49:45 2021 +0100:
+<pre>bottom goop - hue
+</pre></li>
+<li>
+vadis365, Mon Jul 5 18:35:47 2021 +0100:
+<pre>goop drip poc
+</pre></li>
+<li>
+vadis365, Sun Jul 4 20:05:41 2021 +0100:
+<pre>some glowing goop
+
+WIP resources need making etc etc
+</pre></li>
+<li>
+Petasi, Sat Jul 3 19:51:47 2021 -0400:
+<pre>lol
+
+thanks Nona
+</pre></li>
+<li>
+Petasi, Sat Jul 3 17:15:29 2021 -0400:
+<pre>I am so smart
+
+sigh
+</pre></li>
+<li>
+Petasi, Sat Jul 3 17:10:25 2021 -0400:
+<pre>recipes and chiromaw egg item model
+
+yes
+</pre></li>
+<li>
+vadis365, Sat Jul 3 21:03:23 2021 +0100:
+<pre>some smelting recipes
+</pre></li>
+<li>
+vadis365, Sat Jul 3 18:19:48 2021 +0100:
+<pre>sigh
+</pre></li>
+<li>
+vadis365, Sat Jul 3 18:16:25 2021 +0100:
+<pre>hnnnggggnnn
+</pre></li>
+<li>
+vadis365, Sat Jul 3 18:03:01 2021 +0100:
+<pre>nice typo nerd :P
+</pre></li>
+<li>
+vadis365, Sat Jul 3 17:55:31 2021 +0100:
+<pre>some block an item tooltips for clarity
+</pre></li>
+<li>
+vadis365, Sat Jul 3 17:55:04 2021 +0100:
+<pre>prevents Matriarch from being Basilisked
+</pre></li>
+<li>
+TheCyberBrick, Sat Jul 3 00:11:51 2021 +0200:
+<pre>Changed upgrade filters to only show when holding shift
+</pre></li>
+<li>
+TheCyberBrick, Fri Jul 2 14:13:01 2021 +0200:
+<pre>Implemented upgrade filters
+</pre></li>
+<li>
+TheCyberBrick, Thu Jul 1 20:48:18 2021 +0200:
+<pre>Implemented amphibian armor gem mechanics
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 30 20:51:21 2021 +0200:
+<pre>Implemented amphibian armor upgrade damage
+</pre></li>
+<li>
+TheSilverplier, Mon Jun 28 23:24:27 2021 +0200:
+<pre>Translation changes and mistake
+
+Changed some translations for more accurate ones and removed some English leftovers in the ring department.</pre></li>
+<li>
+vadis365, Wed Jun 16 22:21:34 2021 +0100:
+<pre>Recipes
+
+Added some things for the new 'machines' to make.
+</pre></li>
+<li>
+vadis365, Wed Jun 16 20:19:55 2021 +0100:
+<pre>quick fixy on the arrow
+</pre></li>
+<li>
+vadis365, Wed Jun 16 20:05:46 2021 +0100:
+<pre>hmmmm
+</pre></li>
+<li>
+vadis365, Wed Jun 16 19:26:14 2021 +0100:
+<pre>JEI for crab pots
+</pre></li>
+<li>
+vadis365, Wed Jun 16 15:17:12 2021 +0100:
+<pre>whoops
+</pre></li>
+<li>
+vadis365, Wed Jun 16 12:43:32 2021 +0100:
+<pre>Update crab_pot_filter.png
+
+Matched gui style to new ones.
+</pre></li>
+<li>
+vadis365, Wed Jun 16 00:14:58 2021 +0100:
+<pre>yus
+</pre></li>
+<li>
+vadis365, Tue Jun 15 22:36:12 2021 +0100:
+<pre>sort of allows fish to show in recipe
+</pre></li>
+<li>
+vadis365, Tue Jun 15 17:50:12 2021 +0100:
+<pre>should stop 0 edgecase in tooltip
+</pre></li>
+<li>
+vadis365, Tue Jun 15 17:14:06 2021 +0100:
+<pre>smoking times in JEI gui
+</pre></li>
+<li>
+vadis365, Tue Jun 15 15:58:09 2021 +0100:
+<pre>JEI thing
+</pre></li>
+<li>
+vadis365, Tue Jun 15 00:45:24 2021 +0100:
+<pre>smoking rack JEI start
+</pre></li>
+<li>
+TheCyberBrick, Mon Jun 14 23:43:23 2021 +0200:
+<pre>filtered silt glass now workie
+</pre></li>
+<li>
+vadis365, Mon Jun 14 21:15:32 2021 +0100:
+<pre>removed top texture being different
+</pre></li>
+<li>
+vadis365, Mon Jun 14 21:07:15 2021 +0100:
+<pre>still no workie
+</pre></li>
+<li>
+vadis365, Mon Jun 14 20:49:16 2021 +0100:
+<pre>no fucking idea
+</pre></li>
+<li>
+vadis365, Mon Jun 14 19:31:09 2021 +0100:
+<pre>Filtered Silt and glass things
+
+Renaming all the things and place holder block code for the glass.
+</pre></li>
+<li>
+vadis365, Mon Jun 14 18:42:37 2021 +0100:
+<pre>filtered silt block
+
+also pushing glass textures
+</pre></li>
+<li>
+TheSilverplier, Mon Jun 14 17:25:53 2021 +0200:
+<pre>Fixy
+
+Removed tab characters before every line and blank spaces at the end; also fixed a couple of typos</pre></li>
+<li>
+Andromander, Mon Jun 14 10:57:09 2021 +1000:
+<pre>Additional check for plant placement
+</pre></li>
+<li>
+vadis365, Mon Jun 14 01:57:07 2021 +0100:
+<pre>Noped out
+
+needs a load of JEI wrapper stuff to show all the recipes - cba, so this is what it is until it gets changed.
+</pre></li>
+<li>
+vadis365, Sun Jun 13 20:32:11 2021 +0100:
+<pre>Rod+worm recipe JEI handler
+</pre></li>
+<li>
+vadis365, Sun Jun 13 19:20:37 2021 +0100:
+<pre>Bubbler sounds
+</pre></li>
+<li>
+vadis365, Sun Jun 13 18:46:01 2021 +0100:
+<pre>some fishing sound tweaks
+
+added the bl sounds to the rod
+</pre></li>
+<li>
+TheSilverplier, Sun Jun 13 00:57:03 2021 +0200:
+<pre>Update fr_FR.lang</pre></li>
+<li>
+vadis365, Sat Jun 12 18:30:14 2021 +0100:
+<pre>rod can now be crafted and repaired
+</pre></li>
+<li>
+vadis365, Sat Jun 12 14:47:47 2021 +0100:
+<pre>rod durability++ and nonbreaking
+</pre></li>
+<li>
+vadis365, Sat Jun 12 14:14:34 2021 +0100:
+<pre>hue
+</pre></li>
+<li>
+vadis365, Sat Jun 12 14:08:47 2021 +0100:
+<pre>texture variant for surface and water pebbles
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 12 12:32:01 2021 +0200:
+<pre>- Added some NBT null checks to mortar
+- Fixed mortar sending update packets every tick
+- Pestle animation is now interpolated
+</pre></li>
+<li>
+vadis365, Fri Jun 11 22:43:39 2021 +0100:
+<pre>switcheroo so sound plays before tic
+</pre></li>
+<li>
+vadis365, Fri Jun 11 22:20:30 2021 +0100:
+<pre>some sounds
+</pre></li>
+<li>
+TheSilverplier, Fri Jun 11 23:17:10 2021 +0200:
+<pre>Create fr_FR.lang</pre></li>
+<li>
+vadis365, Fri Jun 11 19:43:20 2021 +0100:
+<pre>some floating adjustment
+</pre></li>
+<li>
+vadis365, Fri Jun 11 18:14:55 2021 +0100:
+<pre>stopped rocksnots catching lurkers
+</pre></li>
+<li>
+vadis365, Fri Jun 11 17:51:15 2021 +0100:
+<pre>little less pebbles in caves
+</pre></li>
+<li>
+vadis365, Thu Jun 10 21:26:42 2021 +0100:
+<pre>moar stones
+</pre></li>
+<li>
+vadis365, Thu Jun 10 21:02:27 2021 +0100:
+<pre>pebble decoration
+</pre></li>
+<li>
+TheCyberBrick, Thu Jun 10 17:00:58 2021 +0200:
+<pre>Implemented new fallen leaves
+</pre></li>
+<li>
+vadis365, Wed Jun 9 21:11:25 2021 +0100:
+<pre>arm swing animation
+</pre></li>
+<li>
+vadis365, Wed Jun 9 20:32:26 2021 +0100:
+<pre>Barnacles added to worldgen
+
+nerfed growth speed considerably
+</pre></li>
+<li>
+vadis365, Wed Jun 9 00:33:20 2021 +0100:
+<pre>fixed render on smoking rack
+</pre></li>
+<li>
+vadis365, Tue Jun 8 23:36:17 2021 +0100:
+<pre>small AI tweak
+</pre></li>
+<li>
+vadis365, Tue Jun 8 19:46:04 2021 +0100:
+<pre>coracle tweaks
+</pre></li>
+<li>
+TheCyberBrick, Tue Jun 8 16:22:12 2021 +0200:
+<pre>Added knockback resistance to upgrade
+</pre></li>
+<li>
+TheCyberBrick, Tue Jun 8 16:12:26 2021 +0200:
+<pre>Added simple way of giving amphibian armor upgrades attribute modifiers
+</pre></li>
+<li>
+TheCyberBrick, Tue Jun 8 14:13:05 2021 +0200:
+<pre>Implemented basis for amphibian armor upgrades
+</pre></li>
+<li>
+vadis365, Mon Jun 7 22:04:05 2021 +0100:
+<pre>adding loot test
+</pre></li>
+<li>
+vadis365, Mon Jun 7 18:42:19 2021 +0100:
+<pre>no particles if on land
+</pre></li>
+<li>
+vadis365, Mon Jun 7 18:37:26 2021 +0100:
+<pre>better
+</pre></li>
+<li>
+vadis365, Mon Jun 7 18:28:14 2021 +0100:
+<pre>sinking particle placeholders
+</pre></li>
+<li>
+vadis365, Sun Jun 6 22:54:08 2021 +0100:
+<pre>Some Coracle WIP
+</pre></li>
+<li>
+vadis365, Sun Jun 6 15:02:01 2021 +0100:
+<pre>whoops
+</pre></li>
+<li>
+vadis365, Sun Jun 6 15:00:42 2021 +0100:
+<pre>no more rip boots
+</pre></li>
+<li>
+TheCyberBrick, Sun Jun 6 12:49:57 2021 +0200:
+<pre>Some more amphibian armour animation tweaks
+</pre></li>
+<li>
+vadis365, Sun Jun 6 02:10:18 2021 +0100:
+<pre>armour upgrade inventories WIP
+</pre></li>
+<li>
+vadis365, Sat Jun 5 21:10:28 2021 +0100:
+<pre>some fish spawns
+</pre></li>
+<li>
+vadis365, Sat Jun 5 20:24:32 2021 +0100:
+<pre>only place in water
+</pre></li>
+<li>
+vadis365, Sat Jun 5 20:09:44 2021 +0100:
+<pre>bounding boxes for barnacles
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 5 20:57:28 2021 +0200:
+<pre>Some more animations
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 5 20:47:09 2021 +0200:
+<pre>- Fixed amphibian armour belt rendering with chest piece
+- Added amphibian armour animations
+</pre></li>
+<li>
+vadis365, Sat Jun 5 19:29:09 2021 +0100:
+<pre>fixed reverse direction derp
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 5 20:07:32 2021 +0200:
+<pre>Added amphibian armour item models and lang
+</pre></li>
+<li>
+vadis365, Sat Jun 5 18:55:22 2021 +0100:
+<pre>side attachment only needs one position check
+</pre></li>
+<li>
+vadis365, Sat Jun 5 18:28:28 2021 +0100:
+<pre>swapped logic still WIP
+</pre></li>
+<li>
+vadis365, Sat Jun 5 17:44:58 2021 +0100:
+<pre>quick placeholder logic
+
+just pushing for safety - ignore for now
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 5 18:43:52 2021 +0200:
+<pre>Added amphibian armour model
+</pre></li>
+<li>
+TheCyberBrick, Sat Jun 5 17:29:29 2021 +0200:
+<pre>- Fixed smouldering peat gen
+- Fixed underwater plant cluster gen replacing non replaceable blocks
+</pre></li>
+<li>
+vadis365, Sat Jun 5 01:28:07 2021 +0100:
+<pre>Barnacle stuffs
+</pre></li>
+<li>
+vadis365, Fri Jun 4 18:22:54 2021 +0100:
+<pre>barnacle item textures
+</pre></li>
+<li>
+vadis365, Fri Jun 4 18:15:14 2021 +0100:
+<pre>Amate Name Tag
+</pre></li>
+<li>
+vadis365, Fri Jun 4 16:50:16 2021 +0100:
+<pre>Smouldering peat to marsh
+</pre></li>
+<li>
+TheCyberBrick, Fri Jun 4 14:39:12 2021 +0200:
+<pre>Added some more bubble features
+</pre></li>
+<li>
+vadis365, Thu Jun 3 22:21:46 2021 +0100:
+<pre>barnacle water logging
+</pre></li>
+<li>
+TheCyberBrick, Thu Jun 3 23:11:36 2021 +0200:
+<pre>- Improved anadia renderer
+- Fixed anadia hurt overlay
+- Improved fishing hook placement
+</pre></li>
+<li>
+TheCyberBrick, Thu Jun 3 22:32:39 2021 +0200:
+<pre>- Added new bubbler crab bubble texture and particles
+- Improved bubbler crab bubble collisions
+</pre></li>
+<li>
+vadis365, Wed Jun 2 22:21:50 2021 +0100:
+<pre>testing models
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 22:33:49 2021 +0200:
+<pre>Fixed model converter crashing when ModelRenderer has no boxes
+</pre></li>
+<li>
+vadis365, Wed Jun 2 21:32:18 2021 +0100:
+<pre>eek
+</pre></li>
+<li>
+vadis365, Wed Jun 2 21:18:18 2021 +0100:
+<pre>place holder barnacle bits
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 15:22:15 2021 +0200:
+<pre>- Added anadia netting timer and unhook panic AI
+- Implemented net auto equip when using rod
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 14:08:26 2021 +0200:
+<pre>Fixed anadia trying to swim away even with no stamina
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 02:28:22 2021 +0200:
+<pre>Fixed mip mapping state not being restored
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 02:05:03 2021 +0200:
+<pre>Fixed silt glass jar renderer
+</pre></li>
+<li>
+TheCyberBrick, Wed Jun 2 01:11:52 2021 +0200:
+<pre>- Fixed underwater pebble model
+- Removed pebble block items
+</pre></li>
+<li>
+vadis365, Wed Jun 2 00:07:51 2021 +0100:
+<pre>begone red thing
+</pre></li>
+<li>
+TheCyberBrick, Tue Jun 1 23:49:54 2021 +0200:
+<pre>re-added rotation
+</pre></li>
+<li>
+TheCyberBrick, Tue Jun 1 23:40:48 2021 +0200:
+<pre>Fixed cave fish glow
+</pre></li>
+<li>
+vadis365, Tue Jun 1 22:11:26 2021 +0100:
+<pre>Highlander Bug Eye Bastards
+</pre></li>
+<li>
+vadis365, Tue Jun 1 18:45:35 2021 +0100:
+<pre>AI tweaks
+</pre></li>
+<li>
+vadis365, Tue Jun 1 14:37:14 2021 +0100:
+<pre>Cave Fish removal
+
+removed separate mob
+</pre></li>
+<li>
+vadis365, Tue Jun 1 01:49:21 2021 +0100:
+<pre>Added back the cave fish for now
+</pre></li>
+<li>
+vadis365, Sun May 30 21:04:58 2021 +0100:
+<pre>Bubbler crab attack
+</pre></li>
+<li>
+vadis365, Sun May 30 01:24:51 2021 +0100:
+<pre>WIP shaky place holder
+</pre></li>
+<li>
+vadis365, Sat May 29 18:19:12 2021 +0100:
+<pre>enabled sight check
+</pre></li>
+<li>
+vadis365, Sat May 29 17:36:59 2021 +0100:
+<pre>Mob smell target AI
+</pre></li>
+<li>
+TheCyberBrick, Sat May 29 17:58:20 2021 +0200:
+<pre>Added fumigant censer recipe
+</pre></li>
+<li>
+vadis365, Sat May 29 16:44:51 2021 +0100:
+<pre>one day
+</pre></li>
+<li>
+TheCyberBrick, Sat May 29 13:58:51 2021 +0200:
+<pre>Improved smelliness
+</pre></li>
+<li>
+vadis365, Fri May 28 21:31:21 2021 +0100:
+<pre>fuck this
+</pre></li>
+<li>
+vadis365, Fri May 28 20:59:45 2021 +0100:
+<pre>more stuffs test
+
+place holder
+</pre></li>
+<li>
+vadis365, Thu May 27 21:54:34 2021 +0100:
+<pre>added basic player stank
+</pre></li>
+<li>
+vadis365, Mon May 24 20:00:41 2021 +0100:
+<pre>rock snots spawn (testing)
+</pre></li>
+<li>
+vadis365, Sat May 22 20:11:24 2021 +0100:
+<pre>lowered glow on jelly fish
+</pre></li>
+<li>
+vadis365, Sat May 22 18:13:47 2021 +0100:
+<pre>fixed urchin spawning
+
+silly chimp
+</pre></li>
+<li>
+vadis365, Sat May 22 16:30:49 2021 +0100:
+<pre>fuck this
+
+left debug glowing and console print in so someone else can make the fucker spawn.
+</pre></li>
+<li>
+vadis365, Fri May 21 22:26:55 2021 +0100:
+<pre>dunno
+</pre></li>
+<li>
+Andromander, Fri May 21 22:54:33 2021 +1000:
+<pre>Preliminary plantation in generation. Works-ish
+</pre></li>
+<li>
+Andromander, Fri May 21 22:53:55 2021 +1000:
+<pre>X and Z are too close
+</pre></li>
+<li>
+Andromander, Fri May 21 22:23:25 2021 +1000:
+<pre>Do good BlockPos-ing
+</pre></li>
+<li>
+vadis365, Sun May 9 19:44:20 2021 +0100:
+<pre>removed commented out stuff
+</pre></li>
+<li>
+vadis365, Sun May 9 17:30:07 2021 +0100:
+<pre>Removed unneeded attribute
+
+was spamming the console and it isn't needed atm.
+</pre></li>
+<li>
+vadis365, Sun May 9 01:17:45 2021 +0100:
+<pre>new block guis and anadia spawns
+</pre></li>
+<li>
+vadis365, Sat May 8 18:30:26 2021 +0100:
+<pre>A bit more pebble sanity
+
+Changed collision box a bit and the names of stuff. Also added some placing logic for some sanity.
+</pre></li>
+<li>
+vadis365, Sat May 8 16:53:07 2021 +0100:
+<pre>pebble block item just because
+</pre></li>
+<li>
+vadis365, Sat May 8 14:30:47 2021 +0100:
+<pre>Deep Water Theme
+</pre></li>
+<li>
+Andromander, Fri Apr 30 21:50:21 2021 +1000:
+<pre>Fix placement being funky
+</pre></li>
+<li>
+Andromander, Mon Apr 19 10:03:46 2021 +1000:
+<pre>More generation work, untested placement
+</pre></li>
+<li>
+vadis365, Thu Mar 25 23:42:44 2021 +0000:
+<pre>some sanity for Squiggles
+</pre></li>
+<li>
+vadis365, Thu Mar 25 21:38:18 2021 +0000:
+<pre>grrrrr
+
+put it in the right place :P
+</pre></li>
+<li>
+Andromander, Thu Mar 25 22:37:15 2021 +1000:
+<pre>Little thing to help the feature generate
+</pre></li>
+<li>
+Andromander, Thu Mar 25 22:30:02 2021 +1000:
+<pre>WIP Feature
+</pre></li>
+<li>
+TheCyberBrick, Wed Mar 24 00:32:49 2021 +0100:
+<pre>Small fix to accomodate order independent event registration
+</pre></li>
+<li>
+TheCyberBrick, Mon Mar 22 22:26:39 2021 +0100:
+<pre>Merge branch '1.12-fixes' into 1.12-fish
+
+# Conflicts:
+#	src/main/java/thebetweenlands/client/proxy/ClientProxy.java
+#	src/main/java/thebetweenlands/common/registries/EntityRegistry.java
+#	src/main/java/thebetweenlands/common/registries/RecipeRegistry.java
+</pre></li>
+<li>
+TheCyberBrick, Mon Mar 22 22:09:49 2021 +0100:
+<pre>Merge branch '1.12-fixes' into 1.12
+</pre></li></ul></details>
