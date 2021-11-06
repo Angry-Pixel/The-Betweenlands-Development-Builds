@@ -1,4 +1,8 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/fb935886dd4671ea765be358bb0281efa383d2ac">https://github.com/Angry-Pixel/The-Betweenlands/commit/fb935886dd4671ea765be358bb0281efa383d2ac</a>
-vadis365, Sun Oct 31 20:56:24 2021 +0000:
-<pre>Lurkers like glowing bait
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/ee25d7fadd8612aba804a84101ecddc74147e211">https://github.com/Angry-Pixel/The-Betweenlands/commit/ee25d7fadd8612aba804a84101ecddc74147e211</a>
+SeriousCreeper, Fri Nov 5 19:31:32 2021 -0700:
+<pre>changed anadia scales to add more armor,
+added sap spit upgrade for decay instead,
+added breaking noise and chat message when an armor upgrade breaks,
+amphibious armor upgrade items now drop when the armor breaks,
+fixed being able to place damaged glowing goop
 </pre>
