@@ -1,8 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/ee25d7fadd8612aba804a84101ecddc74147e211">https://github.com/Angry-Pixel/The-Betweenlands/commit/ee25d7fadd8612aba804a84101ecddc74147e211</a>
-SeriousCreeper, Fri Nov 5 19:31:32 2021 -0700:
-<pre>changed anadia scales to add more armor,
-added sap spit upgrade for decay instead,
-added breaking noise and chat message when an armor upgrade breaks,
-amphibious armor upgrade items now drop when the armor breaks,
-fixed being able to place damaged glowing goop
-</pre>
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/1f4ad77c9255009d38e1d5e8cfc4f65d21a28f94">https://github.com/Angry-Pixel/The-Betweenlands/commit/1f4ad77c9255009d38e1d5e8cfc4f65d21a28f94</a>
+<details><summary>Changes</summary>
+TheCyberBrick, Sun Aug 22 23:02:32 2021 +0200:
+Force fetch tags
+</details>
