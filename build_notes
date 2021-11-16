@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d383c71fd58833112a6612c52bd58506300bf038">https://github.com/Angry-Pixel/The-Betweenlands/commit/d383c71fd58833112a6612c52bd58506300bf038</a>
-SeriousCreeper, Sun Nov 14 00:53:27 2021 -0800:
-<pre>fixed right clicking empty mortar with pestle not updating model
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/7acf1dac525a5e160f1c4003c7765c1829fc46a1">https://github.com/Angry-Pixel/The-Betweenlands/commit/7acf1dac525a5e160f1c4003c7765c1829fc46a1</a>
+SeriousCreeper, Mon Nov 15 20:04:42 2021 -0800:
+<pre>fixed trigger stone crashing game when a removed upgrade is selected
 </pre>
