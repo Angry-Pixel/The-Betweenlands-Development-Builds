@@ -1,7 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/5f05946beed1c7f7e214770339e2e5d3ca813a68">https://github.com/Angry-Pixel/The-Betweenlands/commit/5f05946beed1c7f7e214770339e2e5d3ca813a68</a>
-vadis365, Sat Nov 20 16:40:54 2021 +0000:
-<pre>Nicer fish bubbles
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/23ca0072fc0906269f712c9b31b695124d06ade6">https://github.com/Angry-Pixel/The-Betweenlands/commit/23ca0072fc0906269f712c9b31b695124d06ade6</a>
+vadis365, Sat Nov 20 20:16:18 2021 +0000:
+<pre>Living root subtitles
 
-Added bubble particles to Anadia and Cave fish.
-Improved the position and lowered the amount of Angler bubble particles.
+No idea why it uses an status update - seems pointless to me - shrugs
+doesn't even play the death sound on death and the death status is never called in the mob as far as I can see.
 </pre>
