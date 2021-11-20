@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/074b9713c38d729bc628a7765d0668dc3d3e8136">https://github.com/Angry-Pixel/The-Betweenlands/commit/074b9713c38d729bc628a7765d0668dc3d3e8136</a>
-Oli, Thu Nov 18 15:01:26 2021 +0000:
-<pre>Some sound stuff
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d192d52d8354f0ace5b77698d83555e58e7066b9">https://github.com/Angry-Pixel/The-Betweenlands/commit/d192d52d8354f0ace5b77698d83555e58e7066b9</a>
+vadis365, Sat Nov 20 14:27:27 2021 +0000:
+<pre>patch for subtitles
+
+Pyrad flames and Pebble hiss should now redirect to our sound event and show correct subtitles
 </pre>
