@@ -1,6 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d192d52d8354f0ace5b77698d83555e58e7066b9">https://github.com/Angry-Pixel/The-Betweenlands/commit/d192d52d8354f0ace5b77698d83555e58e7066b9</a>
-vadis365, Sat Nov 20 14:27:27 2021 +0000:
-<pre>patch for subtitles
-
-Pyrad flames and Pebble hiss should now redirect to our sound event and show correct subtitles
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/72bf29b1cf482e9995f3a445be113b26e1c44dc2">https://github.com/Angry-Pixel/The-Betweenlands/commit/72bf29b1cf482e9995f3a445be113b26e1c44dc2</a>
+vadis365, Sat Nov 20 14:56:15 2021 +0000:
+<pre>null check catch on bubbler crab
 </pre>
