@@ -1,4 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/435c023a5328c487a8d68e2ce0c5c221cdd51e02">https://github.com/Angry-Pixel/The-Betweenlands/commit/435c023a5328c487a8d68e2ce0c5c221cdd51e02</a>
-vadis365, Sat Nov 20 15:49:12 2021 +0000:
-<pre>Generic Fish sounds added
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/5f05946beed1c7f7e214770339e2e5d3ca813a68">https://github.com/Angry-Pixel/The-Betweenlands/commit/5f05946beed1c7f7e214770339e2e5d3ca813a68</a>
+vadis365, Sat Nov 20 16:40:54 2021 +0000:
+<pre>Nicer fish bubbles
+
+Added bubble particles to Anadia and Cave fish.
+Improved the position and lowered the amount of Angler bubble particles.
 </pre>
