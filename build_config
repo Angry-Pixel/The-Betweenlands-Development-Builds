@@ -1,16 +1,16 @@
 [number]:
-261
+260
 [type]:
 release
 [release]:
 true
 [title]:
-Release Build vTest-release-261
+Release Build v3.8.1-release-260
 [tag]:
-release-vTest-release-261-25.11.2021
+release-v3.8.1-release-260-25.11.2021
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-vTest-release
+v3.8.1-release
 [commit]:
-1f4ad77c9255009d38e1d5e8cfc4f65d21a28f94
+2260ba6cc28cc976078f1f33f8bd4fc2e6e8d0d3
