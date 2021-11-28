@@ -1,6 +1,7 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/2a1ebf7434dca01e5d5e721d024c130fa4972e12">https://github.com/Angry-Pixel/The-Betweenlands/commit/2a1ebf7434dca01e5d5e721d024c130fa4972e12</a>
-vadis365, Sat Nov 27 15:01:34 2021 +0000:
-<pre>Saturation Hax
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8f907b73238cd8331211bc0ce1ec181cde3339f6">https://github.com/Angry-Pixel/The-Betweenlands/commit/8f907b73238cd8331211bc0ce1ec181cde3339f6</a>
+SeriousCreeper, Sat Nov 27 16:33:45 2021 -0800:
+<pre>Merge branch '1.12-fixes' of github.com:Angry-Pixel/The-Betweenlands into 1.12-fixes
 
-feel free to re-do if it doesn't work ;)
+# Conflicts:
+#	src/main/java/thebetweenlands/common/entity/projectiles/EntityBLFishHook.java
 </pre>
