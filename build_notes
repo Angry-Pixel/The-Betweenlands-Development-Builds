@@ -1,6 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e2940f51c303cb520f47cb96ec5943c461fc440b">https://github.com/Angry-Pixel/The-Betweenlands/commit/e2940f51c303cb520f47cb96ec5943c461fc440b</a>
-vadis365, Sun Dec 26 20:21:20 2021 +0000:
-<pre>Boiling pot rendering
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/6cf883e7bdc5afddecbf109dcf015d2baec8902d">https://github.com/Angry-Pixel/The-Betweenlands/commit/6cf883e7bdc5afddecbf109dcf015d2baec8902d</a>
+vadis365, Sun Dec 26 23:13:55 2021 +0000:
+<pre>NBT fluid colour
 
-mostly placeholder stuff, but at least we can see what is in it now.
+works for one thing, but not universal.
 </pre>
