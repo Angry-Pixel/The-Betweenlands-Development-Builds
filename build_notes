@@ -1,6 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/6cf883e7bdc5afddecbf109dcf015d2baec8902d">https://github.com/Angry-Pixel/The-Betweenlands/commit/6cf883e7bdc5afddecbf109dcf015d2baec8902d</a>
-vadis365, Sun Dec 26 23:13:55 2021 +0000:
-<pre>NBT fluid colour
-
-works for one thing, but not universal.
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/4c92646fb332538edaad08c4522cf7eb82c9de6f">https://github.com/Angry-Pixel/The-Betweenlands/commit/4c92646fb332538edaad08c4522cf7eb82c9de6f</a>
+TheCyberBrick, Mon Dec 27 00:38:12 2021 +0100:
+<pre>Implemented dyed water fluid colour handling
 </pre>
