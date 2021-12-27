@@ -1,6 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/714b35f360a6e0ec5dcdc9f79422dcb5999157eb">https://github.com/Angry-Pixel/The-Betweenlands/commit/714b35f360a6e0ec5dcdc9f79422dcb5999157eb</a>
-vadis365, Mon Dec 27 15:04:52 2021 +0000:
-<pre>dye fluid langs
-
-moved NBT to just the meta for easier lookup in the enum.
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/39d2f385a008d22ccca0f40dd4bd020ffabcd4de">https://github.com/Angry-Pixel/The-Betweenlands/commit/39d2f385a008d22ccca0f40dd4bd020ffabcd4de</a>
+vadis365, Mon Dec 27 16:33:37 2021 +0000:
+<pre>Dye collection.
 </pre>
