@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/b450b9d92030ae5952d927c0f6480aaa21a5f28b">https://github.com/Angry-Pixel/The-Betweenlands/commit/b450b9d92030ae5952d927c0f6480aaa21a5f28b</a>
-vadis365, Wed Dec 29 16:31:56 2021 +0000:
-<pre>some rendering stuffs
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8ba950f85fa47773c7dbf4577d4406b4328bfdc6">https://github.com/Angry-Pixel/The-Betweenlands/commit/8ba950f85fa47773c7dbf4577d4406b4328bfdc6</a>
+vadis365, Wed Dec 29 17:28:53 2021 +0000:
+<pre>Interaction stuff
+
+Player locked out from removing pouch once the dye fade happens (buckets still work to stop the process as a fail safe)
 </pre>
