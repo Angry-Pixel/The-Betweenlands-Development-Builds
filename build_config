@@ -1,16 +1,16 @@
 [number]:
-365
+366
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-bushes-365
+Development Build 1.12-bushes-366
 [tag]:
-dev-1.12-bushes-365-25.06.2022
+dev-1.12-bushes-366-26.06.2022
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
 1.12-bushes
 [commit]:
-43cb432184315408108899a9a28a23b8ec18cd2a
+acc2c0e5d0c1ac449e3fddbeaeddfca2fff98c39
