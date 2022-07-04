@@ -1,8 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/40d7a88856f2a61ce3548da8fce52b27425dc8d9">https://github.com/Angry-Pixel/The-Betweenlands/commit/40d7a88856f2a61ce3548da8fce52b27425dc8d9</a>
-SeriousCreeper, Sun Jul 3 18:37:29 2022 -0700:
-<pre>added recipes for stained shingles,
-changed pouch and frame recipes to require the "clean" version for colored versions,
-replaced swamp reed rope with silk thread in pouch and fishing rod recipes,
-adjusted fishing rod line texture to match silk thread,
-added purifier recipes to clean pouches, frames, glass, and shingles
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e5a33e72606aa568202b31f555d28c91d2cf053b">https://github.com/Angry-Pixel/The-Betweenlands/commit/e5a33e72606aa568202b31f555d28c91d2cf053b</a>
+SeriousCreeper, Sun Jul 3 19:23:10 2022 -0700:
+<pre>adjusted filtered silt glass jar to be same as silt glass jar,
+added filtered silt glass jar texture
 </pre>
