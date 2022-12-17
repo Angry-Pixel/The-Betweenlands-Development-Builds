@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/77a9e3803a413ee18bdc731e453a17a6e16f6c90">https://github.com/Angry-Pixel/The-Betweenlands/commit/77a9e3803a413ee18bdc731e453a17a6e16f6c90</a>
-vadis365, Sat Dec 17 16:34:06 2022 +0000:
-<pre>fuck that
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/9188c204e86c18534692d1e12d857307ff5b6cc3">https://github.com/Angry-Pixel/The-Betweenlands/commit/9188c204e86c18534692d1e12d857307ff5b6cc3</a>
+vadis365, Sat Dec 17 17:59:07 2022 +0000:
+<pre>removed infinite loop
+
+now removes fluid and stops processing if an invalid recipe or empty bundle in used
 </pre>
