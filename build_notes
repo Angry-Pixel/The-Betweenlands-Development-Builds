@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/b999a3ca160a9997bca88878f99588b34831a92b">https://github.com/Angry-Pixel/The-Betweenlands/commit/b999a3ca160a9997bca88878f99588b34831a92b</a>
-vadis365, Thu Dec 22 15:42:22 2022 +0000:
-<pre>to keep okl happy
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/a7580e059f26589873a84e8536c11d7263c3a15f">https://github.com/Angry-Pixel/The-Betweenlands/commit/a7580e059f26589873a84e8536c11d7263c3a15f</a>
+vadis365, Thu Dec 22 22:53:43 2022 +0000:
+<pre>Pouch dying stuff
+
+Doesn't cover EVERY Edgecase - legacy pouches need to be opened at least once to be dyable - new crafted ones will be fine and so will cheated in ones.
 </pre>
