@@ -1,6 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/a7580e059f26589873a84e8536c11d7263c3a15f">https://github.com/Angry-Pixel/The-Betweenlands/commit/a7580e059f26589873a84e8536c11d7263c3a15f</a>
-vadis365, Thu Dec 22 22:53:43 2022 +0000:
-<pre>Pouch dying stuff
-
-Doesn't cover EVERY Edgecase - legacy pouches need to be opened at least once to be dyable - new crafted ones will be fine and so will cheated in ones.
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/028a6438b10368d45bd6b2c7db6a2a7175f9e8d7">https://github.com/Angry-Pixel/The-Betweenlands/commit/028a6438b10368d45bd6b2c7db6a2a7175f9e8d7</a>
+SeriousCreeper, Thu Dec 22 16:01:18 2022 -0800:
+<pre>added moth house recipe and silk moth particles
 </pre>
