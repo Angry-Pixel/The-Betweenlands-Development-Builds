@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/ed18122431eb9e38a4e1faccf488c5c2eb92282e">https://github.com/Angry-Pixel/The-Betweenlands/commit/ed18122431eb9e38a4e1faccf488c5c2eb92282e</a>
-Ethan Chen, Mon Dec 26 22:15:13 2022 -0800:
-<pre>fixed elm cyan canvas panels using the wrong samite color
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/db75289a0faa1049e4a1976b93630e53ce19e1bf">https://github.com/Angry-Pixel/The-Betweenlands/commit/db75289a0faa1049e4a1976b93630e53ce19e1bf</a>
+TheCyberBrick, Tue Dec 27 18:08:50 2022 +0100:
+<pre>Fix connected pane culling hole
 </pre>
