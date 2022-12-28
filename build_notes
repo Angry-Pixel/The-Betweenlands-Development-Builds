@@ -1,4 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8df915513982fbce1627d78cbe1c3742e924e794">https://github.com/Angry-Pixel/The-Betweenlands/commit/8df915513982fbce1627d78cbe1c3742e924e794</a>
-TheCyberBrick, Wed Dec 28 21:11:08 2022 +0100:
-<pre>Changed max grubs in moth house to 6
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/90c450c9a443553dda7f30f293a8831ea2643016">https://github.com/Angry-Pixel/The-Betweenlands/commit/90c450c9a443553dda7f30f293a8831ea2643016</a>
+TheCyberBrick, Wed Dec 28 21:26:31 2022 +0100:
+<pre>- Grubs are now no longer rendered when silk production has finished
+- Fix grub item stack not being copied when inserting
 </pre>
