@@ -1,4 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/cb90a218f25719f96a582ed8b54b3737d86db89d">https://github.com/Angry-Pixel/The-Betweenlands/commit/cb90a218f25719f96a582ed8b54b3737d86db89d</a>
-TheCyberBrick, Wed Dec 28 12:32:17 2022 +0100:
-<pre>Fix moth house not spawning silk moth particles
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/3008fdb022df436a9b5c4f0ff75db0ad53077c86">https://github.com/Angry-Pixel/The-Betweenlands/commit/3008fdb022df436a9b5c4f0ff75db0ad53077c86</a>
+TheCyberBrick, Wed Dec 28 16:47:27 2022 +0100:
+<pre>- Moth house can now be placed on walls
+- Fixed moth house breaking particles
 </pre>
