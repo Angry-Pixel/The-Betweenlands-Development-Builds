@@ -1,5 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8bc0ef8fd0b968d523d93632ea1b36036a52517b">https://github.com/Angry-Pixel/The-Betweenlands/commit/8bc0ef8fd0b968d523d93632ea1b36036a52517b</a>
-TheCyberBrick, Wed Dec 28 12:15:40 2022 +0100:
-<pre>- Fix moth house NPE crash
-- Fix moth house and grub hub particle MP crash
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/0c885737ae271cbaf3c62bb519e9ef703d1c19b4">https://github.com/Angry-Pixel/The-Betweenlands/commit/0c885737ae271cbaf3c62bb519e9ef703d1c19b4</a>
+TheCyberBrick, Wed Dec 28 12:23:26 2022 +0100:
+<pre>Change particle colors to pheromone purple
 </pre>
