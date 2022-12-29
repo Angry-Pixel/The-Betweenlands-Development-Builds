@@ -1,16 +1,16 @@
 [number]:
-501
+503
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-fixes-501
+Development Build 1.12-fixes-503
 [tag]:
-dev-1.12-fixes-501-29.12.2022
+dev-1.12-fixes-503-29.12.2022
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
 1.12-fixes
 [commit]:
-606713d5bb907dcf7fcb264d465594a5d585c13e
+6c5a58ec9b4da2d1309c17b1a3c0ac2d79e51a0f
