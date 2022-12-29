@@ -1,4 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/8ff2250fa80ea157df663bd6556d863665627679">https://github.com/Angry-Pixel/The-Betweenlands/commit/8ff2250fa80ea157df663bd6556d863665627679</a>
-TheCyberBrick, Wed Dec 28 22:19:31 2022 +0100:
-<pre>Moth house markDirty
-</pre>
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/d1259f8dd49f72296315f50b29c7e70dc4206bdd">https://github.com/Angry-Pixel/The-Betweenlands/commit/d1259f8dd49f72296315f50b29c7e70dc4206bdd</a>
+TheCyberBrick, Thu Dec 29 16:01:20 2022 +0100:
+<pre>Merge pull request #1340 from JoshieGemFinder/1.12-fixes
+
+Add IAnimals tag to certain mobs for better mod compat</pre>
