@@ -1,5 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/f629939fc91fcb4950b21919454a471ba8c089c2">https://github.com/Angry-Pixel/The-Betweenlands/commit/f629939fc91fcb4950b21919454a471ba8c089c2</a>
-TheCyberBrick, Thu Dec 29 16:27:13 2022 +0100:
-<pre>Merge pull request #1289 from TheSilverplier/patch-2
-
-French Translation Updated to 3.9.0 (+ Corrections)</pre>
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/231c4b0b4bc2b7aeb0635655f77227e468d018ad">https://github.com/Angry-Pixel/The-Betweenlands/commit/231c4b0b4bc2b7aeb0635655f77227e468d018ad</a>
+TheCyberBrick, Thu Dec 29 16:55:14 2022 +0100:
+<pre>- Update info file
+- Fix shulker boxes placeable in lurker skin pouch or fishing tackle box
+</pre>
