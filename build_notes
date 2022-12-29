@@ -1,4 +1,1175 @@
 Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/1798a85ab48af64b6cb6541e6565e11786f682e3">https://github.com/Angry-Pixel/The-Betweenlands/commit/1798a85ab48af64b6cb6541e6565e11786f682e3</a>
-TheCyberBrick, Thu Dec 29 23:41:54 2022 +0100:
-<pre>Merge branch '1.12-fixes' into 1.12
-</pre>
+<details><summary>Changes</summary><ul>
+<li>
+TheCyberBrick, Thu Dec 29 23:41:03 2022 +0100:
+<pre>Enable firefly rendering in item frame
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 23:03:26 2022 +0100:
+<pre>Updated mod version
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 22:33:29 2022 +0100:
+<pre>Added water filter and steeping pot recipe tooltips
+</pre></li>
+<li>
+SeriousCreeper, Thu Dec 29 13:11:05 2022 -0800:
+<pre>switched to createCapturedEntity for mobs in item frames
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 21:59:35 2022 +0100:
+<pre>Fixed lattice block rendering translucent
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 21:53:14 2022 +0100:
+<pre>- Fixed water filter converting liquids without strainer
+- Fixed water filter voiding liquid
+</pre></li>
+<li>
+SeriousCreeper, Thu Dec 29 10:59:26 2022 -0800:
+<pre>fixed chiromaws not rendering properly in item frames
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 18:21:58 2022 +0100:
+<pre>Fix steeping pot MP crash
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 18:10:43 2022 +0100:
+<pre>Fix water filter sound type
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:26:35 2022 +0100:
+<pre>Fix hollow log and BL arrows
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:25:27 2022 +0100:
+<pre>Merge pull request #1319 from JoshieGemFinder/1.12-dev
+
+Add basic dispenser functionality to arrows
+
+(cherry picked from commit 2a276c87feff775fac2031eabfe73a9e1fd634cf)
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:24:50 2022 +0100:
+<pre>Merge pull request #1320 from JoshieGemFinder/patch-1
+
+Add hollow collision to hollow log
+
+(cherry picked from commit 7a4633e8459c2eb817546f5e847970808025ed32)
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:15:02 2022 +0100:
+<pre>Update ru_RU
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:55:14 2022 +0100:
+<pre>- Update info file
+- Fix shulker boxes placeable in lurker skin pouch or fishing tackle box
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 16:26:35 2022 +0100:
+<pre>Merge pull request #1293 from maicol07/patch-3
+
+Completed Italian translation</pre></li>
+<li>
+TheSilverplier, Wed Dec 28 23:02:12 2022 +0100:
+<pre>Tooltip</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 22:19:31 2022 +0100:
+<pre>Moth house markDirty
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 21:33:21 2022 +0100:
+<pre>Small change
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 21:26:31 2022 +0100:
+<pre>- Grubs are now no longer rendered when silk production has finished
+- Fix grub item stack not being copied when inserting
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 21:11:08 2022 +0100:
+<pre>Changed max grubs in moth house to 6
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 21:06:21 2022 +0100:
+<pre>Removed debug output
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 20:38:32 2022 +0100:
+<pre>- Infested weedwood bushes can now be destroyed by heavy rain
+- Swamp reed can now stay next to ice blocks
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 20:05:01 2022 +0100:
+<pre>Changed moth house block face shape
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 19:53:06 2022 +0100:
+<pre>Changed moth house mechanics
+</pre></li>
+<li>
+vadis365, Wed Dec 28 18:19:16 2022 +0000:
+<pre>changed glass
+</pre></li>
+<li>
+SeriousCreeper, Wed Dec 28 10:05:04 2022 -0800:
+<pre>custom recipe for steeping pot (still WIP)
+</pre></li>
+<li>
+SeriousCreeper, Wed Dec 28 10:01:13 2022 -0800:
+<pre>added tooltip to freiwynn about turning item frames invisible
+</pre></li>
+<li>
+vadis365, Wed Dec 28 16:52:49 2022 +0000:
+<pre>some junk
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 17:19:27 2022 +0100:
+<pre>Implemented hanging steeping pot model
+</pre></li>
+<li>
+vadis365, Wed Dec 28 16:01:36 2022 +0000:
+<pre>water filters are now a basic fluid hopper
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 16:54:01 2022 +0100:
+<pre>Infested weedwood bush now infests players
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 16:47:27 2022 +0100:
+<pre>- Moth house can now be placed on walls
+- Fixed moth house breaking particles
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 12:32:17 2022 +0100:
+<pre>Fix moth house not spawning silk moth particles
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 12:23:26 2022 +0100:
+<pre>Change particle colors to pheromone purple
+</pre></li>
+<li>
+TheCyberBrick, Wed Dec 28 12:15:40 2022 +0100:
+<pre>- Fix moth house NPE crash
+- Fix moth house and grub hub particle MP crash
+</pre></li>
+<li>
+TheSilverplier, Tue Dec 27 21:35:13 2022 +0100:
+<pre>Advancements 3</pre></li>
+<li>
+TheCyberBrick, Tue Dec 27 20:54:48 2022 +0100:
+<pre>Improved connected pane culling
+</pre></li>
+<li>
+Petasi, Tue Dec 27 14:33:08 2022 -0500:
+<pre>Advancements part 3
+
+Reed mats item display
+</pre></li>
+<li>
+TheCyberBrick, Tue Dec 27 18:08:50 2022 +0100:
+<pre>Fix connected pane culling hole
+</pre></li>
+<li>
+TheSilverplier, Tue Dec 27 18:01:46 2022 +0100:
+<pre>Advancements Part 2</pre></li>
+<li>
+Ethan Chen, Mon Dec 26 22:15:13 2022 -0800:
+<pre>fixed elm cyan canvas panels using the wrong samite color
+</pre></li>
+<li>
+Petasi, Mon Dec 26 11:57:15 2022 -0500:
+<pre>Advancements part 2
+
+not done yet
+</pre></li>
+<li>
+vadis365, Mon Dec 26 15:16:44 2022 +0000:
+<pre>BL item frame criteria pt 2
+</pre></li>
+<li>
+vadis365, Mon Dec 26 15:10:23 2022 +0000:
+<pre>BL item frame criteria
+</pre></li>
+<li>
+vadis365, Mon Dec 26 14:55:13 2022 +0000:
+<pre>Moth house criteria
+</pre></li>
+<li>
+TheSilverplier, Mon Dec 26 03:25:41 2022 +0100:
+<pre>Advancements Part 1</pre></li>
+<li>
+Petasi, Sun Dec 25 18:16:30 2022 -0500:
+<pre>Advancements part 1
+</pre></li>
+<li>
+TheCyberBrick, Sun Dec 25 11:40:26 2022 +0100:
+<pre>Fix ItemMisc right click result
+</pre></li>
+<li>
+TheCyberBrick, Sun Dec 25 11:12:29 2022 +0100:
+<pre>Implement brew saturation
+</pre></li>
+<li>
+TheSilverplier, Sat Dec 24 14:12:27 2022 +0100:
+<pre>Lattice</pre></li>
+<li>
+WightofShadows, Sat Dec 24 02:41:11 2022 -0800:
+<pre>quicky lang thing for shingles</pre></li>
+<li>
+SeriousCreeper, Fri Dec 23 19:05:12 2022 -0800:
+<pre>added rendering of some entities in item frames
+</pre></li>
+<li>
+SeriousCreeper, Fri Dec 23 14:29:01 2022 -0800:
+<pre>fixed blocks being rotated when placed in bottom/ceiling item frames
+</pre></li>
+<li>
+TheSilverplier, Fri Dec 23 22:54:42 2022 +0100:
+<pre>Doors; Trapdoors and such</pre></li>
+<li>
+vadis365, Fri Dec 23 21:52:59 2022 +0000:
+<pre>Lattice pray.
+
+stuff
+</pre></li>
+<li>
+vadis365, Fri Dec 23 19:32:28 2022 +0000:
+<pre>conneted
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Dec 23 19:30:16 2022 +0100:
+<pre>Fixy of the texture fixy</pre></li>
+<li>
+vadis365, Fri Dec 23 18:29:21 2022 +0000:
+<pre>storage block
+</pre></li>
+<li>
+TripleHeadedSheep, Fri Dec 23 19:28:59 2022 +0100:
+<pre>Minor detail fixy</pre></li>
+<li>
+TripleHeadedSheep, Fri Dec 23 19:28:03 2022 +0100:
+<pre>Texture fixy</pre></li>
+<li>
+vadis365, Fri Dec 23 18:11:07 2022 +0000:
+<pre>recipes for doors and trapdoors
+</pre></li>
+<li>
+vadis365, Fri Dec 23 17:54:33 2022 +0000:
+<pre>Doors and trapdoors
+</pre></li>
+<li>
+TheCyberBrick, Fri Dec 23 17:08:19 2022 +0100:
+<pre>Remove ISubtypeRegistry interface from ItemBLBucket
+</pre></li>
+<li>
+vadis365, Fri Dec 23 01:13:07 2022 +0000:
+<pre>because.
+</pre></li>
+<li>
+vadis365, Fri Dec 23 00:45:09 2022 +0000:
+<pre>unsure about stuff
+</pre></li>
+<li>
+SeriousCreeper, Thu Dec 22 16:05:32 2022 -0800:
+<pre>fixed invisible item frames not being able to glow
+</pre></li>
+<li>
+SeriousCreeper, Thu Dec 22 16:01:18 2022 -0800:
+<pre>added moth house recipe and silk moth particles
+</pre></li>
+<li>
+vadis365, Thu Dec 22 22:53:43 2022 +0000:
+<pre>Pouch dying stuff
+
+Doesn't cover EVERY Edgecase - legacy pouches need to be opened at least once to be dyable - new crafted ones will be fine and so will cheated in ones.
+</pre></li>
+<li>
+TheSilverplier, Thu Dec 22 20:11:15 2022 +0100:
+<pre>Erm.... Oopsie</pre></li>
+<li>
+vadis365, Thu Dec 22 15:42:22 2022 +0000:
+<pre>to keep okl happy
+</pre></li>
+<li>
+vadis365, Thu Dec 22 14:04:58 2022 +0000:
+<pre>back to old
+</pre></li>
+<li>
+vadis365, Thu Dec 22 14:00:08 2022 +0000:
+<pre>test to save
+
+will change back - just doing this in case we ever change them
+</pre></li>
+<li>
+TheSilverplier, Thu Dec 22 14:16:55 2022 +0100:
+<pre>More additions and corrections</pre></li>
+<li>
+SeriousCreeper, Wed Dec 21 17:24:52 2022 -0800:
+<pre>allow bundles to be opened in survival without sneaking
+</pre></li>
+<li>
+SeriousCreeper, Wed Dec 21 16:33:28 2022 -0800:
+<pre>automatically whitelist items in bundles when adding recipes
+</pre></li>
+<li>
+vadis365, Wed Dec 21 20:16:21 2022 +0000:
+<pre>dye another day
+</pre></li>
+<li>
+vadis365, Wed Dec 21 19:51:24 2022 +0000:
+<pre>panel recipes
+</pre></li>
+<li>
+vadis365, Wed Dec 21 19:13:16 2022 +0000:
+<pre>unfinished Samite panels
+</pre></li>
+<li>
+vadis365, Wed Dec 21 17:47:58 2022 +0000:
+<pre>json insanity
+</pre></li>
+<li>
+vadis365, Wed Dec 21 14:36:40 2022 +0000:
+<pre>treated lang
+</pre></li>
+<li>
+vadis365, Wed Dec 21 13:34:30 2022 +0000:
+<pre>little name fixy
+</pre></li>
+<li>
+vadis365, Wed Dec 21 13:29:30 2022 +0000:
+<pre>hue
+</pre></li>
+<li>
+vadis365, Wed Dec 21 13:28:37 2022 +0000:
+<pre>some more woody bits
+</pre></li>
+<li>
+vadis365, Wed Dec 21 12:59:46 2022 +0000:
+<pre>stuff
+
+dunno if anything works until texture resources are added
+</pre></li>
+<li>
+SeriousCreeper, Tue Dec 20 21:40:54 2022 -0800:
+<pre>added stained shingle slabs and stairs
+</pre></li>
+<li>
+vadis365, Tue Dec 20 18:16:38 2022 +0000:
+<pre>some colourful mats
+</pre></li>
+<li>
+TheSilverplier, Tue Dec 20 14:36:21 2022 +0100:
+<pre>Updated for 3.9.0
+
+- Added Translations for Samite, Samite Panels and Drinkables</pre></li>
+<li>
+vadis365, Tue Dec 20 00:17:12 2022 +0000:
+<pre>herpa
+</pre></li>
+<li>
+vadis365, Mon Dec 19 23:34:28 2022 +0000:
+<pre>lang for jei thing
+</pre></li>
+<li>
+vadis365, Mon Dec 19 23:27:40 2022 +0000:
+<pre>steeping pot JEI
+
+also seem to have sorted out some imports
+</pre></li>
+<li>
+vadis365, Mon Dec 19 16:57:03 2022 +0000:
+<pre>starter block
+</pre></li>
+<li>
+vadis365, Mon Dec 19 16:33:02 2022 +0000:
+<pre>clean
+</pre></li>
+<li>
+vadis365, Mon Dec 19 16:32:36 2022 +0000:
+<pre>jei reg
+</pre></li>
+<li>
+vadis365, Mon Dec 19 15:59:37 2022 +0000:
+<pre>seems fucky
+</pre></li>
+<li>
+vadis365, Mon Dec 19 14:50:03 2022 +0000:
+<pre>more particles
+
+I don't remember, but I think these were supposed to be more
+</pre></li>
+<li>
+vadis365, Mon Dec 19 14:45:14 2022 +0000:
+<pre>infuser particles?
+</pre></li>
+<li>
+vadis365, Mon Dec 19 14:15:10 2022 +0000:
+<pre>nicer steam particles
+</pre></li>
+<li>
+vadis365, Mon Dec 19 13:41:24 2022 +0000:
+<pre>removed rain filling from filter
+
+too much free stuff from the rain
+</pre></li>
+<li>
+vadis365, Sun Dec 18 17:24:42 2022 +0000:
+<pre>samite panel lang
+</pre></li>
+<li>
+vadis365, Sun Dec 18 17:20:46 2022 +0000:
+<pre>samite for lang
+</pre></li>
+<li>
+vadis365, Sun Dec 18 16:58:56 2022 +0000:
+<pre>C&P errors :P
+</pre></li>
+<li>
+vadis365, Sun Dec 18 16:51:42 2022 +0000:
+<pre>recipes for some things
+</pre></li>
+<li>
+vadis365, Sun Dec 18 14:41:38 2022 +0000:
+<pre>custom silk mask model
+</pre></li>
+<li>
+vadis365, Sat Dec 17 19:03:29 2022 +0000:
+<pre>silk mask item texture
+</pre></li>
+<li>
+vadis365, Sat Dec 17 18:53:30 2022 +0000:
+<pre>eyes
+
+no glow, but I cba to do it atm
+</pre></li>
+<li>
+vadis365, Sat Dec 17 18:14:58 2022 +0000:
+<pre>slower and more pleasing
+</pre></li>
+<li>
+vadis365, Sat Dec 17 17:59:07 2022 +0000:
+<pre>removed infinite loop
+
+now removes fluid and stops processing if an invalid recipe or empty bundle in used
+</pre></li>
+<li>
+vadis365, Sat Dec 17 16:34:06 2022 +0000:
+<pre>fuck that
+</pre></li>
+<li>
+vadis365, Sat Dec 17 16:31:36 2022 +0000:
+<pre>drinks change colour now
+</pre></li>
+<li>
+vadis365, Sat Dec 17 12:48:16 2022 +0000:
+<pre>breaking party calls
+
+beep boop electric boogaloo
+</pre></li>
+<li>
+vadis365, Fri Dec 16 21:27:20 2022 +0000:
+<pre>resources
+</pre></li>
+<li>
+vadis365, Fri Dec 16 21:23:48 2022 +0000:
+<pre>filter model
+</pre></li>
+<li>
+vadis365, Fri Dec 16 20:06:53 2022 +0000:
+<pre>new pot model
+</pre></li>
+<li>
+vadis365, Fri Dec 16 18:25:32 2022 +0000:
+<pre>temp stuff
+</pre></li>
+<li>
+vadis365, Fri Dec 16 18:21:10 2022 +0000:
+<pre>Boiling to Steeping
+
+hopefully got it all
+</pre></li>
+<li>
+vadis365, Sun Dec 11 19:28:04 2022 +0000:
+<pre>lower fall damage
+</pre></li>
+<li>
+vadis365, Sun Dec 11 19:08:22 2022 +0000:
+<pre>more Steeping Recipes
+</pre></li>
+<li>
+vadis365, Sat Dec 3 20:13:56 2022 +0000:
+<pre>a bit darker ;)
+</pre></li>
+<li>
+vadis365, Sat Dec 3 20:01:45 2022 +0000:
+<pre>particle colour fix
+</pre></li>
+<li>
+SeriousCreeper, Sat Dec 3 11:58:16 2022 -0800:
+<pre>addedall bucket versions for dyes and brews
+</pre></li>
+<li>
+vadis365, Sat Dec 3 19:04:15 2022 +0000:
+<pre>hnnngnnnnnggghhhh
+</pre></li>
+<li>
+vadis365, Sat Dec 3 18:10:45 2022 +0000:
+<pre>colours
+</pre></li>
+<li>
+vadis365, Sat Dec 3 17:17:08 2022 +0000:
+<pre>drinks
+</pre></li>
+<li>
+vadis365, Sat Dec 3 15:37:16 2022 +0000:
+<pre>comment out spares for now
+</pre></li>
+<li>
+vadis365, Sat Dec 3 15:10:24 2022 +0000:
+<pre>comments
+</pre></li>
+<li>
+vadis365, Sat Dec 3 15:08:58 2022 +0000:
+<pre>forgot to add duration - whoopsie
+</pre></li>
+<li>
+vadis365, Sat Dec 3 15:06:12 2022 +0000:
+<pre>fall damage reduction broth
+</pre></li>
+<li>
+SeriousCreeper, Sat Nov 5 14:20:43 2022 -0700:
+<pre>disabled enchanting on pheromone thorax
+</pre></li>
+<li>
+SeriousCreeper, Sat Nov 5 14:19:58 2022 -0700:
+<pre>changed silk bundle opening to just right click, not shift right click
+</pre></li>
+<li>
+SeriousCreeper, Sat Nov 5 14:19:07 2022 -0700:
+<pre>fixed grubhub using wrong tag for brew
+</pre></li>
+<li>
+vadis365, Tue Aug 16 12:02:51 2022 +0100:
+<pre>forgot to push this rubbish
+</pre></li>
+<li>
+Andromander, Tue Aug 16 09:58:37 2022 +1000:
+<pre>Silky textures
+</pre></li>
+<li>
+vadis365, Sun Aug 7 16:18:34 2022 +0100:
+<pre>mwahahahahhahaha!
+</pre></li>
+<li>
+vadis365, Sun Aug 7 16:05:18 2022 +0100:
+<pre>wrong names for place holders
+</pre></li>
+<li>
+vadis365, Sun Aug 7 16:00:04 2022 +0100:
+<pre>huehuehue
+
+Because our resource team is so lazy I'm adding this shit - screw you, it is all rubbish, but Idk - make proper ones ya bunch of do nothing gits!
+</pre></li>
+<li>
+vadis365, Sun Aug 7 15:21:28 2022 +0100:
+<pre>clean water sprite
+</pre></li>
+<li>
+vadis365, Thu Jul 14 12:34:03 2022 +0100:
+<pre>easier fix than suggested by other people
+</pre></li>
+<li>
+vadis365, Sun Jul 10 18:47:55 2022 +0100:
+<pre>Start of Samite panels
+
+Just some basic placeholders
+</pre></li>
+<li>
+vadis365, Mon Jul 4 18:59:55 2022 +0100:
+<pre>for Shem wherever he may be...
+</pre></li>
+<li>
+vadis365, Mon Jul 4 17:01:59 2022 +0100:
+<pre>Samite
+</pre></li>
+<li>
+vadis365, Mon Jul 4 15:36:17 2022 +0100:
+<pre>removed dead sprites
+</pre></li>
+<li>
+vadis365, Mon Jul 4 15:34:07 2022 +0100:
+<pre>Textures
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 19:23:10 2022 -0700:
+<pre>adjusted filtered silt glass jar to be same as silt glass jar,
+added filtered silt glass jar texture
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 18:37:29 2022 -0700:
+<pre>added recipes for stained shingles,
+changed pouch and frame recipes to require the "clean" version for colored versions,
+replaced swamp reed rope with silk thread in pouch and fishing rod recipes,
+adjusted fishing rod line texture to match silk thread,
+added purifier recipes to clean pouches, frames, glass, and shingles
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 14:41:43 2022 -0700:
+<pre>added colored item frame recipes
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 14:03:48 2022 -0700:
+<pre>adjusted item frame icons to match vanilla more
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 14:03:32 2022 -0700:
+<pre>only prevent mending for amulet and amulet slots
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 13:50:37 2022 -0700:
+<pre>prevent enchantments on amulets
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 13:44:40 2022 -0700:
+<pre>brightened up pouch string textures a bit
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 13:44:29 2022 -0700:
+<pre>fixed recipe error when crafting with brand new, unopened pouch
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 13:44:11 2022 -0700:
+<pre>changed default lurker pouch color to cadmium green
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 13:16:46 2022 -0700:
+<pre>added recipes for dyed pouches
+</pre></li>
+<li>
+SeriousCreeper, Sun Jul 3 12:37:14 2022 -0700:
+<pre>item frames can now be placed on top/bottom of blocks
+</pre></li>
+<li>
+vadis365, Sun Jul 3 19:33:42 2022 +0100:
+<pre>coloured pouch cords
+</pre></li>
+<li>
+vadis365, Sun Jul 3 18:02:07 2022 +0100:
+<pre>cord test texture split
+</pre></li>
+<li>
+vadis365, Sun Jun 26 19:59:18 2022 +0100:
+<pre>sigh
+</pre></li>
+<li>
+vadis365, Sun Jun 26 19:23:39 2022 +0100:
+<pre>meh
+</pre></li>
+<li>
+vadis365, Sun Jun 26 19:18:54 2022 +0100:
+<pre>place holder effects
+
+need other things than just weak elixir effects adding.
+</pre></li>
+<li>
+vadis365, Sun Jun 26 00:29:36 2022 +0100:
+<pre>try that
+</pre></li>
+<li>
+vadis365, Sat Jun 25 21:24:10 2022 +0100:
+<pre>lang
+
+removed test buff for brew code as well
+</pre></li>
+<li>
+vadis365, Sat Jun 25 20:45:14 2022 +0100:
+<pre>hue
+</pre></li>
+<li>
+vadis365, Sat Jun 25 20:33:01 2022 +0100:
+<pre>missed meta
+</pre></li>
+<li>
+vadis365, Sat Jun 25 20:16:26 2022 +0100:
+<pre>works
+
+more duration than 0 :P
+</pre></li>
+<li>
+vadis365, Sat Jun 25 20:12:37 2022 +0100:
+<pre>tests
+</pre></li>
+<li>
+vadis365, Sat Jun 25 19:58:10 2022 +0100:
+<pre>Drink changes
+</pre></li>
+<li>
+vadis365, Sat Jun 25 18:13:20 2022 +0100:
+<pre>can always drink
+</pre></li>
+<li>
+vadis365, Sat Jun 25 18:07:25 2022 +0100:
+<pre>test leaves
+
+original still exists if we don't use this
+</pre></li>
+<li>
+vadis365, Sat Jun 25 18:06:22 2022 +0100:
+<pre>brew item test
+</pre></li>
+<li>
+TheSilverplier, Thu Jun 2 18:38:20 2022 +0200:
+<pre>More Advancements</pre></li>
+<li>
+TheSilverplier, Thu Jun 2 09:50:08 2022 +0200:
+<pre>Advancements changes and other corrections</pre></li>
+<li>
+TheSilverplier, Wed Jun 1 23:23:19 2022 +0200:
+<pre>Mostly Subtitle Changes</pre></li>
+<li>
+TheSilverplier, Wed Jun 1 01:49:00 2022 +0200:
+<pre>I swear...
+
+If I see another draeton translation I've missed I'm eating my keyboard</pre></li>
+<li>
+TheSilverplier, Sun May 29 22:54:27 2022 +0200:
+<pre>REEEEEEEEEEEEE</pre></li>
+<li>
+TheSilverplier, Sun May 29 22:51:18 2022 +0200:
+<pre>Draeton changes</pre></li>
+<li>
+TheSilverplier, Sun May 29 00:27:50 2022 +0200:
+<pre>Anadia Body Part Change
+
+Changed some Anadia body parts names for accuracy.</pre></li>
+<li>
+TheSilverplier, Sat May 28 22:06:32 2022 +0200:
+<pre>Update and fixes
+
+Updates up to changes as of May 28th and changes the "maroon" translation.</pre></li>
+<li>
+vadis365, Mon May 16 16:53:04 2022 +0100:
+<pre>a bit more capability AI things
+</pre></li>
+<li>
+vadis365, Mon May 16 16:34:39 2022 +0100:
+<pre>capability for ignore
+</pre></li>
+<li>
+vadis365, Sun May 15 20:40:08 2022 +0100:
+<pre>stopped enchanting on spear
+
+it wasn't ever intended anway
+</pre></li>
+<li>
+vadis365, Thu May 12 20:40:46 2022 +0100:
+<pre>meh
+</pre></li>
+<li>
+vadis365, Thu May 12 20:37:55 2022 +0100:
+<pre>Damage changes
+
+Added defensive code to stop other mods crashing urchins by messing with their attack code.
+Made urchin spikes damage source.
+Little lang change to Shallow Breath damage source.
+</pre></li>
+<li>
+vadis365, Wed May 11 20:15:10 2022 +0100:
+<pre>removed old recipe for nettle soup
+</pre></li>
+<li>
+vadis365, Wed May 11 20:12:49 2022 +0100:
+<pre> nettle soup is back on the menu
+</pre></li>
+<li>
+vadis365, Wed May 11 17:58:28 2022 +0100:
+<pre>changed so it actually works
+</pre></li>
+<li>
+vadis365, Wed May 11 17:39:33 2022 +0100:
+<pre>ABOUT TIME GIT!
+</pre></li>
+<li>
+vadis365, Wed May 11 17:38:57 2022 +0100:
+<pre>hhhhhnnnnggghhh
+</pre></li>
+<li>
+vadis365, Wed May 11 17:36:41 2022 +0100:
+<pre>ffs git sync!
+</pre></li>
+<li>
+vadis365, Wed May 11 17:24:49 2022 +0100:
+<pre>whoopsie fix?
+</pre></li>
+<li>
+vadis365, Wed May 11 17:14:29 2022 +0100:
+<pre>syncing packets stuffs fix?
+</pre></li>
+<li>
+vadis365, Wed May 11 16:51:03 2022 +0100:
+<pre>Stuffs
+
+Some temp bits for jars.
+Some code fixy bits.
+LANG STUFF BECAUSE THE RESOURCE TEAM DON'T SEEM TO DO IT!
+</pre></li>
+<li>
+vadis365, Tue May 10 19:24:26 2022 +0100:
+<pre>Silk mask
+</pre></li>
+<li>
+vadis365, Tue May 10 13:59:13 2022 +0100:
+<pre>added Grubhub sound code
+</pre></li>
+<li>
+Oli, Tue May 10 13:15:01 2022 +0100:
+<pre>Added sounds for grub hub suck n mist
+</pre></li>
+<li>
+SeriousCreeper, Mon May 9 21:17:21 2022 -0700:
+<pre>added moth house
+</pre></li>
+<li>
+vadis365, Mon May 9 14:40:52 2022 +0100:
+<pre>Grub hub thing
+
+have to make sure it isn't full of grubs or bad things can happen...
+</pre></li>
+<li>
+vadis365, Mon May 9 14:01:29 2022 +0100:
+<pre>Spike trap fixy
+
+spotted by Joshie ;)
+</pre></li>
+<li>
+vadis365, Sat May 7 22:20:07 2022 +0100:
+<pre>testing loot tables
+</pre></li>
+<li>
+SeriousCreeper, Sat May 7 11:22:01 2022 -0700:
+<pre>added glowing item frames
+</pre></li>
+<li>
+vadis365, Sat May 7 15:48:00 2022 +0100:
+<pre>filter should top up with rain
+</pre></li>
+<li>
+vadis365, Sat May 7 15:35:23 2022 +0100:
+<pre>easier anadia remains
+
+as discussed in dev.
+</pre></li>
+<li>
+vadis365, Sat May 7 15:20:01 2022 +0100:
+<pre>Filter towers possible
+
+Added stagnant water and by products.
+</pre></li>
+<li>
+vadis365, Sat May 7 02:08:19 2022 +0100:
+<pre>WIP
+
+pushing for safety - has a fugly model that needs replacing.
+</pre></li>
+<li>
+vadis365, Thu May 5 21:21:33 2022 +0100:
+<pre>sound for mist
+
+about the best compromise on timing using basic stuff.
+</pre></li>
+<li>
+vadis365, Thu May 5 19:19:55 2022 +0100:
+<pre>a few less particles
+</pre></li>
+<li>
+vadis365, Thu May 5 18:57:35 2022 +0100:
+<pre>new assets for some bits
+
+bushes and grubs
+</pre></li>
+<li>
+vadis365, Thu May 5 18:52:38 2022 +0100:
+<pre>re-conneting things
+</pre></li>
+<li>
+vadis365, Thu May 5 17:58:35 2022 +0100:
+<pre>less is more
+</pre></li>
+<li>
+vadis365, Thu May 5 17:47:15 2022 +0100:
+<pre>Grub hub logic
+
+basically working as it should, just need a polish etc
+</pre></li>
+<li>
+vadis365, Wed May 4 23:42:42 2022 +0100:
+<pre>start of some WIP and POC
+</pre></li>
+<li>
+vadis365, Wed May 4 18:34:07 2022 +0100:
+<pre>renamed to "Grub Hub"
+
+Because it is a better description. ;)
+</pre></li>
+<li>
+vadis365, Wed May 4 16:10:48 2022 +0100:
+<pre>Block and TE placeholder classes
+
+Will probably mess up loading tbh, but I need all these things to start on stuff.
+Just block and TE classes and reg - no rendering or assets.
+</pre></li>
+<li>
+vadis365, Tue May 3 22:00:44 2022 +0100:
+<pre>Unlock the slot restrictions for new items
+
+Silly Chimp ;)
+</pre></li>
+<li>
+vadis365, Tue May 3 21:36:29 2022 +0100:
+<pre>whoops
+</pre></li>
+<li>
+vadis365, Tue May 3 21:29:21 2022 +0100:
+<pre>some placeholder bits and changes
+
+Pushing for safety
+</pre></li>
+<li>
+vadis365, Tue May 3 19:22:09 2022 +0100:
+<pre>Stopped some spirit tree cheesing
+
+Removed all armour benefits from face masks and made them just decorative.
+Made small spitters ignore players wearing the mask.
+</pre></li>
+<li>
+SeriousCreeper, Sun May 1 13:28:49 2022 -0700:
+<pre>added ability to turn item frames invisible
+</pre></li>
+<li>
+SeriousCreeper, Sat Apr 30 13:35:28 2022 -0700:
+<pre>fixed item frame coloring mismatch
+</pre></li>
+<li>
+SeriousCreeper, Fri Apr 29 23:59:06 2022 -0700:
+<pre>added recipe to rename items using name tags
+</pre></li>
+<li>
+SeriousCreeper, Mon Apr 25 21:15:09 2022 -0700:
+<pre>fixed item frame rendering
+</pre></li>
+<li>
+SeriousCreeper, Mon Apr 25 09:55:38 2022 -0700:
+<pre>forgot to push itemregistry changes
+</pre></li>
+<li>
+SeriousCreeper, Mon Apr 25 09:48:55 2022 -0700:
+<pre> item frame WIP
+</pre></li>
+<li>
+SeriousCreeper, Fri Apr 15 13:01:07 2022 -0700:
+<pre>made pebbles passable for AI
+</pre></li>
+<li>
+TheSilverplier, Sat Feb 19 16:18:49 2022 +0100:
+<pre>More typos</pre></li>
+<li>
+TheSilverplier, Sat Feb 19 14:47:12 2022 +0100:
+<pre>Fixed Peltandra typo</pre></li>
+<li>
+TheSilverplier, Fri Feb 18 23:47:13 2022 +0100:
+<pre>Update fr_FR.lang</pre></li>
+<li>
+TheSilverplier, Wed Jan 26 19:37:15 2022 +0100:
+<pre>Additions and Changes
+
+- Added translation for the subtitle changes and next update (WIP)</pre></li>
+<li>
+vadis365, Wed Dec 29 17:28:53 2021 +0000:
+<pre>Interaction stuff
+
+Player locked out from removing pouch once the dye fade happens (buckets still work to stop the process as a fail safe)
+</pre></li>
+<li>
+vadis365, Wed Dec 29 16:31:56 2021 +0000:
+<pre>some rendering stuffs
+</pre></li>
+<li>
+vadis365, Tue Dec 28 23:24:41 2021 +0000:
+<pre>testing some render bits
+</pre></li>
+<li>
+vadis365, Tue Dec 28 16:15:39 2021 +0000:
+<pre>Bundle gui placeholder
+</pre></li>
+<li>
+SeriousCreeper, Mon Dec 27 18:53:28 2021 -0800:
+<pre>added stained shingle block
+</pre></li>
+<li>
+SeriousCreeper, Mon Dec 27 17:40:00 2021 -0800:
+<pre>added stained glass,
+added recipes for stained glass,
+fixed lavender spelling to be more consistent
+</pre></li>
+<li>
+vadis365, Mon Dec 27 21:29:35 2021 +0000:
+<pre>more jank removal
+</pre></li>
+<li>
+vadis365, Mon Dec 27 21:03:58 2021 +0000:
+<pre>Recipe jiggles
+
+I 'think' this may work as shapeless now
+</pre></li>
+<li>
+vadis365, Mon Dec 27 20:11:21 2021 +0000:
+<pre>removed some jank
+</pre></li>
+<li>
+vadis365, Mon Dec 27 19:57:16 2021 +0000:
+<pre>removed unneeded empty stacks
+</pre></li>
+<li>
+vadis365, Mon Dec 27 17:56:12 2021 +0000:
+<pre>better bowling 10/7
+</pre></li>
+<li>
+vadis365, Mon Dec 27 16:33:37 2021 +0000:
+<pre>Dye collection.
+</pre></li>
+<li>
+vadis365, Mon Dec 27 15:42:40 2021 +0000:
+<pre>a little less ticky
+
+will still try to process an empty bundle, but  - but who would do that?
+</pre></li>
+<li>
+vadis365, Mon Dec 27 15:04:52 2021 +0000:
+<pre>dye fluid langs
+
+moved NBT to just the meta for easier lookup in the enum.
+</pre></li>
+<li>
+vadis365, Mon Dec 27 13:43:57 2021 +0000:
+<pre>quick name change for dye fluid
+</pre></li>
+<li>
+TheCyberBrick, Mon Dec 27 00:38:12 2021 +0100:
+<pre>Implemented dyed water fluid colour handling
+</pre></li>
+<li>
+vadis365, Sun Dec 26 23:13:55 2021 +0000:
+<pre>NBT fluid colour
+
+works for one thing, but not universal.
+</pre></li>
+<li>
+vadis365, Sun Dec 26 20:21:20 2021 +0000:
+<pre>Boiling pot rendering
+
+mostly placeholder stuff, but at least we can see what is in it now.
+</pre></li>
+<li>
+vadis365, Sun Dec 26 18:03:33 2021 +0000:
+<pre>Pot stuff
+
+Recipe functions for fluid output add.
+</pre></li>
+<li>
+vadis365, Sun Dec 26 16:24:38 2021 +0000:
+<pre>keeping it consistent
+</pre></li>
+<li>
+vadis365, Sun Dec 26 16:21:44 2021 +0000:
+<pre>new fluid
+</pre></li>
+<li>
+vadis365, Fri Dec 24 17:42:00 2021 +0000:
+<pre>dirty bundle
+</pre></li>
+<li>
+vadis365, Fri Dec 24 16:42:04 2021 +0000:
+<pre>more temp recipes to test outputs
+</pre></li>
+<li>
+vadis365, Fri Dec 24 16:04:20 2021 +0000:
+<pre>testing recipe
+</pre></li>
+<li>
+vadis365, Thu Dec 23 18:42:02 2021 +0000:
+<pre>Bundle inventory
+
+Slot item restriction and Stack merge
+</pre></li>
+<li>
+vadis365, Thu Dec 23 17:34:55 2021 +0000:
+<pre>Silk Bundle placeholder code
+</pre></li>
+<li>
+SeriousCreeper, Wed Dec 22 09:50:40 2021 -0800:
+<pre>added dye items
+</pre></li>
+<li>
+vadis365, Wed Dec 22 15:38:24 2021 +0000:
+<pre>dye bowl sprites
+</pre></li>
+<li>
+vadis365, Wed Dec 8 18:27:11 2021 +0000:
+<pre>colours
+</pre></li>
+<li>
+vadis365, Mon Dec 6 17:58:23 2021 +0000:
+<pre>back to default tick rate
+</pre></li>
+<li>
+vadis365, Mon Dec 6 17:40:38 2021 +0000:
+<pre>changed silk to a recipe
+
+means the cocoons can get some use
+</pre></li>
+<li>
+Oli, Sun Dec 5 21:17:04 2021 +0000:
+<pre>bad textures WIP
+</pre></li>
+<li>
+vadis365, Sun Dec 5 19:58:52 2021 +0000:
+<pre>some lang
+</pre></li>
+<li>
+vadis365, Sun Dec 5 19:45:48 2021 +0000:
+<pre>infestation drop
+</pre></li>
+<li>
+vadis365, Sun Dec 5 19:36:37 2021 +0000:
+<pre>disconnected bushes
+</pre></li>
+<li>
+vadis365, Sun Dec 5 19:27:22 2021 +0000:
+<pre>basic mechanics in
+</pre></li>
+<li>
+vadis365, Sun Dec 5 17:37:18 2021 +0000:
+<pre>basic block changing stages
+</pre></li>
+<li>
+vadis365, Sun Dec 5 17:02:14 2021 +0000:
+<pre>just some things to make it easier to look at
+</pre></li>
+<li>
+vadis365, Fri Dec 3 17:55:45 2021 +0000:
+<pre>Placeholder code
+</pre></li>
+<li>
+vadis365, Wed Dec 1 18:43:16 2021 +0000:
+<pre>placeholder textures
+</pre></li>
+<li>
+Petasi, Tue Nov 30 07:49:28 2021 -0500:
+<pre>sigh
+</pre></li>
+<li>
+SeriousCreeper, Sun Nov 28 16:43:09 2021 -0800:
+<pre>ok i think i got it now...
+</pre></li></ul></details>
