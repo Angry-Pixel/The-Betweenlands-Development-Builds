@@ -1,4 +1,14 @@
 Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/a482b19a4b3bfca94a4d388223ceb616d1a8bc23">https://github.com/Angry-Pixel/The-Betweenlands/commit/a482b19a4b3bfca94a4d388223ceb616d1a8bc23</a>
-SeriousCreeper, Sat Dec 31 14:50:56 2022 -0800:
-<pre>Merge branch '1.12-bushes' into 1.12
-</pre>
+<details><summary>Changes</summary><ul>
+<li>
+SeriousCreeper, Sat Dec 31 14:33:15 2022 -0800:
+<pre>upped mod version
+</pre></li>
+<li>
+SeriousCreeper, Sat Dec 31 14:31:24 2022 -0800:
+<pre>removed client sided only from getColorValue
+</pre></li>
+<li>
+TheCyberBrick, Thu Dec 29 23:41:54 2022 +0100:
+<pre>Merge branch '1.12-fixes' into 1.12
+</pre></li></ul></details>
