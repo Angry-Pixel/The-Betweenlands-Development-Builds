@@ -1,16 +1,16 @@
 [number]:
-527
+528
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-fixes-527
+Development Build 1.12-bushes-528
 [tag]:
-dev-1.12-fixes-527-03.01.2023
+dev-1.12-bushes-528-04.01.2023
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-1.12-fixes
+1.12-bushes
 [commit]:
-60b5ed47e751723820dd5374d33c51324dc37029
+582a5fe34d962b032289f4d92a741fb3bd7519b0
