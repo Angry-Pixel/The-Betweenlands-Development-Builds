@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/3911c982a2a676e51198524163f75853547ccece">https://github.com/Angry-Pixel/The-Betweenlands/commit/3911c982a2a676e51198524163f75853547ccece</a>
-TheCyberBrick, Thu Jan 5 20:01:54 2023 +0100:
-<pre>Make plants plantable on purified swamp dirt
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/b1dac9c8af83cf3fc64f2bc9d8048c2324783652">https://github.com/Angry-Pixel/The-Betweenlands/commit/b1dac9c8af83cf3fc64f2bc9d8048c2324783652</a>
+vadis365, Fri Jan 6 16:05:56 2023 +0000:
+<pre>FIx purifier output not respecting max stack sizes
 </pre>
