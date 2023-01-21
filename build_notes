@@ -1,42 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e7dcc47715a7d78e384382193ccba7cbacc94bc2">https://github.com/Angry-Pixel/The-Betweenlands/commit/e7dcc47715a7d78e384382193ccba7cbacc94bc2</a>
-<details><summary>Changes</summary><ul>
-<li>
-vadis365, Sat Jan 21 22:55:23 2023 +0000:
-<pre>stupid git tag
-</pre></li>
-<li>
-vadis365, Sat Jan 21 22:52:31 2023 +0000:
-<pre>Update ModInfo.java
-</pre></li>
-<li>
-vadis365, Sat Jan 21 22:49:23 2023 +0000:
-<pre>Revert "Update ModInfo.java"
-
-This reverts commit 1dfc7906f4c44d902bae05cf52ae079f7d1e3a43.
-</pre></li>
-<li>
-vadis365, Sat Jan 21 22:22:34 2023 +0000:
-<pre>purifier fix for fix
-</pre></li>
-<li>
-vadis365, Sat Jan 21 21:54:26 2023 +0000:
-<pre>Update ModInfo.java
-</pre></li>
-<li>
-vadis365, Sat Jan 21 21:52:19 2023 +0000:
-<pre>not needed
-</pre></li>
-<li>
-vadis365, Sat Jan 21 21:50:15 2023 +0000:
-<pre>fixing thorax clutch derp
-
-whoops - they replaced any block
-</pre></li>
-<li>
-vadis365, Sat Jan 21 21:41:46 2023 +0000:
-<pre>no silk touch here please
-</pre></li>
-<li>
-vadis365, Sat Jan 21 17:27:55 2023 +0000:
-<pre>Update ModInfo.java
-</pre></li></ul></details>
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/00eb3d2b5e7300cafcd3a60f66b0b81f5e467d6b">https://github.com/Angry-Pixel/The-Betweenlands/commit/00eb3d2b5e7300cafcd3a60f66b0b81f5e467d6b</a>
+vadis365, Sat Jan 21 23:04:11 2023 +0000:
+<pre>Merge branch '1.12-fixes' into 1.12
+</pre>
