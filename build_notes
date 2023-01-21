@@ -1,4 +1,6 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/019c634eec4c7a6d17a377455f2caafe0550aa60">https://github.com/Angry-Pixel/The-Betweenlands/commit/019c634eec4c7a6d17a377455f2caafe0550aa60</a>
-vadis365, Sat Jan 21 22:22:34 2023 +0000:
-<pre>purifier fix for fix
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/64fdd9090941e6261c8b1065187def07b0a58889">https://github.com/Angry-Pixel/The-Betweenlands/commit/64fdd9090941e6261c8b1065187def07b0a58889</a>
+vadis365, Sat Jan 21 22:49:23 2023 +0000:
+<pre>Revert "Update ModInfo.java"
+
+This reverts commit 1dfc7906f4c44d902bae05cf52ae079f7d1e3a43.
 </pre>
