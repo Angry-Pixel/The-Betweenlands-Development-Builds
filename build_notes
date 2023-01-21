@@ -1,4 +1,109 @@
 Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/ec0652268088d3aa36d10a594df74e7143cfce33">https://github.com/Angry-Pixel/The-Betweenlands/commit/ec0652268088d3aa36d10a594df74e7143cfce33</a>
+<details><summary>Changes</summary><ul>
+<li>
 vadis365, Sat Jan 21 17:27:55 2023 +0000:
 <pre>Update ModInfo.java
-</pre>
+</pre></li>
+<li>
+TheCyberBrick, Fri Jan 20 22:41:23 2023 +0100:
+<pre>Fixed silky pebble drops and made radius a bit smaller
+</pre></li>
+<li>
+TheCyberBrick, Fri Jan 20 21:06:52 2023 +0100:
+<pre>Made silk bundle container close when bundle is dropped
+</pre></li>
+<li>
+TheCyberBrick, Fri Jan 20 18:08:54 2023 +0100:
+<pre>Changed moss spreading
+</pre></li>
+<li>
+vadis365, Fri Jan 20 14:45:43 2023 +0000:
+<pre>moved thorax clutch interaction to item
+</pre></li>
+<li>
+vadis365, Fri Jan 20 14:25:14 2023 +0000:
+<pre>removed some creative and JEI blocks
+</pre></li>
+<li>
+vadis365, Fri Jan 20 14:10:39 2023 +0000:
+<pre>Disable gui item toss for silk bundle
+</pre></li>
+<li>
+vadis365, Fri Jan 13 14:11:04 2023 +0000:
+<pre>fishing line colour change
+</pre></li>
+<li>
+vadis365, Wed Jan 11 17:44:40 2023 +0000:
+<pre>silky pebble sound
+</pre></li>
+<li>
+vadis365, Tue Jan 10 19:21:10 2023 +0000:
+<pre>silky pebble recipe
+</pre></li>
+<li>
+vadis365, Tue Jan 10 19:06:29 2023 +0000:
+<pre>texture thing
+</pre></li>
+<li>
+vadis365, Tue Jan 10 18:09:59 2023 +0000:
+<pre>meh
+</pre></li>
+<li>
+vadis365, Tue Jan 10 18:08:57 2023 +0000:
+<pre>block porty-cles
+</pre></li>
+<li>
+vadis365, Sun Jan 8 23:25:54 2023 +0000:
+<pre>WIP
+</pre></li>
+<li>
+vadis365, Sun Jan 8 00:50:38 2023 +0000:
+<pre>some unused stuff atm
+</pre></li>
+<li>
+vadis365, Fri Jan 6 20:03:06 2023 +0000:
+<pre>Silky Explosion event
+</pre></li>
+<li>
+vadis365, Fri Jan 6 17:45:46 2023 +0000:
+<pre>holder code for silky pebbel
+</pre></li>
+<li>
+vadis365, Fri Jan 6 16:09:11 2023 +0000:
+<pre>Fix the fix
+</pre></li>
+<li>
+vadis365, Fri Jan 6 16:05:56 2023 +0000:
+<pre>FIx purifier output not respecting max stack sizes
+</pre></li>
+<li>
+TheCyberBrick, Thu Jan 5 20:01:54 2023 +0100:
+<pre>Make plants plantable on purified swamp dirt
+</pre></li>
+<li>
+vadis365, Wed Jan 4 13:01:37 2023 +0000:
+<pre>brew changes
+</pre></li>
+<li>
+TheCyberBrick, Tue Jan 3 23:35:13 2023 +0100:
+<pre>Fixed moth house drops
+</pre></li>
+<li>
+TheCyberBrick, Tue Jan 3 23:01:47 2023 +0100:
+<pre>Merge branch '1.12-fixes' of github.com:Angry-Pixel/The-Betweenlands into 1.12-fixes
+</pre></li>
+<li>
+vadis365, Mon Jan 2 23:29:16 2023 +0000:
+<pre>because people will do it
+</pre></li>
+<li>
+vadis365, Mon Jan 2 23:12:15 2023 +0000:
+<pre>Fix for lazy inventory managements
+</pre></li>
+<li>
+WightofShadows, Mon Jan 2 00:44:41 2023 -0800:
+<pre>what a treet</pre></li>
+<li>
+SeriousCreeper, Sat Dec 31 14:50:56 2022 -0800:
+<pre>Merge branch '1.12-bushes' into 1.12
+</pre></li></ul></details>

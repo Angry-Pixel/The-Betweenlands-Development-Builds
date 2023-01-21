@@ -1,16 +1,16 @@
 [number]:
-555
+553
 [type]:
-development
+release
 [release]:
-false
+true
 [title]:
-Development Build 1.12-bushes-555
+Release Build v3.9.2-release-553
 [tag]:
-dev-1.12-bushes-555-21.01.2023
+release-v3.9.2-release-553-21.01.2023
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-1.12-bushes
+v3.9.2-release
 [commit]:
 ec0652268088d3aa36d10a594df74e7143cfce33
