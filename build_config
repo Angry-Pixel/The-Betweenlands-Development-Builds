@@ -1,16 +1,16 @@
 [number]:
-560
+561
 [type]:
-development
+release
 [release]:
-false
+true
 [title]:
-Development Build 1.12-560
+Release Build v3.9.3-release-561
 [tag]:
-dev-1.12-560-21.01.2023
+release-v3.9.3-release-561-21.01.2023
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-1.12
+v3.9.3-release
 [commit]:
 1dfc7906f4c44d902bae05cf52ae079f7d1e3a43
