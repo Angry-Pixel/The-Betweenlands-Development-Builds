@@ -1,16 +1,16 @@
 [number]:
-576
+575
 [type]:
 development
 [release]:
 false
 [title]:
-Development Build 1.12-fixes-576
+Development Build 1.12-music-addon-575
 [tag]:
-dev-1.12-fixes-576-22.01.2023
+dev-1.12-music-addon-575-22.01.2023
 [url]:
 https\://github.com/Angry-Pixel/The-Betweenlands
 [branch]:
-1.12-fixes
+1.12-music-addon
 [commit]:
-64a48ca8a2b566318f1453216619412615f21e13
+eb6aa6276e5c31a9f3550896d51d99f6e342ad7d
