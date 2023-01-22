@@ -1,4 +1,20 @@
 Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/0f6d8a576b8392d6beca1e8bf3550d5062b708ce">https://github.com/Angry-Pixel/The-Betweenlands/commit/0f6d8a576b8392d6beca1e8bf3550d5062b708ce</a>
+<details><summary>Changes</summary><ul>
+<li>
 TheCyberBrick, Sun Jan 22 17:57:25 2023 +0100:
 <pre>Implemented API for music addon
-</pre>
+</pre></li>
+<li>
+TheCyberBrick, Sun Jan 22 15:13:31 2023 +0100:
+<pre>Preparations for music addon
+
+(cherry picked from commit 732cbb335fd03be0890fca621028f0316c3069e1)
+</pre></li>
+<li>
+TheCyberBrick, Sun Jan 22 14:43:49 2023 +0100:
+<pre>Implemented api for entity music
+</pre></li>
+<li>
+vadis365, Sat Jan 21 23:04:11 2023 +0000:
+<pre>Merge branch '1.12-fixes' into 1.12
+</pre></li></ul></details>
