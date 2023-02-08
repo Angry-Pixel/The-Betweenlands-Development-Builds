@@ -1,4 +1,4 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/3d57f48963d0c09453932d24c358b56f7d256cce">https://github.com/Angry-Pixel/The-Betweenlands/commit/3d57f48963d0c09453932d24c358b56f7d256cce</a>
-TheCyberBrick, Wed Feb 8 20:07:38 2023 +0100:
-<pre>Improve mould throbbing particles, improve spore hive spreading and saving/loading
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/e804e8394851a650d638f1106625f0cf4138e049">https://github.com/Angry-Pixel/The-Betweenlands/commit/e804e8394851a650d638f1106625f0cf4138e049</a>
+TheCyberBrick, Wed Feb 8 20:26:13 2023 +0100:
+<pre>Make moss implement IPlantable
 </pre>
