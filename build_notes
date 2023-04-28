@@ -1,4 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/440b4d7360f0b610b325a3cc055e4727d3145320">https://github.com/Angry-Pixel/The-Betweenlands/commit/440b4d7360f0b610b325a3cc055e4727d3145320</a>
-TheCyberBrick, Fri Apr 28 17:34:57 2023 +0200:
-<pre>Merge branch '1.12-bushes' of github.com:Angry-Pixel/The-Betweenlands into 1.12-bushes
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/20854889f6df205f216ff989a3f375646b869ae6">https://github.com/Angry-Pixel/The-Betweenlands/commit/20854889f6df205f216ff989a3f375646b869ae6</a>
+TheCyberBrick, Fri Apr 28 23:10:13 2023 +0200:
+<pre>- Add new event
+- Add local storage events
 </pre>
