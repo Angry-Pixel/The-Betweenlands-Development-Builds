@@ -1,5 +1,5 @@
-Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/20854889f6df205f216ff989a3f375646b869ae6">https://github.com/Angry-Pixel/The-Betweenlands/commit/20854889f6df205f216ff989a3f375646b869ae6</a>
-TheCyberBrick, Fri Apr 28 23:10:13 2023 +0200:
-<pre>- Add new event
-- Add local storage events
+Commit: <a href="https://github.com/Angry-Pixel/The-Betweenlands/commit/17b2c7ce119c0058e85779f0a15205586eb977ec">https://github.com/Angry-Pixel/The-Betweenlands/commit/17b2c7ce119c0058e85779f0a15205586eb977ec</a>
+TheCyberBrick, Sun Apr 30 20:47:54 2023 +0200:
+<pre>- Fix region unloading
+- Fix spore location loading chunks
 </pre>
